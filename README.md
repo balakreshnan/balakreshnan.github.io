@@ -12,6 +12,10 @@ https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStori
 
 https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1
 
+## Appreciations
+
+https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg
+
 ## Publications
 
 https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf
