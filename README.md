@@ -12,7 +12,7 @@ https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStori
 
 https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1
 
-## Appreciations
+## Honors and Award
 
 https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg
 
@@ -26,3 +26,4 @@ https://www.sciencedirect.com/science/article/pii/S2351978920310556
 https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/
 https://gigaom.com/report/delivering-on-the-vision-of-mlops/ (Look at Johnson Controls Section)
 https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/
+https://www.linkedin.com/in/balamurugan-balakreshnan/
