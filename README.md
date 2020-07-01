@@ -27,3 +27,12 @@ https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-i
 https://gigaom.com/report/delivering-on-the-vision-of-mlops/ (Look at Johnson Controls Section)
 https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/
 https://www.linkedin.com/in/balamurugan-balakreshnan/
+
+## CSI
+
+Steering committee member
+Industry Advisory Board Member
+
+https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/
+https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/
+https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html
