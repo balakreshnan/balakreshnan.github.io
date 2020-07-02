@@ -1,4 +1,4 @@
-# AI and ML details.
+# My achievements and contribution.
 
 ## Machine learning tutorials and stories
 
