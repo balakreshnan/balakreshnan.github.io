@@ -2,37 +2,37 @@
 
 ## Machine learning tutorials and stories
 
-https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md
+[Link Text](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
 
 ## Industrial IoT Stories and Challenges
 
-https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md
+[Link Text](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
 
 ## Badges
 
-https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1
+[Link Text](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1)
 
 ## Honors and Award
 
-https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg
+[Link Text](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
 
 ## Publications
 
-https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf
-https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf
-https://github.com/balakreshnan/AIInManufacturing/blob/master/whitepaperpickandplace.md
-https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2020.md
-https://www.sciencedirect.com/science/article/pii/S2351978920310556
-https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/
-https://gigaom.com/report/delivering-on-the-vision-of-mlops/ (Look at Johnson Controls Section)
-https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/
-https://www.linkedin.com/in/balamurugan-balakreshnan/
+[Link Text](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf)
+[Link Text](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf)
+[Link Text](https://github.com/balakreshnan/AIInManufacturing/blob/master/whitepaperpickandplace.md)
+[Link Text](https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2020.md)
+[Link Text](https://www.sciencedirect.com/science/article/pii/S2351978920310556)
+[Link Text](https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/)
+[Link Text](https://gigaom.com/report/delivering-on-the-vision-of-mlops/) (Look at Johnson Controls Section)
+[Link Text](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/)
+[Link Text](https://www.linkedin.com/in/balamurugan-balakreshnan/)
 
 ## CSI
 
 Steering committee member
 Industry Advisory Board Member
 
-https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/
-https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/
-https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html
+[Link Text](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)
+[Link Text](https://uwm.edu/news/)microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/
+[Link Text](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html)
