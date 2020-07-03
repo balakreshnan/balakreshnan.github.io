@@ -74,6 +74,11 @@ Industry Advisory Board member = Purdue Indiana <br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
 
+## Curriculum Help
+
+Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin) <br/>
+Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin) <br/>
+
 ## Speaker
 
 [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/) <br/>
