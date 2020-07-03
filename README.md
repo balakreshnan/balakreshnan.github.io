@@ -1,12 +1,36 @@
 # My achievements and contribution.
 
-## Machine learning tutorials and stories
+## Contact
 
-[ML Stories](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
+Name: Balamurugan Balakreshnan (Bala) <br/>
+Phone: 631 327 1000 <br/>
+Email: bala_b@hotmail.com <br/>
 
-## Industrial IoT Stories and Challenges
+## Profile
 
-[IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
+Digital Transformation, Chief Architect and Techincal Strategy Leader. <br/>
+
+Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions. <br/>
+Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions. <br/>
+Vast knowledge in first party Microsoft and open source technologies and Other cloud providers. <br/>
+Provide leadership, analysis and design tasks related to the development of a solution. <br/>
+Architect Cloud Based Solutions from end to end. Develop solutions viewpoint, in which the business, information and technology viewpoints are synthesized into solutions that deliver capabilities. <br/>
+Provide Architecture framework for entire enterprise. <br/>
+Building Center of Excellance in Advanced analytics and AI/ML <br/>
+Data and KPI based decision maker <br/>
+Empathetic and customer success focused leader <br/>
+Growth Mindset, Inclusive and Divesity leader <br/>
+Bridge Business and Technology gap <br/>
+Mentor, Speaker, Author <br/>
+Build and Train Sales Strategy to increase Cloud adoption <br/>
+Built and mentored new and existing partners in small, medium and large <br/>
+
+## Industries
+
+Manufacturing <br/>
+Retail <br/>
+Pharmacy <br/>
+Insurance <br/>
 
 ## Badges
 
@@ -15,6 +39,14 @@
 ## Honors and Award
 
 [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
+
+## Machine learning tutorials and stories
+
+[ML Stories](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
+
+## Industrial IoT Stories and Challenges
+
+[IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
 
 ## Publications
 
@@ -28,11 +60,41 @@
 [PPE AI project](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/) <br/>
 [LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/) <br/>
 
-## CSI
+## Board
 
-Steering committee member <br/>
-Industry Advisory Board Member <br/>
+Steering committee member - Connected Systems institute - UW Milwaukee <br/>
+Industry Advisory Board Member - Connected Systems institute - UW Milwaukee <br/>
+Industry Advisory Board member = Purdue Indiana <br/>
 
 [CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)<br/>
-[CSI Partnership](https://uwm.edu/news/)microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/ <br/>
+[CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
+
+## Speaker
+
+[AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/) <br/>
+[AI and ML Video](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s) <br/>
+Angel Beat - Various Events
+UW madison Keynote speaker for Industry Technogy summit
+UW Milwaukee CSI Keynote speaker
+
+## workshops
+
+Industrial IoT Workshop in Lubar School of business (UW Milwaukee) <br/>
+Deep learning workship in Lubar School of business (UW Milwaukee) <br/>
+Azure Machine learning basic - School of Engineering (UW Milwauee) <br/>
+Azure Machine learning Intermediate - School of Engineering (UW Milwauee) <br/>
+AI in manufacturing - School of Engineering (UW Milwauee) Partnered with Rockwell Automation, PTC (Curriculum) <br/>
+Internal MS workshops for FTE <br/>
+Internal MS workshops for Partners <br/>
+
+## Hackathons
+
+Customer based hackathons on Industrial IoT <br/>
+Customer hackathons on AI and Machine learning <br/>
+Microsoft open hack coach/participant for Data Platform, AI knowledge mining, Data Science Ops and IoT Gateway Ops.
+
+## Hobies
+
+Vegetable Garden <br/>
+Building Deep learning solutions with Jetson Nano and Raspberry pi<br/>
