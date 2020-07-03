@@ -24,6 +24,9 @@ Bridge Business and Technology gap <br/>
 Mentor, Speaker, Author <br/>
 Build and Train Sales Strategy to increase Cloud adoption <br/>
 Built and mentored new and existing partners in small, medium and large <br/>
+Author in Analytics Vidhya <br/>
+Built Reference architecture for industry <br/>
+Helped Product team to build products based on customer feedback <br/>
 
 ## Industries
 
@@ -93,6 +96,10 @@ Internal MS workshops for Partners <br/>
 Customer based hackathons on Industrial IoT <br/>
 Customer hackathons on AI and Machine learning <br/>
 Microsoft open hack coach/participant for Data Platform, AI knowledge mining, Data Science Ops and IoT Gateway Ops.
+
+## Github Repo
+
+https://github.com/balakreshnan
 
 ## Hobies
 
