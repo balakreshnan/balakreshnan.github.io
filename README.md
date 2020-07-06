@@ -11,6 +11,22 @@ Place: Oak Creek, WI <br/>
 
 Digital Transformation, Chief Architect and Techincal Strategy Leader.<br>
 
+As a Cloud Solution Architect, play a role of Innovation evangelist and provide thought leadership, Solution Architecture, PoC and MVP Support to multiple projects with respect to governance, security and technology projects by crafting high level and detailed architecture for business use case.<br/>
+
+- Lead Predictive Maintenance and Quality based project using custom vision AI and Azure ML based solutions for North Central Region among client success unit and provide oversights to project delivery of above projects with their successful deployment. Completed 5 Predictive Maintenance and quality projects for FY20, in process of onboarding like 10-12 opportunities
+- Lead Azure AI/ML community of practice for North Central Region using Cognitive and custom Machine learning application for various use cases to automate business process to drive business outcomes to customer with faster ROI. Completed 3 projects in FY20 and have 6 onboarding for new opportunities.
+- Envisioned “Retail Store Insights”,  a data driven near Realtime data lake for business to generate data driven insights to take intelligent decisions for their 10,000+ stores globally. 
+Lead Architecture Design Sessions with methodological approach to finalize Solution Architecture combining set of products ​
+- Conduct Envisioning and immersion workshop to align different groups with adequate adoption of cloud​
+- Provide Solution Architecture to customer and work with Specialists to develop BoM and prepare deal construct​
+- Work with Product Groups for product bugs and feature enhancements​
+- Learn, Test and adapt Data Science Ops, IoT Gateway Ops.
+​- Prepare PoC and MVP environment to show case solution architecture to craft business case​
+- Active member of Advanced analytics framework group and Security Community to adopt security framework and infuse adoption of Good Security practice ​
+- Train the trainers at scale to meet breadth of Azure skilling to partner and client IT staff​
+- Coached OpenHack for Modern Data Warehouse to train/educate participants with practical project execution approach​
+- Provide documentation support and Quality Assurance checks to Partners solution and architecture​
+- Interview, Coach, Mentor and Provide feedback to peers and team members 
 - Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions.
 - Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions.
 - Vast knowledge in first party Microsoft and open source technologies and Other cloud providers.
