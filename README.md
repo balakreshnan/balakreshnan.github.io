@@ -26,29 +26,28 @@ Lead Architecture Design Sessions with methodological approach to finalize Solut
 - Train the trainers at scale to meet breadth of Azure skilling to partner and client IT staff​
 - Coached OpenHack for Modern Data Warehouse to train/educate participants with practical project execution approach​
 - Provide documentation support and Quality Assurance checks to Partners solution and architecture​
-- Interview, Coach, Mentor and Provide feedback to peers and team members 
+- Interview, Coach, Mentor and Provide feedback to peers and team members
+
+## others
+
 - Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions.
 - Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions.
 - Vast knowledge in first party Microsoft and open source technologies and Other cloud providers.
 - Provide leadership, analysis and design tasks related to the development of a solution.
-- Architect Cloud Based Solutions from end to end.
-- Built Commercial and IT solutions for fortune 500 companies.
+- Provide Leadership, Architecture and Design on building Commercial and IT solutions for fortune 500 companies.
 - Develop solutions viewpoint, in which the business, information and technology viewpoints are synthesized into solutions that deliver capabilities.
-- Provide Architecture framework for entire enterprise.
-- Building Center of Excellance in Advanced analytics and AI/ML
-- Data and KPI based decision maker
-- Empathetic and customer success focused leader
-- Growth Mindset, Inclusive and Divesity leader
-- Bridge Business and Technology gap
-- Mentor, Speaker, Author
+- Provide Architecture framework for entire enterprise, Worked with Enterprise architecture team to add to their portfolio.
+- Help Customer's build Center of Excellance in Advanced analytics and AI/ML in their organization to amplify and scale AI/ML projects
+- Use data insights to take decision for affect business outcomes.
+- Empathetic and customer success focused leader and Growth Mindset, Inclusive and Divesity leader
+- Help Bridge Business and Technology gap between business and technology leaders and build a coheive solution.
+- Been a Mentor, keynote Speaker, Author of vairous publications including analytics vidhya.
 - Build and Train Sales Strategy to increase Cloud adoption
-- Built and mentored new and existing partners in small, medium and large
-- Author in Analytics Vidhya
+- Built and mentored new and existing partners in small, medium and large sectors
 - Built Reference architecture for industry
 - Helped Product team to build products based on customer feedback
 - Create Reference architecture for AI/ML, Industrial IoT and Data platform
 - Business Strategy and helped create and build new revenue stream
-- Knowledge on end to end business process
 
 ## Technologies
 
