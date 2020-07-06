@@ -9,25 +9,45 @@ Place: Oak Creek, WI <br/>
 
 ## Profile
 
-Digital Transformation, Chief Architect and Techincal Strategy Leader. <br/>
+Digital Transformation, Chief Architect and Techincal Strategy Leader.<br>
 
-Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions. <br/>
-Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions. <br/>
-Vast knowledge in first party Microsoft and open source technologies and Other cloud providers. <br/>
-Provide leadership, analysis and design tasks related to the development of a solution. <br/>
-Architect Cloud Based Solutions from end to end. Develop solutions viewpoint, in which the business, information and technology viewpoints are synthesized into solutions that deliver capabilities. <br/>
-Provide Architecture framework for entire enterprise. <br/>
-Building Center of Excellance in Advanced analytics and AI/ML <br/>
-Data and KPI based decision maker <br/>
-Empathetic and customer success focused leader <br/>
-Growth Mindset, Inclusive and Divesity leader <br/>
-Bridge Business and Technology gap <br/>
-Mentor, Speaker, Author <br/>
-Build and Train Sales Strategy to increase Cloud adoption <br/>
-Built and mentored new and existing partners in small, medium and large <br/>
-Author in Analytics Vidhya <br/>
-Built Reference architecture for industry <br/>
-Helped Product team to build products based on customer feedback <br/>
+- Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions.
+- Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions.
+- Vast knowledge in first party Microsoft and open source technologies and Other cloud providers.
+- Provide leadership, analysis and design tasks related to the development of a solution.
+- Architect Cloud Based Solutions from end to end.
+- Built Commercial and IT solutions for fortune 500 companies.
+- Develop solutions viewpoint, in which the business, information and technology viewpoints are synthesized into solutions that deliver capabilities.
+- Provide Architecture framework for entire enterprise.
+- Building Center of Excellance in Advanced analytics and AI/ML
+- Data and KPI based decision maker
+- Empathetic and customer success focused leader
+- Growth Mindset, Inclusive and Divesity leader
+- Bridge Business and Technology gap
+- Mentor, Speaker, Author
+- Build and Train Sales Strategy to increase Cloud adoption
+- Built and mentored new and existing partners in small, medium and large
+- Author in Analytics Vidhya
+- Built Reference architecture for industry
+- Helped Product team to build products based on customer feedback
+- Create Reference architecture for AI/ML, Industrial IoT and Data platform
+- Business Strategy and helped create and build new revenue stream
+- Knowledge on end to end business process
+
+## Technologies
+
+- Cloud Technologies - Azure/Aws/GCP/Alibaba
+- Aritificial Intelligence - Machine/deep/reinforcement learning
+- Industrial IoT/IoT
+- Blockchain
+- Data platform - datalakes/swamp/wall and others
+- Business process automation - RPA 
+- Business Systems - SAP and Salesforce
+- Enterprise Archtiecture
+- Data Governance
+- Supply Chain
+- Manufacturing process
+- Solution sales
 
 ## Industries
 
