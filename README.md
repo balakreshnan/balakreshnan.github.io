@@ -101,9 +101,9 @@ Insurance <br/>
 
 ## Board
 
-Steering committee member - Connected Systems institute - UW Milwaukee <br/>
-Industry Advisory Board Member - Connected Systems institute - UW Milwaukee <br/>
-Industry Advisory Board member = Purdue Indiana <br/>
+- Steering committee member - Connected Systems institute - UW Milwaukee
+- Industry Advisory Board Member - Connected Systems institute - UW Milwaukee 
+- Industry Advisory Board member = Purdue Indiana 
 
 [CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)<br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
@@ -111,32 +111,32 @@ Industry Advisory Board member = Purdue Indiana <br/>
 
 ## Curriculum Help
 
-Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin) <br/>
-Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin) <br/>
+- Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin)
+- Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin)
 
 ## Speaker
 
-[AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/) <br/>
-[AI and ML Video](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s) <br/>
-Angel Beat - Various Events
-UW madison Keynote speaker for Industry Technogy summit
-UW Milwaukee CSI Keynote speaker
+- [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
+- [AI and ML Video](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
+- Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
+- UW madison Keynote speaker for Industry Technogy summit
+- UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
 
 ## workshops
 
-Industrial IoT Workshop in Lubar School of business (UW Milwaukee) <br/>
-Deep learning workship in Lubar School of business (UW Milwaukee) <br/>
-Azure Machine learning basic - School of Engineering (UW Milwauee) <br/>
-Azure Machine learning Intermediate - School of Engineering (UW Milwauee) <br/>
-AI in manufacturing - School of Engineering (UW Milwauee) Partnered with Rockwell Automation, PTC (Curriculum) <br/>
-Internal MS workshops for FTE <br/>
-Internal MS workshops for Partners <br/>
+- Industrial IoT Workshop in Lubar School of business (UW Milwaukee)
+- Deep learning workship in Lubar School of business (UW Milwaukee)
+- Azure Machine learning basic - School of Engineering (UW Milwauee)
+- Azure Machine learning Intermediate - School of Engineering (UW Milwauee)
+- AI in manufacturing - School of Engineering (UW Milwauee) Partnered with Rockwell Automation, PTC (Curriculum)
+- Internal MS workshops for FTE Open hacks for IoT/Data Science/Data hacks
+- Internal MS workshops for Partners Open hacks for IoT/Data Science/Data hacks
 
 ## Hackathons
 
-Customer based hackathons on Industrial IoT <br/>
-Customer hackathons on AI and Machine learning <br/>
-Microsoft open hack coach/participant for Data Platform, AI knowledge mining, Data Science Ops and IoT Gateway Ops.
+- Customer based hackathons on Industrial IoT
+- Customer hackathons on AI and Machine learning
+- Microsoft open hack coach/participant for Data Platform, AI knowledge mining, Data Science Ops and IoT Gateway Ops.
 
 ## Github Repo
 
