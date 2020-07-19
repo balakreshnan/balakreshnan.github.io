@@ -77,8 +77,8 @@ Insurance <br/>
 
 ## Honors and Award
 
-[Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
-Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
+- [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
+- Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
 
 ## Machine learning tutorials and stories
 
