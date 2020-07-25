@@ -118,10 +118,11 @@ Insurance <br/>
 ## Speaker
 
 - [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
-- [AI and ML Video](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
+- [Angelbeat April 2020](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
 - Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
 - UW madison Keynote speaker for Industry Technogy summit
 - UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
+- [Angelbeat July 2020](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s)
 
 ## workshops
 
