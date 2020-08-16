@@ -83,6 +83,13 @@ Consulting <br/>
 - Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
 - Technology Summit Speaker - [Event Speaker](https://www.youracclaim.com/earner/earned/badge/1855d4ee-be51-42e5-91c7-f53a294ba008)
 
+## Mentor, Coach, Open Source Contributor
+
+- Mentor others and Also be mentored
+- Coach other peers/customers
+- Create research project and share with open source community to improve
+- Inclusive and Diversity - Applied all of my work
+
 ## Machine learning tutorials and stories
 
 [ML Tutorials](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
