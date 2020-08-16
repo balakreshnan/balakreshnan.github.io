@@ -27,6 +27,7 @@ Lead Architecture Design Sessions with methodological approach to finalize Solut
 - Coached OpenHack for Modern Data Warehouse to train/educate participants with practical project execution approach​
 - Provide documentation support and Quality Assurance checks to Partners solution and architecture​
 - Interview, Coach, Mentor and Provide feedback to peers and team members
+- Provide constructive feedback to product team from customer scenario to better build product
 
 ## others
 
