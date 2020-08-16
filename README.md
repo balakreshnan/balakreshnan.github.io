@@ -73,33 +73,32 @@ Insurance <br/>
 
 ## Badges
 
-[Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1){:target="_blank"}
-<a href="https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1" target="_blank">Badges</a>
+[Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1)
 
 ## Honors and Award
 
-- [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg){:target="_blank"}
+- [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
 - Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
 
 ## Machine learning tutorials and stories
 
-[ML Stories](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md){:target="_blank"}
+[ML Stories](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
 
 ## Industrial IoT Stories and Challenges
 
-[IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md){:target="_blank"}
+[IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
 
 ## Publications
 
-[Pick and Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf){:target="_blank"} <br/>
-[ISO Ref Arch](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf){target="_blank"} <br/>
-[Whitepaper Pick N Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/whitepaperpickandplace.md){:target="_blank"} <br/>
-[Robot almanac article 2019](https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2020.md){:target="_blank"} <br/>
+[Pick and Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf) <br/>
+[ISO Ref Arch](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf) <br/>
+[Whitepaper Pick N Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/whitepaperpickandplace.md) <br/>
+[Robot almanac article 2019](https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2020.md) <br/>
 [PPE Paper 2020](https://www.sciencedirect.com/science/article/pii/S2351978920310556){target="_blank"} <br/>
-[JCI - Digital Vault](https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/){:target="_blank"}<br/>
-[Azure ML ops](https://gigaom.com/report/delivering-on-the-vision-of-mlops/) (Look at Johnson Controls Section){:target="_blank"} <br/>
-[PPE AI project](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/){:target="_blank"} <br/>
-[LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/){:target="_blank"} <br/>
+[JCI - Digital Vault](https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/)<br/>
+[Azure ML ops](https://gigaom.com/report/delivering-on-the-vision-of-mlops/) (Look at Johnson Controls Section) <br/>
+[PPE AI project](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/) <br/>
+[LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/) <br/>
 
 ## Board
 
@@ -107,8 +106,8 @@ Insurance <br/>
 - Industry Advisory Board Member - Connected Systems institute - UW Milwaukee 
 - Industry Advisory Board member = Purdue Indiana 
 
-[CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/){:target="_blank"}<br/>
-[CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/){:target="_blank"} <br/>
+[CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)<br/>
+[CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html){target="_blank"} <br/>
 
 ## Curriculum Help
@@ -118,12 +117,12 @@ Insurance <br/>
 
 ## Speaker
 
-- [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/){:target="_blank"}
-- [Angelbeat April 2020](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s){:target="_blank"}
-- Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s){:target="_blank"}
+- [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
+- [Angelbeat April 2020](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
+- Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
 - UW madison Keynote speaker for Industry Technogy summit
-- UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/){:target="_blank"}
-- [Angelbeat July 2020](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s){:target="_blank"}
+- UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
+- [Angelbeat July 2020](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s)
 
 ## workshops
 
@@ -143,7 +142,7 @@ Insurance <br/>
 
 ## Github Repo
 
-[GitHub Repo](https://github.com/balakreshnan){:target="_blank"}
+[GitHub Repo](https://github.com/balakreshnan)
 
 ## Hobies
 
