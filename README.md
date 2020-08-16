@@ -74,6 +74,7 @@ Insurance <br/>
 ## Badges
 
 [Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1){:target="_blank"}
+<a href="https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1" target="_blank">Badges</a>
 
 ## Honors and Award
 
