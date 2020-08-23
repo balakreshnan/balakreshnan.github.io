@@ -159,6 +159,8 @@ Consulting <br/>
 
 https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5 <br>
 https://www.hackster.io/balabala76/employee-well-being-covid-workplace-safety-analytics-sy-1e9e3e
+https://devpost.com/software/workplacesafety-31ftdj
+https://devpost.com/software/sdd-krjtld
 
 ## Hobies
 
