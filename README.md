@@ -155,6 +155,11 @@ Consulting <br/>
 
 [GitHub Repo](https://github.com/balakreshnan)
 
+## Hackster Projects
+
+https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5
+https://www.hackster.io/balabala76/employee-well-being-covid-workplace-safety-analytics-sy-1e9e3e
+
 ## Hobies
 
 Vegetable Garden <br/>
