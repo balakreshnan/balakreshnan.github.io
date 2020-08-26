@@ -17,6 +17,7 @@ As a Cloud Solution Architect, play a role of Innovation evangelist and provide 
 - Lead Azure AI/ML community of practice for North Central Region using Cognitive and custom Machine learning application for various use cases to automate business process to drive business outcomes to customer with faster ROI. Completed 3 projects in FY20 and have 6 onboarding for new opportunities.
 - Envisioned “Retail Store Insights”,  a data driven near Realtime data lake for business to generate data driven insights to take intelligent decisions for their 10,000+ stores globally. 
 Lead Architecture Design Sessions with methodological approach to finalize Solution Architecture combining set of products ​
+- Lead various IT Transformational projects like moving to cloud, optimize IT portfolio and save cost.
 - Conduct Envisioning and immersion workshop to align different groups with adequate adoption of cloud​
 - Provide Solution Architecture to customer and work with Specialists to develop BoM and prepare deal construct​
 - Work with Product Groups for product bugs and feature enhancements​
@@ -91,6 +92,20 @@ Consulting <br/>
 - Create research project and share with open source community to improve
 - Inclusive and Diversity - Applied all of my work
 
+## Always learning, where?
+
+- https://courses.edx.org/dashboard
+- https://www.linkedin.com/learning/me?trk=d_sales2_nav_applauncher&u=3322
+- https://courses.edx.org/dashboard
+- https://academy.databricks.com/
+- https://docs.microsoft.com/en-us/learn/
+- https://www.aws.training/
+- https://cloud.google.com/training
+- https://cognitiveclass.ai/
+- https://classroom.udacity.com/me
+- https://courses.nvidia.com/dashboard
+- https://app.pluralsight.com/
+
 ## Machine learning tutorials and stories
 
 [ML Tutorials](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
@@ -119,7 +134,7 @@ Consulting <br/>
 
 [CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)<br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
-[CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html){target="_blank"} <br/>
+[CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
 
 ## Curriculum Help
 
