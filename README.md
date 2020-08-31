@@ -84,6 +84,10 @@ Consulting <br/>
 - [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
 - Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
 - Technology Summit Speaker - [Event Speaker](https://www.youracclaim.com/earner/earned/badge/1855d4ee-be51-42e5-91c7-f53a294ba008)
+- Hackathon Leader Silver - [Hackathon Leader](https://www.youracclaim.com/earner/earned/badge/fcb35b29-6b73-4d09-8d83-86d32c0efd3d)
+- Mentor Gold - [Mentor Gold](https://www.youracclaim.com/earner/earned/badge/5ec23bc9-3eed-4866-9c8a-fd04740ce0d8)
+- Culture Champion Award
+
 
 ## Mentor, Coach, Open Source Contributor
 
