@@ -71,6 +71,7 @@ Lead Architecture Design Sessions with methodological approach to finalize Solut
 Manufacturing <br/>
 Retail <br/>
 Pharmacy <br/>
+Healthcare <br/>
 Insurance <br/>
 Education <br/>
 Consulting <br/>
