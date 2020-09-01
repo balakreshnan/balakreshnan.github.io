@@ -119,6 +119,10 @@ Consulting <br/>
 
 [IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
 
+## Medium and Analytics Vidhya Publications
+
+[@balabala76](https://medium.com/@balabala76)
+
 ## Publications
 
 [Pick and Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf) <br/>
