@@ -145,6 +145,11 @@ Consulting <br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
 
+## Connected Systems Institute - University of Wisconsin Milwaukee
+
+- Virtual Tour of Factory of Future in making.
+https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
+
 ## Curriculum Help
 
 - Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin)
