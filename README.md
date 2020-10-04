@@ -154,6 +154,7 @@ https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
 
 - Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin)
 - Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin)
+- Purdue Polytechnic - Intelligent Learning Factory Curriculum (Indiana)
 
 ## Speaker
 
