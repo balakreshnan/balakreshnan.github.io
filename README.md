@@ -160,7 +160,7 @@ https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
 ## Speaker
 
 - [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
-- [Angelbeat April 2020](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
+- [Angelbeat April 2020 - AI and ML at Microsoft](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
 - Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
 - UW madison Keynote speaker for Industry Technogy summit
 - UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
