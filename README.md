@@ -189,9 +189,9 @@ https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
 
 ## Open Source Projects Contributions
 
-[Work place Safety](https://github.com/balakreshnan/WorkplaceSafety)
-[Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md)
-[Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf)
+[Work place Safety](https://github.com/balakreshnan/WorkplaceSafety) <br>
+[Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md) <br>
+[Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf) <br>
 
 ## Hackster Projects
 
