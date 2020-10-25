@@ -187,6 +187,12 @@ https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
 
 [GitHub Repo](https://github.com/balakreshnan)
 
+## Open Source Projects Contributions
+
+[Work place Safety](https://github.com/balakreshnan/WorkplaceSafety)
+[Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md)
+[Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf)
+
 ## Hackster Projects
 
 https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5 <br>
