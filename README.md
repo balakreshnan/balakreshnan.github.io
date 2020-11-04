@@ -149,7 +149,9 @@ Consulting <br/>
 
 - Virtual Tour of Factory of Future in making.
 https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
-- Learning Factory demo https://youtu.be/bm0MzrCtcGc
+- Intelligent Learning Factory demo https://youtu.be/bm0MzrCtcGc
+- Intelligent Learning Factory - https://youtu.be/1lfi6DAvxgU
+- Interview intelligent Factory - https://youtu.be/I-peJCInQ9s
 
 ## Curriculum Help
 
