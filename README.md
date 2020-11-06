@@ -79,6 +79,7 @@ Consulting <br/>
 ## Badges
 
 [Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1)
+[Databricks](https://credentials.databricks.com/profile/balamuruganbalakreshnan411996/wallet#gs.k602oz)
 
 ## Honors and Award
 
