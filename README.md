@@ -153,6 +153,7 @@ https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
 - Intelligent Learning Factory demo https://youtu.be/bm0MzrCtcGc
 - Intelligent Learning Factory - https://youtu.be/1lfi6DAvxgU
 - Interview intelligent Factory - https://youtu.be/I-peJCInQ9s
+- Interview CSI - Mary - https://youtu.be/_9w0TvtxxZ4
 
 ## Curriculum Help
 
