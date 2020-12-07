@@ -213,7 +213,7 @@ Building Deep learning solutions with Jetson Nano and Raspberry pi<br/>
 
 ## AI in Manufacturing
 
-https://youtu.be/w35UYgGsExg
-https://youtu.be/FjGV7yrm3aY
-https://youtu.be/TbGdTW2iQbo
-https://youtu.be/kn1aRNNOVOY
+https://youtu.be/w35UYgGsExg <br>
+https://youtu.be/FjGV7yrm3aY <br>
+https://youtu.be/TbGdTW2iQbo <br>
+https://youtu.be/kn1aRNNOVOY <br>
