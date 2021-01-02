@@ -1,4 +1,4 @@
-# My achievements and contribution.
+# My Profile
 
 ## Contact
 
@@ -6,10 +6,11 @@ Name: Balamurugan Balakreshnan (Bala) <br/>
 Phone: 631 327 1000 <br/>
 Email: bala_b@hotmail.com <br/>
 Place: Oak Creek, WI <br/>
+LinkedIn - https://www.linkedin.com/in/balamurugan-balakreshnan/
 
 ## Profile
 
-Digital Transformation, Chief Architect and Techincal Strategy Leader.<br>
+Digital Transformation, Chief Architect and Technology Strategy Leader.<br>
 
 As a Cloud Solution Architect, play a role of Innovation evangelist and provide thought leadership, Solution Architecture, PoC and MVP Support to multiple projects with respect to governance, security and technology projects by crafting high level and detailed architecture for business use case.<br/>
 
@@ -78,7 +79,8 @@ Consulting <br/>
 
 ## Badges
 
-[Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1)
+[Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1) <br>
+[Databricks](https://credentials.databricks.com/profile/balamuruganbalakreshnan411996/wallet#gs.k602oz)
 
 ## Honors and Award
 
@@ -145,19 +147,31 @@ Consulting <br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
 
+## Connected Systems Institute - University of Wisconsin Milwaukee
+
+- Virtual Tour of Factory of Future in making.
+https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
+- Intelligent Learning Factory demo https://youtu.be/bm0MzrCtcGc
+- Intelligent Learning Factory - https://youtu.be/1lfi6DAvxgU
+- Interview intelligent Factory - https://youtu.be/I-peJCInQ9s
+- Interview Connected Systems Institute (CSI) Intelligent Factory - Mary - https://youtu.be/_9w0TvtxxZ4
+
 ## Curriculum Help
 
 - Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin)
 - Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin)
+- Purdue Polytechnic - Intelligent Learning Factory Curriculum (Indiana)
 
 ## Speaker
 
 - [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
-- [Angelbeat April 2020](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
+- [Angelbeat April 2020 - AI and ML at Microsoft](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
 - Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
 - UW madison Keynote speaker for Industry Technogy summit
 - UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
-- [Angelbeat July 2020](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s)
+- [Angelbeat July 2020 - Artificial Intelligence (AI) & Machine Learning (ML) Development Platforms, Real Life Use Cases](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s)
+- [Angelbeat October 2020 - ML based image tagging](https://youtu.be/59Nlvvun1BU)
+- [Angelbeat November 2020 - Data Strategy and Governance](https://www.youtube.com/watch?v=VZ8rPE3Yb1g)
 
 ## workshops
 
@@ -179,6 +193,12 @@ Consulting <br/>
 
 [GitHub Repo](https://github.com/balakreshnan)
 
+## Open Source Projects Contributions
+
+[Work place Safety](https://github.com/balakreshnan/WorkplaceSafety) <br>
+[Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md) <br>
+[Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf) <br>
+
 ## Hackster Projects
 
 https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5 <br>
@@ -190,3 +210,12 @@ https://devpost.com/software/sdd-krjtld <br>
 
 Vegetable Garden <br/>
 Building Deep learning solutions with Jetson Nano and Raspberry pi<br/>
+
+## AI in Manufacturing
+
+- 4 Part Series
+
+- Part 1 - https://youtu.be/w35UYgGsExg <br>
+- Part 2 - https://youtu.be/FjGV7yrm3aY <br>
+- Part 3 - https://youtu.be/TbGdTW2iQbo <br>
+- Part 4 - https://youtu.be/kn1aRNNOVOY <br>
