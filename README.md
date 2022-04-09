@@ -11,6 +11,7 @@ LinkedIn - https://www.linkedin.com/in/balamurugan-balakreshnan/
 ## Profile
 
 Digital Transformation, Chief Architect and Technology Strategy Leader.<br>
+Author, Board member<br>
 
 As a Cloud Solution Architect, play a role of Innovation evangelist and provide thought leadership, Solution Architecture, PoC and MVP Support to multiple projects with respect to governance, security and technology projects by crafting high level and detailed architecture for business use case.<br/>
 
