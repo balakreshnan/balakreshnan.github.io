@@ -13,6 +13,7 @@ Substack - [Substack](https://substack.com/@balamuruganbalakreshnan?utm_source=u
 Badges - [credley](https://www.credly.com/users/balamurugan-balakreshnan) <br>
 Crenditals - [Accrediable](https://www.credential.net/profile/balamuruganbalakreshnan987840/wallet) <br>
 Crenditals - MSFT - [Accrediable](https://www.credential.net/profile/balamuruganbalakreshnan411996/wallet) <br>
+Coursera - [Coursera](https://www.coursera.org/user/3174f079c41f748acf0f55075e327a15) <br>
 
 ## Profile
 
