@@ -9,7 +9,9 @@ Place: Oak Creek, WI <br/>
 LinkedIn - [LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/) <br>
 plural sight - [Plural Sight](https://app.pluralsight.com/profile/balamurugan-bala-93) <br>
 medium - [medium](https://medium.com/@balabala76) <br>
-Substack - [Substack](https://substack.com/@balamuruganbalakreshnan?utm_source=user-menu)
+Substack - [Substack](https://substack.com/@balamuruganbalakreshnan?utm_source=user-menu) <br>
+Badges - [credley](https://www.credly.com/users/balamurugan-balakreshnan) <br>
+Crenditals - [Accrediable](https://www.credential.net/profile/balamuruganbalakreshnan987840/wallet) <br>
 
 ## Profile
 
