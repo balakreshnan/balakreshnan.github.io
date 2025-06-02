@@ -12,6 +12,7 @@ medium - [medium](https://medium.com/@balabala76) <br>
 Substack - [Substack](https://substack.com/@balamuruganbalakreshnan?utm_source=user-menu) <br>
 Badges - [credley](https://www.credly.com/users/balamurugan-balakreshnan) <br>
 Crenditals - [Accrediable](https://www.credential.net/profile/balamuruganbalakreshnan987840/wallet) <br>
+Crenditals - MSFT - [Accrediable](https://www.credential.net/profile/balamuruganbalakreshnan411996/wallet) <br>
 
 ## Profile
 
