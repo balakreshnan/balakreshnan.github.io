@@ -20,6 +20,7 @@ Databricks Academy MSFT - [ADB](https://microsoft-academy.databricks.com/learn/m
 MS learn - [mslearn](https://learn.microsoft.com/en-us/users/balamuruganbalakreshnan-2358/) <br>
 AWS Training - [AWS](https://skillbuilder.aws/training-activity) <br>
 LinkedIn Learning - [LinkedIntraing](https://www.linkedin.com/learning/me/my-library/completed?u=3322) <br>
+OpenAI Academy - [openai](https://academy.openai.com/home) <br>
 
 ## Profile
 
