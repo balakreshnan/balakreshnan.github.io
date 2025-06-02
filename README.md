@@ -18,6 +18,7 @@ EDX MSFT - [EDX](https://enterprise.edx.org/microsoft-corporation) <br>
 Deep Learning Short Course - [DSC](https://learn.deeplearning.ai/my/learnings) <br>
 Databricks Academy MSFT - [ADB](https://microsoft-academy.databricks.com/learn/mycourses) <br>
 MS learn - [mslearn](https://learn.microsoft.com/en-us/users/balamuruganbalakreshnan-2358/) <br>
+AWS Training - [AWS](https://skillbuilder.aws/training-activity) <br>
 
 ## Profile
 
