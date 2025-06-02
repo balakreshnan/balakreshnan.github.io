@@ -19,6 +19,7 @@ Deep Learning Short Course - [DSC](https://learn.deeplearning.ai/my/learnings) <
 Databricks Academy MSFT - [ADB](https://microsoft-academy.databricks.com/learn/mycourses) <br>
 MS learn - [mslearn](https://learn.microsoft.com/en-us/users/balamuruganbalakreshnan-2358/) <br>
 AWS Training - [AWS](https://skillbuilder.aws/training-activity) <br>
+LinkedIn Learning - [LinkedIntraing[(https://www.linkedin.com/learning/me/my-library/completed?u=3322) <br>
 
 ## Profile
 
