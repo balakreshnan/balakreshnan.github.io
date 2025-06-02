@@ -6,7 +6,9 @@ Name: Balamurugan Balakreshnan (Bala) <br/>
 Phone: 631 327 1000 <br/>
 Email: bala_b@hotmail.com <br/>
 Place: Oak Creek, WI <br/>
-LinkedIn - https://www.linkedin.com/in/balamurugan-balakreshnan/
+LinkedIn - [!LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/)
+plural sight - [!Plural Sight](https://app.pluralsight.com/profile/balamurugan-bala-93)
+medium - [!medium](https://medium.com/@balabala76)
 
 ## Profile
 
