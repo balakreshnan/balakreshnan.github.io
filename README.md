@@ -16,6 +16,7 @@ Crenditals - MSFT - [Accrediable](https://www.credential.net/profile/balamurugan
 Coursera - [Coursera](https://www.coursera.org/user/3174f079c41f748acf0f55075e327a15) <br>
 EDX MSFT - [EDX](https://enterprise.edx.org/microsoft-corporation) <br>
 Deep Learning Short Course - [DSC](https://learn.deeplearning.ai/my/learnings) <br>
+Databricks Academy MSFT - [ADB](https://microsoft-academy.databricks.com/learn/mycourses) <br>
 
 ## Profile
 
