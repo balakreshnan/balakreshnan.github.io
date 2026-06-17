@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Photo Gallery | Balamurugan Balakreshnan</title>
+	<meta name="description" content="An automated slideshow gallery of photos, talks, awards and moments from Balamurugan (Bala) Balakreshnan's career and community engagements." />
+	<meta name="robots" content="index, follow" />
+	<meta name="theme-color" content="#2563eb" />
+	<link rel="canonical" href="https://balakreshnan.github.io/gallery.html" />
+	<link rel="icon" type="image/png" href="images/pic01.jpg" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+	<style>
+		:root {
+			--c-bg: #f7f9fc;
+			--c-bg-alt: #ffffff;
+			--c-text: #1f2a44;
+			--c-text-soft: #4a5878;
+			--c-muted: #7a8aa8;
+			--c-primary: #2563eb;
+			--c-primary-dark: #1d4ed8;
+			--c-accent: #06b6d4;
+			--c-border: #e3e9f2;
+			--shadow-sm: 0 1px 3px rgba(15, 30, 60, 0.06), 0 1px 2px rgba(15, 30, 60, 0.04);
+			--shadow-md: 0 4px 16px rgba(15, 30, 60, 0.08);
+			--shadow-lg: 0 20px 50px rgba(15, 30, 60, 0.12);
+			--radius: 14px;
+			--radius-lg: 22px;
+			--gradient-accent: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+			--gradient-hero: linear-gradient(135deg, #eaf2ff 0%, #f7f9fc 45%, #f0fbff 100%);
+		}
+		* { box-sizing: border-box; }
+		html { scroll-behavior: smooth; }
+		body {
+			margin: 0;
+			font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			color: var(--c-text); background: var(--c-bg); line-height: 1.65;
+			-webkit-font-smoothing: antialiased;
+		}
+		h1, h2, h3 { font-family: 'Playfair Display', Georgia, serif; margin: 0 0 .4em; line-height: 1.2; }
+		a { color: var(--c-primary); text-decoration: none; transition: color .2s ease; }
+		a:hover { color: var(--c-primary-dark); }
+		img { max-width: 100%; display: block; }
+		.container { max-width: 1180px; margin: 0 auto; padding: 0 1.5rem; }
+
+		/* NAV */
+		.nav { position: sticky; top: 0; z-index: 100; backdrop-filter: saturate(180%) blur(14px); background: rgba(255,255,255,0.85); border-bottom: 1px solid var(--c-border); }
+		.nav-inner { display: flex; align-items: center; justify-content: space-between; padding: .9rem 1.5rem; max-width: 1180px; margin: 0 auto; }
+		.brand { display: flex; align-items: center; gap: .65rem; font-weight: 700; color: var(--c-text); font-size: 1.05rem; }
+		.brand-mark { width: 36px; height: 36px; border-radius: 10px; background: var(--gradient-accent); display: grid; place-items: center; color: white; font-weight: 800; box-shadow: var(--shadow-sm); }
+		.nav-links { display: flex; gap: 1.4rem; align-items: center; }
+		.nav-links a { color: var(--c-text-soft); font-weight: 500; font-size: .95rem; }
+		.nav-links a:hover { color: var(--c-primary); }
+		.nav-cta { background: var(--gradient-accent); color: white !important; padding: .55rem 1.1rem; border-radius: 999px; font-weight: 600; box-shadow: var(--shadow-sm); }
+
+		/* HEADER */
+		.gallery-header { background: var(--gradient-hero); padding: 3rem 0 2.25rem; text-align: center; }
+		.gallery-header .eyebrow { display: inline-flex; align-items: center; gap: .5rem; background: white; border: 1px solid var(--c-border); padding: .35rem .85rem; border-radius: 999px; font-size: .8rem; font-weight: 600; color: var(--c-primary); box-shadow: var(--shadow-sm); margin-bottom: 1rem; }
+		.gallery-header h1 { font-size: clamp(2rem, 4vw, 3rem); }
+		.gallery-header h1 .grad { background: var(--gradient-accent); -webkit-background-clip: text; background-clip: text; color: transparent; }
+		.gallery-header p { color: var(--c-text-soft); max-width: 640px; margin: .5rem auto 0; }
+
+		/* SLIDESHOW */
+		.slideshow { padding: 2.5rem 0 3.5rem; }
+		.stage {
+			position: relative; width: 100%; aspect-ratio: 16 / 9;
+			background: #0d1526; border-radius: var(--radius-lg); overflow: hidden;
+			box-shadow: var(--shadow-lg); border: 1px solid var(--c-border);
+		}
+		.stage img {
+			position: absolute; inset: 0; width: 100%; height: 100%;
+			object-fit: contain; opacity: 0; transition: opacity .8s ease;
+		}
+		.stage img.active { opacity: 1; }
+		.stage .caption {
+			position: absolute; left: 0; right: 0; bottom: 0;
+			background: linear-gradient(180deg, transparent, rgba(5, 12, 28, .8));
+			color: #fff; padding: 2.5rem 1.5rem 1rem; font-size: .9rem;
+			display: flex; justify-content: space-between; align-items: flex-end; gap: 1rem;
+		}
+		.caption .counter { font-weight: 600; white-space: nowrap; }
+		/* arrows */
+		.nav-arrow {
+			position: absolute; top: 50%; transform: translateY(-50%);
+			width: 48px; height: 48px; border-radius: 50%; border: 0;
+			background: rgba(255,255,255,.85); color: var(--c-text); font-size: 1.1rem;
+			cursor: pointer; display: grid; place-items: center; box-shadow: var(--shadow-md);
+			transition: background .2s ease, transform .2s ease; z-index: 3;
+		}
+		.nav-arrow:hover { background: #fff; transform: translateY(-50%) scale(1.08); }
+		.nav-arrow.prev { left: 1rem; }
+		.nav-arrow.next { right: 1rem; }
+		/* progress bar */
+		.progress { position: absolute; top: 0; left: 0; height: 4px; background: var(--gradient-accent); width: 0; z-index: 3; }
+
+		/* CONTROLS */
+		.controls { display: flex; flex-wrap: wrap; gap: .75rem; align-items: center; justify-content: center; margin-top: 1.25rem; }
+		.ctrl-btn {
+			display: inline-flex; align-items: center; gap: .5rem; padding: .6rem 1.1rem;
+			border-radius: 999px; font-weight: 600; font-size: .9rem; cursor: pointer;
+			border: 1px solid var(--c-border); background: #fff; color: var(--c-text); transition: all .2s ease;
+		}
+		.ctrl-btn:hover { border-color: var(--c-primary); color: var(--c-primary); }
+		.ctrl-btn.primary { background: var(--gradient-accent); color: #fff; border: 0; box-shadow: var(--shadow-md); }
+		.ctrl-btn.primary:hover { color: #fff; transform: translateY(-1px); box-shadow: var(--shadow-lg); }
+		.speed { display: inline-flex; align-items: center; gap: .5rem; font-size: .85rem; color: var(--c-muted); }
+		.speed select { padding: .45rem .6rem; border-radius: 8px; border: 1px solid var(--c-border); background: #fff; color: var(--c-text); font-family: inherit; }
+
+		/* THUMBS */
+		.thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(86px, 1fr)); gap: .5rem; margin-top: 2rem; }
+		.thumb { aspect-ratio: 1; border-radius: 10px; overflow: hidden; cursor: pointer; border: 2px solid transparent; background: #e9eef7; transition: border-color .2s ease, transform .2s ease; }
+		.thumb img { width: 100%; height: 100%; object-fit: cover; }
+		.thumb:hover { transform: translateY(-2px); }
+		.thumb.active { border-color: var(--c-primary); }
+
+		/* FOOTER */
+		.footer { background: #0d1526; color: #aebbd4; padding: 2rem 0; text-align: center; font-size: .9rem; margin-top: 2rem; }
+		.footer a { color: #cfe0ff; }
+
+		@media (max-width: 700px) {
+			.nav-links a:not(.nav-cta) { display: none; }
+			.stage { aspect-ratio: 4 / 3; }
+			.nav-arrow { width: 40px; height: 40px; }
+		}
+	</style>
+</head>
+<body>
+	<!-- NAV -->
+	<header class="nav">
+		<div class="nav-inner">
+			<a href="index.html" class="brand">
+				<span class="brand-mark">B</span>
+				<span>Balamurugan Balakreshnan</span>
+			</a>
+			<nav class="nav-links">
+				<a href="index.html#about">About</a>
+				<a href="index.html#books">Books</a>
+				<a href="index.html#speaking">Speaking</a>
+				<a href="experience.html">Experience</a>
+				<a href="index.html#contact" class="nav-cta">Hire Me</a>
+			</nav>
+		</div>
+	</header>
+
+	<!-- HEADER -->
+	<section class="gallery-header">
+		<div class="container">
+			<span class="eyebrow"><i class="fa-solid fa-images"></i> Photo Gallery</span>
+			<h1>Moments &amp; <span class="grad">Milestones</span></h1>
+			<p>An automated slideshow of talks, awards, customer engagements and memorable moments across the journey.</p>
+		</div>
+	</section>
+
+	<!-- SLIDESHOW -->
+	<section class="slideshow">
+		<div class="container">
+			<div class="stage" id="stage">
+				<div class="progress" id="progress"></div>
+				<button class="nav-arrow prev" id="prevBtn" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+				<button class="nav-arrow next" id="nextBtn" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+				<div class="caption">
+					<span id="captionText"></span>
+					<span class="counter" id="counter"></span>
+				</div>
+			</div>
+
+			<div class="controls">
+				<button class="ctrl-btn primary" id="playPauseBtn"><i class="fa-solid fa-pause"></i> <span>Pause</span></button>
+				<button class="ctrl-btn" id="prevBtn2"><i class="fa-solid fa-backward-step"></i> Prev</button>
+				<button class="ctrl-btn" id="nextBtn2"><i class="fa-solid fa-forward-step"></i> Next</button>
+				<button class="ctrl-btn" id="fsBtn"><i class="fa-solid fa-expand"></i> Fullscreen</button>
+				<button class="ctrl-btn" id="shuffleBtn"><i class="fa-solid fa-shuffle"></i> Shuffle</button>
+				<label class="speed">Speed
+					<select id="speedSelect">
+						<option value="2000">2s</option>
+						<option value="3500" selected>3.5s</option>
+						<option value="5000">5s</option>
+						<option value="8000">8s</option>
+					</select>
+				</label>
+			</div>
+
+			<div class="thumbs" id="thumbs"></div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			&copy; <span id="year"></span> Balamurugan Balakreshnan &middot; <a href="index.html">Back to home</a>
+		</div>
+	</footer>
+
+	<script>
+		const IMAGES = [
+"balatsicoach.png",
+"bala_prof.png",
+"bala_suit.jpg",
+"Champion_2Time-LinkedIn.png",
+"creative_customer_solutions_Bala_Balakreshnan.png",
+"csucustomersoutions.png",
+"Distinguished_Contributor_Frame.jpg",
+"MAKAI104_1411.jpg",
+"MAKAI105_2517.jpg",
+"MAKAI205_2411.jpg",
+"MAKAI205_2422.jpg",
+"MAKAI205_9025.jpg",
+"MAKAI206_1507 (1).jpg",
+"MAKAI206_1532 (1).jpg",
+"MAKAI206_2657.jpg",
+"MAKAI209_1141.jpg",
+"MAKAI302_2220.jpg",
+"MAKAI9_1017.jpg",
+"MS_PlatinumClub_2D_Medallion_RGB_color_dark-logo.png",
+"normal.jpg",
+"Platinum Club FY22 Photo Badge.png",
+"PlatinumClub_2022-LinkedIn.png",
+"S1 E1.png",
+"S1 E2.png",
+"S1 E3.png",
+"S2 E1.png",
+"S2 E2.png",
+"S2 E3.png",
+"S3 E1.png",
+"S3 E2.png",
+"S3 E3.png",
+"sus1.jpg",
+"sus2.jpg",
+"TSICoachpic.jpg",
+"TSIToken_256x.png",
+"vivekanada1.jpg",
+"images/04042018_IMC_EH_005-1024x683.jpg",
+"images/20171228_174158.jpg",
+"images/20180102_093323.jpg",
+"images/20180105_095656.jpg",
+"images/20180105_095700.jpg",
+"images/20180105_095716.jpg",
+"images/20180105_095718.jpg",
+"images/20180107_092457.jpg",
+"images/20180111_082915.jpg",
+"images/20180111_090321.jpg",
+"images/20180111_090324.jpg",
+"images/20180111_090327.jpg",
+"images/20180124_143017.jpg",
+"images/20180124_143019.jpg",
+"images/20180124_143022.jpg",
+"images/20180124_143026.jpg",
+"images/20180317_112749.jpg",
+"images/20180317_112757.jpg",
+"images/20180317_112813.jpg",
+"images/20180404_083457.jpg",
+"images/20180404_083458.jpg",
+"images/20180404_083504(0).jpg",
+"images/20180404_083504.jpg",
+"images/20180404_083507.jpg",
+"images/20180404_083520.jpg",
+"images/20180404_083607.jpg",
+"images/20180404_084330.jpg",
+"images/20180404_085106.jpg",
+"images/20180404_085107.jpg",
+"images/20180404_085814.jpg",
+"images/20180404_085815.jpg",
+"images/20180404_102045.jpg",
+"images/20180404_102046.jpg",
+"images/20180404_113130.jpg",
+"images/20180404_114522.jpg",
+"images/20180404_114954.jpg",
+"images/20180404_114955.jpg",
+"images/20180404_130236.jpg",
+"images/20180408_163844.jpg",
+"images/20180408_163845.jpg",
+"images/20180509_072652.jpg",
+"images/20180621_124040.jpg",
+"images/20180621_124045.jpg",
+"images/20180621_165349.jpg",
+"images/20181011_171418.jpg",
+"images/20181011_171420.jpg",
+"images/20181012_080134.jpg",
+"images/20181012_083212.jpg",
+"images/20181012_085246.jpg",
+"images/20181012_085249.jpg",
+"images/20181012_085252.jpg",
+"images/20181113_162516.jpg",
+"images/20181113_162517.jpg",
+"images/20181114_093932.jpg",
+"images/20181114_093937.jpg",
+"images/20181114_140646.jpg",
+"images/20181130_0806341.jpg",
+"images/20181130_0843481.jpg",
+"images/20181130_121050.jpg",
+"images/20181212_085531.jpg",
+"images/20181212_103923.jpg",
+"images/20181212_103926.jpg",
+"images/20181212_111347.jpg",
+"images/20181212_111358.jpg",
+"images/20181212_111419.jpg",
+"images/20181212_111423.jpg",
+"images/20190117_080513.jpg",
+"images/20190117_080518.jpg",
+"images/20190117_125406.jpg",
+"images/20190206_084608.jpg",
+"images/20190206_084617.jpg",
+"images/20190206_084621.jpg",
+"images/20190228_113112.jpg",
+"images/20190228_113220.jpg",
+"images/20190228_123335.jpg",
+"images/20190303_111730.jpg",
+"images/20190304_100438.jpg",
+"images/20190304_100440.jpg",
+"images/20190405_104516.jpg",
+"images/20190405_125717.jpg",
+"images/20190510_083505.jpg",
+"images/20190604_155042.jpg",
+"images/20190604_155046.jpg",
+"images/20190606_143119.jpg",
+"images/20190606_143130.jpg",
+"images/20190606_170554.jpg",
+"images/20190624_162418.jpg",
+"images/20191027_193449.jpg",
+"images/20191027_193452.jpg",
+"images/20191028_104306.jpg",
+"images/20191028_104307.jpg",
+"images/20191028_104311.jpg",
+"images/20191028_104322.jpg",
+"images/20191028_105330.jpg",
+"images/20191028_105332.jpg",
+"images/20191028_105336.jpg",
+"images/20191028_105337.jpg",
+"images/20191203_093642.jpg",
+"images/20191203_093643.jpg",
+"images/20191203_093852.jpg",
+"images/20191203_111020.jpg",
+"images/20191203_111905.jpg",
+"images/20191203_111910.jpg",
+"images/20191203_111928.jpg",
+"images/20191206_163647.jpg",
+"images/20191206_222522.jpg",
+"images/20191207_085225.jpg",
+"images/20191207_160356.jpg",
+"images/20200918_084158.jpg",
+"images/20200918_084200.jpg",
+"images/20200918_084446.jpg",
+"images/20200918_084506.jpg",
+"images/20200918_084530.jpg",
+"images/20200918_084603.jpg",
+"images/20200918_084647.jpg",
+"images/20200918_091900.jpg",
+"images/20200918_091902.jpg",
+"images/20200918_101342.jpg",
+"images/20200918_101349.jpg",
+"images/20200918_101357.jpg",
+"images/20200918_101401.jpg",
+"images/20200918_101406.jpg",
+"images/20200918_101415.jpg",
+"images/20200918_101423.jpg",
+"images/20200918_101424.jpg",
+"images/20200918_101429.jpg",
+"images/20200918_101432.jpg",
+"images/20200918_101439.jpg",
+"images/20200918_101442.jpg",
+"images/20200918_101446.jpg",
+"images/20201006_124538.jpg",
+"images/20201026_183355.jpg",
+"images/20201026_183407.jpg",
+"images/20201215_151146.jpg",
+"images/20201215_151211.jpg",
+"images/20201215_151239.jpg",
+"images/20201215_151256.jpg",
+"images/20201215_151310.jpg",
+"images/20221008_190428.jpg",
+"images/20221008_194553.jpg",
+"images/20221011_083109.jpg",
+"images/5664992001.jpg",
+"images/5664992101.jpg",
+"images/5665015911.jpg",
+"images/5665018781.jpg",
+"images/5665020151.jpg",
+"images/5665020341.jpg",
+"images/accesbility2.png",
+"images/appreciationcertificate.jpg",
+"images/atishadel.jpg",
+"images/AVA Completion Badge.png",
+"images/babal.jpg",
+"images/balaagenticaifoundrybook-1.png",
+"images/balaapril4.jpg",
+"images/balabanner-1.png",
+"images/balabanner-2.png",
+"images/balabanner-3.png",
+"images/brad1.jpg",
+"images/bradpress.jpg",
+"images/creative_customer_solutions_Bala_Balakreshnan.png",
+"images/CSI-Cert2018.jpg",
+"images/CSI-Class1.jpg",
+"images/CSI-Class2.jpg",
+"images/csucustomersoutions.png",
+"images/IMG_01821.jpg",
+"images/IMG_01831.jpg",
+"images/IMG_01841.jpg",
+"images/IMG_01851.jpg",
+"images/IMG_02271.jpg",
+"images/IMG_02281.jpg",
+"images/IMG_17791.jpg",
+"images/IMG_17811.jpg",
+"images/IMG_17831.jpg",
+"images/IMG_17841.jpg",
+"images/IMG_17851.jpg",
+"images/IMG_17861.jpg",
+"images/IMG_17871.jpg",
+"images/IMG_36171.jpg",
+"images/IMG_52121.jpg",
+"images/IMG_52131.jpg",
+"images/IMG_52141.jpg",
+"images/IMG_52151.jpg",
+"images/IMG_52161.jpg",
+"images/IMG_52191.jpg",
+"images/IMG_52201.jpg",
+"images/IMG_52221.jpg",
+"images/IMG_69151.jpg",
+"images/photo1.jpg",
+"images/pic01.jpg",
+"images/pic02.jpg",
+"images/pic03.jpg",
+"images/raghu.jpg",
+"images/tmp_1575856223146.jpg",
+"images/tmp_1575856234943.jpg",
+"images/TSICoachpic.jpg",
+"images/TSIToken_256x.png"
+		];
+
+		const stage = document.getElementById('stage');
+		const captionText = document.getElementById('captionText');
+		const counter = document.getElementById('counter');
+		const progress = document.getElementById('progress');
+		const thumbsWrap = document.getElementById('thumbs');
+		const playPauseBtn = document.getElementById('playPauseBtn');
+		const speedSelect = document.getElementById('speedSelect');
+
+		let order = IMAGES.map((_, i) => i);
+		let pos = 0;           // position within order
+		let playing = true;
+		let interval = parseInt(speedSelect.value, 10);
+		let timer = null;
+		let progTimer = null;
+
+		// Build two stacked <img> elements for cross-fade
+		const layers = [document.createElement('img'), document.createElement('img')];
+		layers.forEach(img => { img.loading = 'lazy'; img.alt = 'Gallery photo'; stage.insertBefore(img, stage.querySelector('.caption')); });
+		let activeLayer = 0;
+
+		function srcFor(idx) { return encodeURI(IMAGES[idx]); }
+
+		function labelFor(idx) {
+			let name = IMAGES[idx].split('/').pop().replace(/\.[^.]+$/, '');
+			return name.replace(/[_]+/g, ' ');
+		}
+
+		function show(orderIdx, instant) {
+			pos = (orderIdx + order.length) % order.length;
+			const imgIdx = order[pos];
+			const next = layers[1 - activeLayer];
+			const cur = layers[activeLayer];
+			next.onload = () => {
+				next.classList.add('active');
+				cur.classList.remove('active');
+				activeLayer = 1 - activeLayer;
+			};
+			next.src = srcFor(imgIdx);
+			if (instant) { next.classList.add('active'); cur.classList.remove('active'); }
+			captionText.textContent = labelFor(imgIdx);
+			counter.textContent = (pos + 1) + ' / ' + order.length;
+			updateActiveThumb(imgIdx);
+			restartProgress();
+		}
+
+		function next() { show(pos + 1); }
+		function prev() { show(pos - 1); }
+
+		function restartProgress() {
+			if (progTimer) cancelAnimationFrame(progTimer);
+			if (!playing) { progress.style.width = '0%'; return; }
+			const start = performance.now();
+			function step(now) {
+				const pct = Math.min(100, ((now - start) / interval) * 100);
+				progress.style.width = pct + '%';
+				if (pct < 100) progTimer = requestAnimationFrame(step);
+			}
+			progTimer = requestAnimationFrame(step);
+		}
+
+		function startTimer() {
+			stopTimer();
+			timer = setInterval(next, interval);
+			restartProgress();
+		}
+		function stopTimer() { if (timer) { clearInterval(timer); timer = null; } }
+
+		function setPlaying(state) {
+			playing = state;
+			playPauseBtn.innerHTML = playing
+				? '<i class="fa-solid fa-pause"></i> <span>Pause</span>'
+				: '<i class="fa-solid fa-play"></i> <span>Play</span>';
+			if (playing) startTimer(); else { stopTimer(); progress.style.width = '0%'; }
+		}
+
+		// Thumbnails
+		function buildThumbs() {
+			const frag = document.createDocumentFragment();
+			IMAGES.forEach((src, idx) => {
+				const d = document.createElement('div');
+				d.className = 'thumb';
+				d.dataset.idx = idx;
+				const im = document.createElement('img');
+				im.loading = 'lazy';
+				im.src = encodeURI(src);
+				im.alt = labelFor(idx);
+				d.appendChild(im);
+				d.addEventListener('click', () => {
+					const orderPos = order.indexOf(idx);
+					show(orderPos);
+					if (playing) startTimer();
+				});
+				frag.appendChild(d);
+			});
+			thumbsWrap.appendChild(frag);
+		}
+
+		function updateActiveThumb(imgIdx) {
+			thumbsWrap.querySelectorAll('.thumb.active').forEach(t => t.classList.remove('active'));
+			const el = thumbsWrap.querySelector('.thumb[data-idx="' + imgIdx + '"]');
+			if (el) el.classList.add('active');
+		}
+
+		// Controls
+		playPauseBtn.addEventListener('click', () => setPlaying(!playing));
+		document.getElementById('nextBtn').addEventListener('click', () => { next(); if (playing) startTimer(); });
+		document.getElementById('prevBtn').addEventListener('click', () => { prev(); if (playing) startTimer(); });
+		document.getElementById('nextBtn2').addEventListener('click', () => { next(); if (playing) startTimer(); });
+		document.getElementById('prevBtn2').addEventListener('click', () => { prev(); if (playing) startTimer(); });
+		speedSelect.addEventListener('change', () => { interval = parseInt(speedSelect.value, 10); if (playing) startTimer(); });
+
+		document.getElementById('fsBtn').addEventListener('click', () => {
+			if (!document.fullscreenElement) stage.requestFullscreen && stage.requestFullscreen();
+			else document.exitFullscreen && document.exitFullscreen();
+		});
+
+		document.getElementById('shuffleBtn').addEventListener('click', () => {
+			for (let i = order.length - 1; i > 0; i--) {
+				const j = Math.floor(Math.random() * (i + 1));
+				[order[i], order[j]] = [order[j], order[i]];
+			}
+			show(0);
+			if (playing) startTimer();
+		});
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'ArrowRight') { next(); if (playing) startTimer(); }
+			else if (e.key === 'ArrowLeft') { prev(); if (playing) startTimer(); }
+			else if (e.key === ' ') { e.preventDefault(); setPlaying(!playing); }
+		});
+
+		document.getElementById('year').textContent = new Date().getFullYear();
+
+		// Init
+		buildThumbs();
+		show(0, true);
+		startTimer();
+	</script>
+</body>
+</html>
