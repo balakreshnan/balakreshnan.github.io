@@ -119,6 +119,12 @@
 		.btn-ghost:hover { border-color: var(--c-primary); color: var(--c-primary); text-decoration: none; }
 		.cta-row { display: flex; gap: .75rem; flex-wrap: wrap; }
 
+		/* FLOATING EXPORT BUTTON */
+		.fab-export { position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 200; display: inline-flex; align-items: center; gap: .55rem; padding: .8rem 1.25rem; border: 0; border-radius: 999px; background: var(--gradient-accent); color: #fff; font-weight: 600; font-size: .95rem; cursor: pointer; box-shadow: var(--shadow-lg); transition: transform .2s ease, box-shadow .2s ease; }
+		.fab-export:hover { transform: translateY(-2px); }
+		.fab-export i { font-size: 1.05rem; }
+		@media (max-width: 560px) { .fab-export span { display: none; } .fab-export { padding: .85rem; } }
+
 		/* SECTIONS */
 		section { padding: 4.5rem 0; }
 		section.alt { background: var(--c-bg-alt); }
@@ -224,9 +230,86 @@
 			section { padding: 3rem 0; }
 			.impact-table th, .impact-table td { padding: .65rem .6rem; font-size: .85rem; }
 		}
+
+		/* PRINT-ONLY RESUME HEADER (hidden on screen) */
+		.print-header { display: none; }
+
+		/* PDF / PRINT STYLES — produces a clean, ATS-friendly resume */
+		@media print {
+			@page { size: A4; margin: 14mm 14mm 16mm; }
+
+			html, body { background: #ffffff !important; color: #111 !important; font-size: 10.5pt; line-height: 1.4; }
+			a { color: #111 !important; text-decoration: none !important; }
+
+			/* Hide interactive / decorative chrome */
+			.nav, .menu-toggle, .cta-row, .hero-stats,
+			.growth-legend, footer, .contact-card .cta-row,
+			.fab-export, .page-hero::before, .page-hero::after { display: none !important; }
+
+			/* Strip backgrounds, shadows and gradients for ink-friendly output */
+			*, *::before, *::after {
+				background: transparent !important;
+				box-shadow: none !important;
+				filter: none !important;
+				text-shadow: none !important;
+			}
+
+			.page-hero { padding: 0 !important; }
+			.page-hero h1 .grad { color: #1d4ed8 !important; -webkit-text-fill-color: #1d4ed8 !important; }
+			.container { max-width: 100% !important; padding: 0 !important; }
+			section { padding: 0 0 .55rem !important; }
+
+			/* Print-only resume header */
+			.print-header { display: block !important; border-bottom: 2px solid #1d4ed8; padding-bottom: 8px; margin-bottom: 12px; }
+			.print-header h1 { font-size: 20pt; margin: 0 0 2px; color: #0f172a !important; }
+			.print-header .ph-title { font-size: 11pt; font-weight: 600; color: #1d4ed8 !important; margin: 0 0 4px; }
+			.print-header .ph-contact { font-size: 9pt; color: #334155 !important; }
+			.print-header .ph-contact span { margin-right: 10px; white-space: nowrap; }
+
+			h2.section-title { font-size: 13pt !important; color: #1d4ed8 !important; margin: 8px 0 2px; }
+			.section-subtitle { font-size: 9pt !important; margin: 0 0 6px !important; color: #475569 !important; }
+			.eyebrow, .eyebrow-line { font-size: 8pt !important; color: #64748b !important; }
+
+			/* Cards, timeline & grids — compact, bordered, no fills */
+			.card, .tl-item, .industry, .growth-card, .growth-era {
+				border: 1px solid #cbd5e1 !important;
+				border-radius: 6px !important;
+				padding: 8px 10px !important;
+			}
+			.grid { display: grid !important; gap: 8px !important; }
+			.grid.cols-3 { grid-template-columns: 1fr 1fr 1fr !important; }
+			.grid.cols-2 { grid-template-columns: 1fr 1fr !important; }
+			.industry-grid { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 8px !important; }
+
+			.chip, .tl-tags span { border: 1px solid #cbd5e1 !important; border-radius: 4px !important; padding: 1px 6px !important; font-size: 8pt !important; }
+			.icon-box, .industry i, .brand-mark { display: none !important; }
+
+			.impact-table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+			.impact-table th, .impact-table td { border: 1px solid #cbd5e1 !important; padding: 4px 6px !important; }
+			.impact-table th { background: #eef2ff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+			.metric { font-weight: 700; color: #0f172a !important; }
+
+			/* Keep logical blocks together across page breaks */
+			section, .tl-item, .card, .growth-row, .impact-table tr { break-inside: avoid; page-break-inside: avoid; }
+			h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+
+			/* Enforce color rendering where intentionally kept */
+			* { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+		}
 	</style>
 </head>
 <body>
+
+	<!-- PRINT-ONLY RESUME HEADER (visible only in the exported PDF) -->
+	<div class="print-header">
+		<h1>Balamurugan (Bala) Balakreshnan</h1>
+		<p class="ph-title">Chief AI Officer (ProServ) &amp; Chief Architect</p>
+		<p class="ph-contact">
+			<span><strong>Email:</strong> bala_b@hotmail.com</span>
+			<span><strong>Location:</strong> Oak Creek, WI</span>
+			<span><strong>Web:</strong> balakreshnan.github.io</span>
+		</p>
+	</div>
 
 	<!-- NAV -->
 	<header class="nav">
@@ -259,6 +342,7 @@
 			</p>
 			<div class="cta-row">
 				<a href="#timeline" class="btn btn-primary"><i class="fa-solid fa-timeline"></i> View Timeline</a>
+				<button type="button" class="btn btn-primary" onclick="exportResume()"><i class="fa-solid fa-file-pdf"></i> Export Resume (PDF)</button>
 				<a href="#growth" class="btn btn-ghost"><i class="fa-solid fa-chart-line"></i> Growth &amp; Tech Era</a>
 				<a href="index.html#contact" class="btn btn-ghost"><i class="fa-solid fa-handshake"></i> Work With Me</a>
 				<a href="index.html" class="btn btn-ghost"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
@@ -646,8 +730,20 @@
 		</div>
 	</footer>
 
+	<!-- Floating Export-to-PDF button -->
+	<button type="button" class="fab-export" onclick="exportResume()" aria-label="Export resume as PDF" title="Export resume as PDF">
+		<i class="fa-solid fa-file-pdf"></i><span>Export PDF</span>
+	</button>
+
 	<script>
 		document.getElementById('year').textContent = new Date().getFullYear();
+
+		// Export this page as a PDF via the browser's native print-to-PDF.
+		// The @media print stylesheet reformats the content into a clean resume.
+		function exportResume() {
+			document.getElementById('navLinks')?.classList.remove('open');
+			window.print();
+		}
 	</script>
 </body>
 </html>
