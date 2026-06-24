@@ -1,0 +1,567 @@
+# Medium Articles Insight Report
+
+**Author analyzed:** Balamurugan Balakreshnan (`@balabala76`)  
+**Source location:** <https://balabala76.medium.com/>  
+**Generated:** 2026-06-24  
+
+## Scope and data coverage
+
+- Medium profile metadata reports **345 published posts** for this author ID.
+- Public Medium profile-stream pagination returned **325 posts** before Medium served an anti-bot/CAPTCHA page at the older end of the timeline.
+- The author subdomain sitemap added **3 additional accessible personal-site posts**, producing **328 unique analyzed articles** in this report.
+- Covered publication dates in the analyzed set: **2020-08-15 to 2026-06-20**.
+- The analysis uses Medium metadata available publicly through profile JSON, RSS, and sitemap sources: title, subtitle/preview text, dates, reading time, word count, tags, claps, responses, collection, and URLs. It does not claim full-body semantic analysis for posts hidden behind Medium/Cloudflare gates.
+
+## Executive insights
+
+- Your writing portfolio is large and sustained: **328 analyzed posts across 7 years**, with Medium reporting 345 total posts.
+- The strongest theme is **Machine learning / MLOps** (206 posts), reflecting a clear shift from Azure data/ML implementation toward enterprise agentic AI architecture.
+- The most active year in the retrieved corpus is **2021** with **79 posts**.
+- Publication mix: **70 GoPenAI posts**, **13 personal Medium posts**, and **245 posts in other Medium publications/collections**.
+- Typical article depth is practical and implementation-focused: average reading time is **3.5 minutes**, median **2.8 minutes** across posts with reading-time metadata.
+- Your topic arc moves from hands-on Azure Synapse, Spark, Data Factory, Cognitive Services, and Azure ML into Azure OpenAI, RAG, assistants, Microsoft Foundry, Copilot, Fabric/Databricks, and agent workflows.
+
+## Publishing volume by year
+
+| Year | Articles | Share | Main signal |
+|---:|---:|---:|---|
+| 2020 | 6 | 1.8% | Data engineering & analytics |
+| 2021 | 79 | 24.1% | Machine learning / MLOps |
+| 2022 | 51 | 15.5% | Machine learning / MLOps |
+| 2023 | 51 | 15.5% | Machine learning / MLOps |
+| 2024 | 54 | 16.5% | Azure OpenAI / GenAI patterns |
+| 2025 | 63 | 19.2% | Agentic AI, Foundry & Copilot |
+| 2026 | 24 | 7.3% | Agentic AI, Foundry & Copilot |
+
+## Publishing volume by month - top activity bursts
+
+| Month | Articles |
+|---|---:|
+| 2021-06 | 10 |
+| 2021-05 | 10 |
+| 2021-07 | 9 |
+| 2025-05 | 7 |
+| 2025-01 | 7 |
+| 2021-03 | 7 |
+| 2025-08 | 6 |
+| 2025-07 | 6 |
+| 2025-06 | 6 |
+| 2025-04 | 6 |
+| 2023-09 | 6 |
+| 2021-10 | 6 |
+| 2021-09 | 6 |
+| 2021-08 | 6 |
+| 2021-04 | 6 |
+
+## Theme distribution
+
+| Theme | Articles | Share of analyzed set |
+|---|---:|---:|
+| Machine learning / MLOps | 206 | 62.8% |
+| Azure OpenAI / GenAI patterns | 131 | 39.9% |
+| Data engineering & analytics | 83 | 25.3% |
+| Computer vision / documents / forms | 74 | 22.6% |
+| Agentic AI, Foundry & Copilot | 67 | 20.4% |
+| Responsible AI, security & governance | 29 | 8.8% |
+| Industry solutions & scenarios | 21 | 6.4% |
+| Other / general | 7 | 2.1% |
+
+## Publication mix
+
+| Publication grouping | Articles | Share |
+|---|---:|---:|
+| Other Medium publication | 245 | 74.7% |
+| GoPenAI | 70 | 21.3% |
+| Personal Medium | 13 | 4.0% |
+
+## Top Medium tags
+
+| Tag | Articles |
+|---|---:|
+| Azure Machine Learning | 94 |
+| Azure Ai | 74 |
+| OpenAI | 69 |
+| Ml So Good | 69 |
+| Machine Learning | 64 |
+| Azureopenai | 40 |
+| LLM | 36 |
+| Agentic Ai | 32 |
+| Genai | 30 |
+| Aml | 27 |
+| AI Agent | 25 |
+| Azure Synapse Analytics | 23 |
+| Large Language Models | 21 |
+| Azureaifoundry | 15 |
+| Azure Databricks | 14 |
+| Azuremachine Learning | 14 |
+| Azure Cognitive Service | 13 |
+| Llmops | 12 |
+| Fine Tuning | 10 |
+| Responsible Ai | 10 |
+| Azure Data Factory | 10 |
+| Azure Ml | 10 |
+| Mlops | 10 |
+| Microsoft Foundry | 9 |
+| Deep Learning | 9 |
+| Custom Vision | 8 |
+| Autogen | 8 |
+| Spark | 8 |
+| Manufacturing | 7 |
+| Finetune Llm | 7 |
+
+## Year-by-year narrative
+
+### 2020
+
+- **Volume:** 6 articles.
+- **Dominant themes:** Data engineering & analytics (5), Machine learning / MLOps (3), Computer vision / documents / forms (2).
+- **Representative articles:** Azure Synapse Analytics End to End Machine learning - Model Development; Self Service BI - Data Security; Azure Synapse SQL Server less Create facts and dimensions; Hive QL to Azure Data Factory Data Flow; Spark Scala Process Base 64 Message Processing.
+
+### 2021
+
+- **Volume:** 79 articles.
+- **Dominant themes:** Machine learning / MLOps (53), Data engineering & analytics (46), Computer vision / documents / forms (19).
+- **Representative articles:** How to implement Responsible AI features using raiwidgets; TPC-H SF10000 test with Azure Synapse workspace Spark using Spark SQL; Classification Model Tensorflow 2.4 with Azure Machine learning; Azure Machine learning Deep reinforcement learning; Azure Synapse Analytics - End to End for Automated ML using Azure Machine learning.
+
+### 2022
+
+- **Volume:** 51 articles.
+- **Dominant themes:** Machine learning / MLOps (40), Data engineering & analytics (16), Computer vision / documents / forms (15).
+- **Representative articles:** Azure Machine Learning SDK v2 using AutoML - Titanic dataset; Chat GPT and Azure OpenAI Use Cases by Model Technology; SecOps Analytics platform Architecture using Azure Data Explorer (Part of Azure Synapse Analytics); Azure Machine learning managed spark - Preview; Data Science and ML Ops process.
+
+### 2023
+
+- **Volume:** 51 articles.
+- **Dominant themes:** Machine learning / MLOps (39), Azure OpenAI / GenAI patterns (39), Computer vision / documents / forms (10).
+- **Representative articles:** Azure Open AI SDK Version 1 and above - Using GPT 3.5 or , 4 Turbo models; Azure Open AI and vector search with FAISS; Azure Machine learning Fine tuning llama2 (7b,13b,70b)- Text Generation; Yolov8 in Azure Machine learning; Responsible AI with Image using Azure Machine Learning.
+
+### 2024
+
+- **Volume:** 54 articles.
+- **Dominant themes:** Azure OpenAI / GenAI patterns (42), Machine learning / MLOps (35), Computer vision / documents / forms (12).
+- **Representative articles:** Realtime deployment of Mixtral8x7b in Azure AI Studio Model Catalog; LLM Application RAG Architecture (RAG - Retrieval Augmented Generation); PHI 3.5 fine tuning locally from Hugging Face (Simulated in Azure Machine learning); Generation AI using Azure Open AI Secured Deployment Architecture; Azure Open AI Assistant API - Python.
+
+### 2025
+
+- **Volume:** 63 articles.
+- **Dominant themes:** Agentic AI, Foundry & Copilot (40), Azure OpenAI / GenAI patterns (32), Machine learning / MLOps (26).
+- **Representative articles:** New Azure AI Foundry Resource - Evaluation, Red Team, Agent Evaluation; Azure Open AI o3 models in Azure AI Foundry; Microsoft Agent Framework - Supply Chain Multi-Agent Example with Azure AI Foundry integration for…; Azure AI Foundry Agent SDK approach - RAG with Azure AI Search; Agentic AI Technical Architecture end to end with Microsoft Foundry as Lifecycle Management.
+
+### 2026
+
+- **Volume:** 24 articles.
+- **Dominant themes:** Agentic AI, Foundry & Copilot (17), Machine learning / MLOps (10), Azure OpenAI / GenAI patterns (7).
+- **Representative articles:** Building an AI Center of Excellence (CoE): A Strategic Framework for Enterprise Transformation; Agentic AI Enterprise Data Architecture - Microsoft Fabric IQ + Ontology + Microsoft Foundry; Microsoft Foundry Architecture - Agentic AI Applications; Kimi 2.5 model in Microsoft Foundry - Using Python Code Run agents in parallel.; Microsoft Foundry - Building Microsoft IQ using Work IQ, Fabric IQ, Foundry IQ.
+
+## Content evolution
+
+| Period | What changed | Evidence from titles and tags |
+|---|---|---|
+| 2020-2021 | Foundation in Azure data platforms, Synapse, Spark, Data Factory, Cognitive Services, and applied ML. | Frequent titles around Synapse SQL, Spark, Data Factory, Cognitive Services, BI, ML pipelines, and regional data movement. |
+| 2022 | Expansion into Azure ML, MLflow, SynapseML, and first strong ChatGPT/Azure OpenAI use-case framing. | Posts on SynapseML, automated ML with MLflow, ChatGPT, Azure OpenAI, model technology, and data platform integration. |
+| 2023 | Generative AI becomes central; RAG, embeddings, survey/form extraction, assistants, and practical Azure OpenAI patterns increase. | Titles mention Azure OpenAI, embeddings, RAG, surveys, forms, document extraction, and application patterns. |
+| 2024 | Shift from GenAI experiments to productized assistants, fine-tuning decisions, Autogen, code interpreter/functions, and agent design. | Posts include assistant/function calling, RAG vs fine-tuning decision trees, Phi-2 fine-tuning, and software product design with Autogen. |
+| 2025-2026 | Enterprise agentic AI era: Microsoft Foundry, Copilot, Fabric/Databricks agents, Work IQ/Fabric IQ/Foundry IQ, model routing, task planning, and governance/security. | Repeated Foundry, Copilot, agentic AI, Databricks Genie, Fabric data agents, Model Router, OpenAI profiler/PII, and fine-tuning for agent planning. |
+
+## Engagement and depth signals
+
+- **Average reading time:** 3.5 minutes across 325 posts with reading-time metadata.
+- **Median reading time:** 2.8 minutes.
+- **Average word count:** 761 words across 325 posts with word-count metadata.
+- **Total claps in retrieved metadata:** 1579. Clap totals may be incomplete or current as of retrieval time.
+
+### Highest-clap articles in retrieved metadata
+
+| Date | Claps | Title |
+|---|---:|---|
+| 2023-12-09 | 67 | [Azure Open AI SDK Version 1 and above - Using GPT 3.5 or , 4 Turbo models](https://balabala76.medium.com/azure-open-ai-sdk-version-1-and-above-using-gpt-3-5-or-4-turbo-models-9771dba1280e) |
+| 2021-08-30 | 62 | [How to implement Responsible AI features using raiwidgets](https://balabala76.medium.com/how-to-implement-responsible-ai-features-using-raiwidgets-9e7a5600ca5e) |
+| 2022-08-06 | 54 | [Azure Machine Learning SDK v2 using AutoML - Titanic dataset](https://balabala76.medium.com/azure-machine-learning-sdk-v2-using-automl-titanic-dataset-2cbff7fc37f) |
+| 2026-05-23 | 52 | [Building an AI Center of Excellence (CoE): A Strategic Framework for Enterprise Transformation](https://balabala76.medium.com/building-an-ai-center-of-excellence-coe-a-strategic-framework-for-enterprise-transformation-e5e0aac3d4e0) |
+| 2023-04-22 | 52 | [Azure Open AI and vector search with FAISS](https://balabala76.medium.com/azure-open-ai-and-vector-search-with-faiss-b29e933d9d42) |
+| 2023-10-14 | 51 | [Azure Machine learning Fine tuning llama2 (7b,13b,70b)- Text Generation](https://balabala76.medium.com/azure-machine-learning-fine-tuning-llama2-7b-13b-70b-text-generation-a34478063831) |
+| 2021-05-02 | 51 | [TPC-H SF10000 test with Azure Synapse workspace Spark using Spark SQL](https://balabala76.medium.com/tpc-h-sf10000-test-with-azure-synapse-workspace-spark-using-spark-sql-8364051eae71) |
+| 2025-06-14 | 50 | [New Azure AI Foundry Resource - Evaluation, Red Team, Agent Evaluation](https://balabala76.medium.com/new-azure-ai-foundry-resource-evaluation-red-team-agent-evaluation-2487a288df9a) |
+| 2022-12-24 | 50 | [Chat GPT and Azure OpenAI Use Cases by Model Technology](https://balabala76.medium.com/chat-gpt-and-azure-openai-use-cases-by-model-technology-6bb65c6fc31b) |
+| 2023-01-14 | 42 | [Yolov8 in Azure Machine learning](https://balabala76.medium.com/yolov8-in-azure-machine-learning-3ee6317c40e2) |
+| 2021-02-15 | 41 | [Classification Model Tensorflow 2.4 with Azure Machine learning](https://balabala76.medium.com/classification-model-tensorflow-2-4-with-azure-machine-learning-6ecb2f5f9fdf) |
+| 2021-12-25 | 31 | [Azure Machine learning Deep reinforcement learning](https://balabala76.medium.com/azure-machine-learning-deep-reinforcement-learning-91fc3e1cd3e1) |
+| 2023-12-30 | 30 | [Responsible AI with Image using Azure Machine Learning](https://balabala76.medium.com/responsible-ai-with-image-using-azure-machine-learning-f6691473542d) |
+| 2023-02-11 | 25 | [Azure Machine learning - Ray parallel processing](https://balabala76.medium.com/azure-machine-learning-ray-parallel-processing-e430da535dee) |
+| 2023-05-27 | 23 | [Azure Open AI Summarize large 70+ page pdf](https://balabala76.medium.com/azure-open-ai-summarize-large-70-page-pdf-e4c8cc0d374f) |
+
+### Longest articles by reading time
+
+| Date | Read min | Words | Title |
+|---|---:|---:|---|
+| 2025-05-01 | 33.4 | 8811 | [PHI 4 reasoning model with Azure Machine Learning](https://balabala76.medium.com/phi-4-reasoning-model-with-azure-machine-learning-3fefebf34827) |
+| 2025-05-31 | 22.8 | 5768 | [Autogen 0.4 - Technology Ideation Agents - multi agent system for Solutions Generation](https://balabala76.medium.com/autogen-0-4-technology-ideation-agents-multi-agent-system-for-solutions-generation-4d7ae194dbfb) |
+| 2026-04-25 | 16.5 | 4149 | [Concept to build a Student IQ - Agent Framework Workflow + Microsoft Foundry Agents](https://balabala76.medium.com/concept-to-build-a-student-iq-agent-framework-workflow-microsoft-foundry-agents-8214322f9ba9) |
+| 2025-11-01 | 15.5 | 4065 | [Microsoft Agent Framework - Supply Chain Multi-Agent Example with Azure AI Foundry integration for…](https://balabala76.medium.com/microsoft-agent-framework-supply-chain-multi-agent-example-with-azure-ai-foundry-integration-for-0446bb796118) |
+| 2026-05-02 | 15.5 | 3836 | [Concept to build a Manufacturing Plant IQ - Agent Framework Workflow + Microsoft Foundry Agents](https://balabala76.medium.com/concept-to-build-a-manufacturing-plant-iq-agent-framework-workflow-microsoft-foundry-agents-0c4e102a57f1) |
+| 2021-04-01 | 15.3 | 3492 | [Analytics Operation Center (AoC) - Azure Modern Data Platform Data Ops](https://balabala76.medium.com/analytics-operation-center-aoc-azure-modern-data-platform-data-ops-8441a8837819) |
+| 2025-09-06 | 13.2 | 3189 | [Azure Data Factory Operations using Azure AI Foundry Agents (ADF Ops)](https://balabala76.medium.com/azure-data-factory-operations-using-azure-ai-foundry-agents-adf-ops-791c5b90f7ce) |
+| 2025-09-13 | 12.4 | 3150 | [Azure AI Foundry Agents using MCP and mulitple function tools](https://balabala76.medium.com/azure-ai-foundry-agents-using-mcp-and-mulitple-function-tools-515337f4e228) |
+| 2024-08-17 | 12.2 | 2864 | [PHI 3 fine tuning locally from Hugging Face (Simulated in Azure Machine learning)](https://balabala76.medium.com/phi-3-fine-tuning-locally-from-hugging-face-simulated-in-azure-machine-learning-089efa491357) |
+| 2024-08-24 | 12.0 | 2867 | [PHI 3.5 fine tuning locally from Hugging Face (Simulated in Azure Machine learning)](https://balabala76.medium.com/phi-3-5-fine-tuning-locally-from-hugging-face-simulated-in-azure-machine-learning-9547764f22b0) |
+| 2021-06-23 | 11.3 | 2891 | [Azure Synapse Workspace End to End Machine Learning](https://balabala76.medium.com/azure-synapse-workspace-end-to-end-machine-learning-1b52d9492e4e) |
+| 2025-08-16 | 10.0 | 2429 | [Azure AI Foundry Agent - Azure AI Search Tool using Vector Semantic Hybrid Search](https://balabala76.medium.com/azure-ai-foundry-agent-azure-ai-search-tool-using-vector-semantic-hybrid-search-f357cee84e94) |
+| 2025-06-14 | 9.3 | 2131 | [New Azure AI Foundry Resource - Evaluation, Red Team, Agent Evaluation](https://balabala76.medium.com/new-azure-ai-foundry-resource-evaluation-red-team-agent-evaluation-2487a288df9a) |
+| 2023-04-01 | 9.1 | 2412 | [Responsible AI in Predictive Maintenance - Using NASA Turbofan Engine Degradation Dataset - Using…](https://balabala76.medium.com/responsible-ai-in-predictive-maintenance-using-nasa-turbofan-engine-degradation-dataset-using-e386b49355e5) |
+| 2025-01-30 | 9.1 | 2214 | [Deep Seek R1 Model Catalog - Deploy in Azure AI Foundry](https://balabala76.medium.com/deep-seek-r1-model-catalog-deploy-in-azure-ai-foundry-25061b33388c) |
+
+## Strategic positioning insights
+
+1. **Clear practitioner authority:** The corpus is dominated by applied builds rather than opinion-only content. Titles repeatedly signal tutorials, proof-of-concepts, architectures, pipelines, and implementation workflows.
+2. **Microsoft ecosystem specialization:** Azure, Azure OpenAI, Azure ML, Synapse, Fabric, Databricks, Copilot, and Foundry are consistent anchors. This creates a recognizable enterprise AI implementation niche.
+3. **Strong transition into agentic AI:** Recent posts increasingly connect agents with business workflows, data agents, model routing, Work IQ/Fabric IQ/Foundry IQ, and task planning. This is the strongest current narrative thread.
+4. **Cross-stack credibility:** The older data engineering and ML posts make the newer agentic AI posts more credible because they connect agents to the data, analytics, governance, and platform layers enterprises actually use.
+5. **Opportunity to package series:** Several themes are series-ready: Microsoft Foundry Agents, Azure OpenAI patterns, Fabric/Databricks data agents, RAG vs fine-tuning, AI governance/security, and industry-specific AI blueprints.
+
+## Recommended editorial moves
+
+| Recommendation | Why it fits your history | Suggested execution |
+|---|---|---|
+| Create a pinned roadmap post | 345-post profile metadata is a strong credibility asset, but readers need navigation. | Publish “Start here: Enterprise AI, Azure OpenAI, and Agentic AI learning path” linking your best series. |
+| Consolidate Foundry/agent posts into a series | This is your strongest 2025-2026 signal. | Use a consistent title prefix, e.g., “Microsoft Foundry Agent Patterns #1”. |
+| Add architecture diagrams and decision matrices | Your audience likely includes enterprise architects and decision-makers. | Include RAG vs fine-tuning, model router, data-agent, and governance decision trees. |
+| Revisit high-performing older Azure data/ML posts | Older platform content supports current agentic AI narratives. | Update posts with “2026 version” articles connecting Synapse/Fabric/Databricks to agents. |
+| Improve title consistency | Many titles are descriptive but can be tightened for discoverability. | Use pattern: platform + problem + outcome, e.g., “Azure Databricks Genie to Microsoft Foundry Agent: Enterprise Data Agent Pattern”. |
+
+## Complete analyzed article inventory
+
+| # | Date | Publication | Read min | Claps | Tags | Title |
+|---:|---|---|---:|---:|---|---|
+| 1 | 2026-06-20 | GoPenAI | 7.6 | 0 | Planning, Agentic Ai, AI Agent, Fine Tuning | [How to fine tune a model for Agentic AI task planning](https://balabala76.medium.com/how-to-fine-tune-a-model-for-agentic-ai-task-planning-9c78b3339144) |
+| 2 | 2026-06-13 | GoPenAI | 2.4 | 0 | OpenAI, Pii, Security, Personal Information, Aml | [OpenAI Profiler inference in Azure Machine learning compute instance](https://balabala76.medium.com/openai-profiler-inference-in-azure-machine-learning-compute-instance-805975da6775) |
+| 3 | 2026-06-06 | GoPenAI | 5.3 | 0 | Databricks, Azure Databricks, Microsoft Foundry, Analytics, Business Insight | [Azure Databricks Genie -> Microsoft Foundry Agent](https://balabala76.medium.com/azure-databricks-genie-microsoft-foundry-agent-b98d4308ee97) |
+| 4 | 2026-05-30 | GoPenAI | 4.0 | 0 | Ontology, Microsoft Fabric, Data Agents, Structured Data Ai, Azure Data Lake | [Creating Microsoft Fabric Data agents using Databricks Unity Catalog](https://balabala76.medium.com/creating-microsoft-fabric-data-agents-using-databricks-unity-catalog-3119a22ca7e5) |
+| 5 | 2026-05-23 | GoPenAI | 4.0 | 52 | Coe, Center Of Excellence, Chief Ai Officer, Ai Strategy, Ai Leadership | [Building an AI Center of Excellence (CoE): A Strategic Framework for Enterprise Transformation](https://balabala76.medium.com/building-an-ai-center-of-excellence-coe-a-strategic-framework-for-enterprise-transformation-e5e0aac3d4e0) |
+| 6 | 2026-05-09 | GoPenAI | 2.5 | 0 | Modelrouter, OpenAI, Microsoft, Microsoft Foundry, Cost Optimization | [Microsoft Foundry Agent using Model Router](https://balabala76.medium.com/microsoft-foundry-agent-using-model-router-d826c1392eaf) |
+| 7 | 2026-05-02 | GoPenAI | 15.5 | 0 | Manufacturing, AI Agent, Agentic Ai, Microsoft, Microsoft Foundry | [Concept to build a Manufacturing Plant IQ - Agent Framework Workflow + Microsoft Foundry Agents](https://balabala76.medium.com/concept-to-build-a-manufacturing-plant-iq-agent-framework-workflow-microsoft-foundry-agents-0c4e102a57f1) |
+| 8 | 2026-04-25 | GoPenAI | 16.5 | 0 | Microsoft Foundry, Agentic Ai, AI Agent, Microsoft Agent Framework, OpenAI | [Concept to build a Student IQ - Agent Framework Workflow + Microsoft Foundry Agents](https://balabala76.medium.com/concept-to-build-a-student-iq-agent-framework-workflow-microsoft-foundry-agents-8214322f9ba9) |
+| 9 | 2026-04-18 | GoPenAI | 2.6 | 2 | Microsoftiq, Agentic Ai, AI Agent, Microsoft Foundry, Workiq | [Microsoft Foundry - Building Microsoft IQ using Work IQ, Fabric IQ, Foundry IQ](https://balabala76.medium.com/microsoft-foundry-building-microsoft-iq-using-work-iq-fabric-iq-foundry-iq-a14e14051baa) |
+| 10 | 2026-04-11 | GoPenAI | 6.2 | 0 | Generative Ai Tools, Genai, Agentic Ai, Agentic Rag, Microsoft Foundry | [Microsoft m365 Copilot UI + Mircosoft Foundry Agents + Foundry IQ](https://balabala76.medium.com/microsoft-m365-copilot-ui-mircosoft-foundry-agents-foundry-iq-251e99cefb1d) |
+| 11 | 2026-04-04 | GoPenAI | 4.1 | 1 | Physical Ai, Robotics, Large Vision Models, Large Language Models, Nvidia | [Physical AI Cosmos Reason2 2B World Model inference in Azure Machine Learning](https://balabala76.medium.com/physical-ai-cosmos-reason2-2b-world-model-inference-in-azure-machine-learning-cec3c6fe7498) |
+| 12 | 2026-03-28 | GoPenAI | 3.3 | 0 | Agentic Ai, AI Agent, Ai Agents In Action, Retail, Retail Ai | [Category Manager Work Assistant](https://balabala76.medium.com/category-manager-work-assistant-c87362525c7e) |
+| 13 | 2026-03-21 | GoPenAI | 3.4 | 1 | Fine Tuning, OpenAI, Azureopenai, Supervised Fine Tuning, Smarter Ai | [Fine tune Gpt model with custom data in Foundry and Build a agent on top of it](https://balabala76.medium.com/fine-tune-gpt-model-with-custom-data-in-foundry-and-build-a-agent-on-top-of-it-99bebf7a0dc1) |
+| 14 | 2026-03-14 | GoPenAI | 8.7 | 0 | Microsoft Foundry, AI Agent, Agentic Ai, Agentic Ai Solution, Smart Home | [Samsung SmartThings Agentic AI Applications - Smart Home Agents - Microsoft Foundry](https://balabala76.medium.com/samsung-smartthings-agentic-ai-applications-smart-home-agents-microsoft-foundry-99c7626e0516) |
+| 15 | 2026-03-07 | GoPenAI | 6.0 | 0 | Ci Cd Pipeline, Agentic Ai, AI Agent, Eval, Responsible Ai | [Microsoft Foundry with Agent Framework - Single Environment CI/CD with Batch Eval Execution](https://balabala76.medium.com/microsoft-foundry-with-agent-framework-single-environment-ci-cd-with-batch-eval-execution-2047c2a5725c) |
+| 16 | 2026-02-28 | GoPenAI | 2.3 | 0 | Computer Vision, Custom Vision, Image Segmentation, Aml, Azure Machine Learning | [Yolov26 Segmentation in Azure Machine Learning Compute Instance](https://balabala76.medium.com/yolov26-segmentation-in-azure-machine-learning-compute-instance-4ba6c88ae323) |
+| 17 | 2026-02-18 | GoPenAI | 6.4 | 10 | Agentic Ai, AI Agent, Microsoft Fabric, Ontology, Fabric Iq | [Agentic AI Enterprise Data Architecture - Microsoft Fabric IQ + Ontology + Microsoft Foundry](https://balabala76.medium.com/agentic-ai-enterprise-data-architecture-microsoft-fabric-iq-ontology-microsoft-foundry-d456a64ccf7f) |
+| 18 | 2026-02-14 | GoPenAI | 7.0 | 0 | Aml, Azure Machine Learning, Meta, Computer Vision | [Deploy Meta Sam 3 in Azure Machine Learning Managed Online Endpoint](https://balabala76.medium.com/deploy-meta-sam-3-in-azure-machine-learning-managed-online-endpoint-0e50ab9128c4) |
+| 19 | 2026-02-05 | GoPenAI | 2.5 | 4 | Kimi, Foundry, Agentic Ai, AI Agent, Microsoft Foundry | [Kimi 2.5 model in Microsoft Foundry - Using Python Code Run agents in parallel.](https://balabala76.medium.com/kimi-2-5-model-in-microsoft-foundry-using-python-code-run-agents-in-parallel-8fe5ed68f3b0) |
+| 20 | 2026-01-31 | GoPenAI | 3.0 | 0 | Computer Vison, Segmentation, Image Segmentation, Meta, Vision Ai | [Inferencing SAM3 Model in a Notebook using Azure Machine Learning](https://balabala76.medium.com/inferencing-sam3-model-in-a-notebook-using-azure-machine-learning-75d5c06cba1d) |
+| 21 | 2026-01-24 | GoPenAI | 3.1 | 0 | Fine Tuning, Training, Rlhf, Gpt, OpenAI | [Azure Open AI GPT 4.1 Nano Fine Tuning - GUI](https://balabala76.medium.com/azure-open-ai-gpt-4-1-nano-fine-tuning-gui-fa05099612bc) |
+| 22 | 2026-01-17 | GoPenAI | 2.1 | 6 | Agentic Ai, AI Agent, Agentic Ai Architecture, Ai Applications | [Microsoft Foundry Architecture - Agentic AI Applications](https://balabala76.medium.com/microsoft-foundry-architecture-agentic-ai-applications-bb66511c2496) |
+| 23 | 2026-01-10 | GoPenAI | 3.0 | 0 | Sora 2, Text To Video Ai, Social Media, Multimodal Ai | [Microsoft Foundry Sora 2 - Text to Video Generation and Download Video](https://balabala76.medium.com/microsoft-foundry-sora-2-text-to-video-generation-and-download-video-dbe31570ab35) |
+| 24 | 2026-01-03 | GoPenAI | 1.2 | 2 | Context Engineering, Foundryiq, Agentic Ai, AI Agent, Microsoft Foundry | [Microsoft Foundry Architecture with Automatic Knowledge Ingestion](https://balabala76.medium.com/microsoft-foundry-architecture-with-automatic-knowledge-ingestion-51a55f5212a5) |
+| 25 | 2025-12-20 | GoPenAI | 6.3 | 0 | Computer Vision, Yolo, Aml, Azuremachine Learning, Vision Ai | [Deploy Yolo 11n in Azure Machine Learning Compute Instance Local to debug and test](https://balabala76.medium.com/deploy-yolo-11n-in-azure-machine-learning-compute-instance-local-to-debug-and-test-9f62a0fcc405) |
+| 26 | 2025-12-13 | GoPenAI | 4.3 | 0 | Yolo, Computer Vision, Vision Ai, Vision, Machine Learning | [Deploy Yolo 11n in Azure Machine Learning Managed Online Endpoint](https://balabala76.medium.com/deploy-yolo-11n-in-azure-machine-learning-managed-online-endpoint-717d759558a0) |
+| 27 | 2025-12-06 | Other Medium publication | 1.9 | 4 | Agentic Ai, AI Agent, Governance, Ai Governance | [AI Agents Governance for Enterprise - Microsoft Agents 365](https://balabala76.medium.com/ai-agents-governance-for-enterprise-microsoft-agents-365-92acf5966725) |
+| 28 | 2025-11-29 | GoPenAI | 1.9 | 6 | Agentic Ai, AI Agent, Ai Agents In Action, Agentops, Ci Cd Pipeline | [Agentic AI Technical Architecture end to end with Microsoft Foundry as Lifecycle Management](https://balabala76.medium.com/agentic-ai-technical-architecture-end-to-end-with-microsoft-foundry-as-lifecycle-management-b95c0031fc9e) |
+| 29 | 2025-11-22 | GoPenAI | 6.5 | 4 | AI Agent, Agentic Ai, Agentops, Microsoftfoundry, LLM | [Microsoft Foundry Agent Ops - AgentOps](https://balabala76.medium.com/microsoft-foundry-agent-ops-agentops-9bb9304d2a0c) |
+| 30 | 2025-11-15 | GoPenAI | 4.6 | 0 | Agenteval, Evaluation, Ai Security, Agentic Ai, AI Agent | [Microsoft Agent Framework Evaluation using Azure AI Foundry Services - Realtime Example](https://balabala76.medium.com/microsoft-agent-framework-evaluation-using-azure-ai-foundry-services-realtime-example-48b60738b7b0) |
+| 31 | 2025-11-08 | GoPenAI | 5.6 | 1 | AI Agent, Agentic Ai, Microsoft Agent Framework, Azureaifoundry, OpenAI | [Semiconductor Manufacturing - Root Cause Analysis - Multi Agent using Agent Framework (Azure AI…](https://balabala76.medium.com/semiconductor-manufacturing-root-cause-analysis-multi-agent-using-agent-framework-azure-ai-205e01cae7d8) |
+| 32 | 2025-11-01 | GoPenAI | 15.5 | 11 | Agentic Ai, Supply Chain, OpenAI, Azureaifoundry | [Microsoft Agent Framework - Supply Chain Multi-Agent Example with Azure AI Foundry integration for…](https://balabala76.medium.com/microsoft-agent-framework-supply-chain-multi-agent-example-with-azure-ai-foundry-integration-for-0446bb796118) |
+| 33 | 2025-10-25 | GoPenAI | 2.8 | 0 | Ai First, Digital Labor, Digital Team, Agentic Ai, Professional Services | [The AI First Digital Employee Team: Transforming Pre-Sales Engagement (Humans and AI)](https://balabala76.medium.com/the-ai-first-digital-employee-team-transforming-pre-sales-engagement-humans-and-ai-4d013c0833b8) |
+| 34 | 2025-10-18 | GoPenAI | 2.4 | 0 | Microsoft Agent Framework, Agentic Ai, AI Agent, Genai | [Microsoft Agent Framework - Sending local Image file](https://balabala76.medium.com/microsoft-agent-framework-sending-local-image-file-bc6bc0f2dec8) |
+| 35 | 2025-10-11 | GoPenAI | 1.6 | 0 | Agentic Ai, Security, Ai Security, AI Agent | [Agentic AI Agent Role or User based access control](https://balabala76.medium.com/agentic-ai-agent-role-or-user-based-access-control-9910b67c6400) |
+| 36 | 2025-10-04 | GoPenAI | 4.2 | 0 | Grok, Grok 4, Azureaifoundry, Azure Ai, LLM | [Grok 4 Fast Reasoning in Azure AI Foundry](https://balabala76.medium.com/grok-4-fast-reasoning-in-azure-ai-foundry-d4e4b1ed0f66) |
+| 37 | 2025-09-27 | GoPenAI | 7.9 | 0 | Voice Assistant, Gpt Realtime, OpenAI, Azureaifoundry, AI Agent | [Build a Voice enabled UI for Azure AI Foundry Agent using GPT Realtime Models](https://balabala76.medium.com/build-a-voice-enabled-ui-for-azure-ai-foundry-agent-using-gpt-realtime-models-54dd3d69ce44) |
+| 38 | 2025-09-20 | GoPenAI | 1.4 | 6 | Voice Assistant, Voice Ai, Ai Assistant, Gpt Realtime, OpenAI | [Azure AI Foundry - GPT-Realtime streaming - python code](https://balabala76.medium.com/azure-ai-foundry-gpt-realtime-streaming-python-code-d90c2d8b2c5d) |
+| 39 | 2025-09-15 | GoPenAI | 2.0 | 0 | Gpt Realtime, OpenAI, Voice Assistant, Ai Voice Agent | [Azure AI Foundry - GPT-Realtime - python code](https://balabala76.medium.com/azure-ai-foundry-gpt-realtime-python-code-d51b1d59e6f3) |
+| 40 | 2025-09-13 | GoPenAI | 12.4 | 0 | Mcp Protocol, AI Agent, Agentic Ai, Azureaifoundry | [Azure AI Foundry Agents using MCP and mulitple function tools](https://balabala76.medium.com/azure-ai-foundry-agents-using-mcp-and-mulitple-function-tools-515337f4e228) |
+| 41 | 2025-09-06 | GoPenAI | 13.2 | 1 | Azureaifoundry, Agentic Ai, AI Agent, Azure Data Factory, Azure Ai | [Azure Data Factory Operations using Azure AI Foundry Agents (ADF Ops)](https://balabala76.medium.com/azure-data-factory-operations-using-azure-ai-foundry-agents-adf-ops-791c5b90f7ce) |
+| 42 | 2025-08-30 | GoPenAI | 3.7 | 2 | Qwen, Finetune Llm, Fine Tuning, Azure Machine Learning, Aml | [Fine Tuning qwen 2.5 1.5B Model with Azure Machine Learning - Open Source - with Help Steer Dataset](https://balabala76.medium.com/fine-tuning-qwen-2-5-1-5b-model-with-azure-machine-learning-open-source-with-help-steer-dataset-a598d3178927) |
+| 43 | 2025-08-23 | GoPenAI | 3.2 | 0 | Gpt 4 1, Finetune Llm, Fine Tuning, Azureaifoundry, OpenAI | [Fine tuning Azure OpenAI models with help steer using gpt-4.1-nano - Azure AI Foundry](https://balabala76.medium.com/fine-tuning-azure-openai-models-with-help-steer-using-gpt-4-1-nano-azure-ai-foundry-61cacbd070cb) |
+| 44 | 2025-08-16 | GoPenAI | 10.0 | 1 | Rags, Azureaifoundry, AI Agent, Agentic Ai, Ai Search | [Azure AI Foundry Agent - Azure AI Search Tool using Vector Semantic Hybrid Search](https://balabala76.medium.com/azure-ai-foundry-agent-azure-ai-search-tool-using-vector-semantic-hybrid-search-f357cee84e94) |
+| 45 | 2025-08-05 | GoPenAI | 2.5 | 0 | OpenAI, Open Source, Oss20b, Llm Finetuning, Aml | [OpenAI open source 20B Model Fine Tuning on Azure ML](https://balabala76.medium.com/openai-20b-model-fine-tuning-on-azure-ml-ac8b83e4bc16) |
+| 46 | 2025-08-05 | GoPenAI | 1.5 | 0 | OpenAI, Opensource Ai, Open Source, LLM, Large Language Models | [Inferencing Open AI open source 20B model on Azure ML](https://balabala76.medium.com/inferencing-open-ai-open-source-20b-model-on-azure-ml-634f2de21cb4) |
+| 47 | 2025-08-02 | Other Medium publication | 3.2 | 0 | Llama 3, Azuremachine Learning, Aml, Fine Tuning | [Fine Tuning llama 3.2 1B Model with Azure Machine Learning - Open Source - with Help Steer Dataset](https://balabala76.medium.com/fine-tuning-llama-3-2-1b-model-with-azure-machine-learning-open-source-with-help-steer-dataset-766885dc3dd6) |
+| 48 | 2025-07-26 | GoPenAI | 1.8 | 3 | Computer Use, Computer Use Agent, Computer Use Preview, Rpa Tools, Intelligent Automation | [Computer use preview model to run local applications - Azure AI Foundry](https://balabala76.medium.com/computer-use-preview-model-to-run-local-applications-azure-ai-foundry-1f033ddcc0ef) |
+| 49 | 2025-07-19 | GoPenAI | 2.0 | 3 | Computer Use, Cua, Intelligent Automation, Rpa Tools, OpenAI | [Computer Use Agent (CUA) Browser using OpenAI SDK](https://balabala76.medium.com/computer-use-agent-cua-browser-using-openai-sdk-ff079409dfa6) |
+| 50 | 2025-07-12 | Other Medium publication | 3.0 | 1 | Autogen, Autogen Studio, Gpt, Arxiv, Azure Ai | [Arxiv - Summarize arxiv papers from the last 7 days and Email - Autogen Studio](https://balabala76.medium.com/arxiv-summarize-arxiv-papers-from-the-last-7-days-and-email-autogen-studio-63e91dc651e8) |
+| 51 | 2025-07-10 | GoPenAI | 5.1 | 0 | Mcp Server, Mcp Client, Azureaifoundry, Agentic Ai, Agents | [Enabling Azure AI Agent as MCP using Azure Functions and using open ai responses remote mcp to…](https://balabala76.medium.com/enabling-azure-ai-agent-as-mcp-using-azure-functions-and-using-open-ai-responses-remote-mcp-to-65ec2f8b9fb1) |
+| 52 | 2025-07-05 | GoPenAI | 3.6 | 0 | Codices, Codex Mini, Genai, Code Generation, Code Migration | [Using Codex Mini to do code migration - using python OpenAI SD.](https://balabala76.medium.com/using-codex-mini-to-do-code-migration-using-python-openai-sd-0b9f99d3193e) |
+| 53 | 2025-07-01 | GoPenAI | 4.8 | 1 | Voice Assistant, Audio, Genai, Mcps, Azure Ai | [Voice Enabled Apps with Azure OpenAI for Microsoft Learn Content](https://balabala76.medium.com/voice-enabled-apps-with-azure-openai-for-microsoft-learn-content-f5ecb51a2e4e) |
+| 54 | 2025-06-24 | GoPenAI | 2.6 | 2 | O3 Pro, OpenAI, Azureopenai, Reasoning, Reasoning Model | [o3-pro process image and text using python openai sdk.](https://balabala76.medium.com/o3-pro-process-image-and-text-using-python-openai-sdk-1893f6cf2a59) |
+| 55 | 2025-06-23 | GoPenAI | 4.9 | 2 | Hugging Face, Voice Ai, OpenAI, Whisper, Voice Ui | [Hugging face - Voice Enabled UI using MCP](https://balabala76.medium.com/hugging-face-voice-enabled-ui-using-mcp-eb0c46d21a1b) |
+| 56 | 2025-06-21 | GoPenAI | 4.4 | 5 | Production Scheduling, Manufacturing, Autogen, Autogen Studio, OpenAI | [Manufacturing Production Scheduling - Using Autogen to Generate a Production Schedule](https://balabala76.medium.com/manufacturing-production-scheduling-using-autogen-to-generate-a-production-schedule-814ed6781172) |
+| 57 | 2025-06-17 | Personal Medium | 4.1 | 3 | Humanoid, Humanoid Robot, AI, Humans | [Enterprise Humanoid to Human Technology Best Practices Details (Physical AI)](https://balabala76.medium.com/enterprise-humanoid-to-human-technology-best-practices-details-physical-ai-55417f0d35b7) |
+| 58 | 2025-06-14 | GoPenAI | 9.3 | 50 | Red Team, Trustworthy Ai, Responsible Ai, Agent Evaluation, Evaluation | [New Azure AI Foundry Resource - Evaluation, Red Team, Agent Evaluation](https://balabala76.medium.com/new-azure-ai-foundry-resource-evaluation-red-team-agent-evaluation-2487a288df9a) |
+| 59 | 2025-06-07 | GoPenAI | 1.5 | 0 | Multimodal Ai, Multimodal, Genai, Vision | [Azure AI Foundry - Phi4 Multimodal Inference](https://balabala76.medium.com/azure-ai-foundry-phi4-multimodal-inference-1b9337c03240) |
+| 60 | 2025-05-31 | GoPenAI | 22.8 | 5 | Autogen, Microsoft, Solution Architect, Autogen Studio | [Autogen 0.4 - Technology Ideation Agents - multi agent system for Solutions Generation](https://balabala76.medium.com/autogen-0-4-technology-ideation-agents-multi-agent-system-for-solutions-generation-4d7ae194dbfb) |
+| 61 | 2025-05-27 | GoPenAI | 3.0 | 1 | Ai Model Router, Azureaifoundry, Ai Foundry, OpenAI | [Azure AI foundry - Model Router](https://balabala76.medium.com/azure-ai-foundry-model-router-c8d61a99324f) |
+| 62 | 2025-05-23 | GoPenAI | 4.3 | 0 | Agentic Ai, Aiagents, Genai, Genaiops, Agenticaiops | [Evaluation for Agents using Azure AI Foundry - Responsible AI or Trustworthy AI](https://balabala76.medium.com/evaluation-for-agents-using-azure-ai-foundry-responsible-ai-or-trustworthy-ai-00322101e98b) |
+| 63 | 2025-05-17 | GoPenAI | 7.7 | 0 | Research, Education, Genai, Manufacturing | [Build a research platform for Manufactuing Line at CSI Connected Systems Institute (CSI) at…](https://balabala76.medium.com/build-a-research-platform-for-manufactuing-line-at-csi-connected-systems-institute-csi-at-7690dbe1f7f4) |
+| 64 | 2025-05-10 | GoPenAI | 1.1 | 0 | Image, Gpt, Image Models, Multimodal Ai | [Azure AI Foundry - Gpt-Image-1 in foundry UI](https://balabala76.medium.com/azure-ai-foundry-gpt-image-1-in-foundry-ui-8f980a51ba9c) |
+| 65 | 2025-05-03 | GoPenAI | 2.3 | 0 | Autogen, Magentic One, Rpa Tools, Automation, Agentic Ai | [Autogen Magentic one web agent summarize and generate word document](https://balabala76.medium.com/autogen-magentic-one-web-agent-summarize-and-generate-word-document-b0d7028cafb2) |
+| 66 | 2025-05-01 | GoPenAI | 33.4 | 0 | Phi 4, Phi4reasoning, Reasoning, Reasoning Model, Slm | [PHI 4 reasoning model with Azure Machine Learning](https://balabala76.medium.com/phi-4-reasoning-model-with-azure-machine-learning-3fefebf34827) |
+| 67 | 2025-04-17 | GoPenAI | 3.3 | 0 | Azureaifoundry, O4mini, OpenAI | [Azure Open AI o4-mini models in Azure AI Foundry](https://balabala76.medium.com/azure-open-ai-4-1-models-in-azure-ai-foundry-5bafacdae188) |
+| 68 | 2025-04-17 | GoPenAI | 4.9 | 12 | O3, OpenAI, Azureopenai, Research | [Azure Open AI o3 models in Azure AI Foundry](https://balabala76.medium.com/azure-open-ai-o3-models-in-azure-ai-foundry-4cdc72fa2203) |
+| 69 | 2025-04-14 | GoPenAI | 2.9 | 0 | Gpt, Gpt 4, Gpt4 1, Ai Foundry, Azureaifoundry | [Azure Open AI 4.1 models in Azure AI Foundry](https://balabala76.medium.com/azure-open-ai-4-1-models-in-azure-ai-foundry-7e5467eeb163) |
+| 70 | 2025-04-12 | GoPenAI | 8.0 | 0 | Reasoning, Healthcare, Healthai, LLM, OpenAI | [Reimaging the Future of Hospital Resource Planning - o1](https://balabala76.medium.com/reimaging-the-future-of-hospital-resource-planning-o1-56ff4ea24b58) |
+| 71 | 2025-04-07 | GoPenAI | 3.8 | 2 | Red Team, Red Teaming, Genai, Security | [Red Teaming made Easy - Red Teaming Agent in Azure AI Foundry](https://balabala76.medium.com/red-teaming-made-easy-red-teaming-agent-in-azure-ai-foundry-c86650439f7e) |
+| 72 | 2025-04-05 | Other Medium publication | 2.2 | 0 | Multimodal Ai, Genai, Image, Summarization | [Azure Content Understanding service - Process Image or Video - 3 Step process](https://balabala76.medium.com/azure-content-understanding-service-process-image-or-video-3-step-process-ff19f63f6d55) |
+| 73 | 2025-03-29 | GoPenAI | 8.9 | 0 | Manufacturing, Ai In Manufacturing, OpenAI, Azureopenai | [Reimaging the Future of Manufacturing Production Planning - o1-preview](https://balabala76.medium.com/reimaging-the-future-of-manufacturing-production-planning-o1-preview-099865ec43a4) |
+| 74 | 2025-03-22 | GoPenAI | 7.3 | 0 | Suppy Chain, LLM, Genai, Gen Ai For Business, OpenAI | [Azure Open AI o1-preview model - Supply Chain sourcing suppliers](https://balabala76.medium.com/azure-open-ai-o1-preview-model-supply-chain-sourcing-suppliers-260c0d88ca15) |
+| 75 | 2025-03-15 | GoPenAI | 1.5 | 0 | Magma, Manufacturing, Construction, Multimodal Ai | [Microsoft Magma model in Industrial Use Cases](https://balabala76.medium.com/microsoft-magma-model-in-industrial-use-cases-f4f5939cdc4b) |
+| 76 | 2025-03-08 | Other Medium publication | 2.2 | 1 | Autogen, Microsoft Autogen, AI Agent, Agentic Ai | [Microsoft Autogen 0.4 - MultiModel Web Surfer - MagenticOne](https://balabala76.medium.com/microsoft-autogen-0-4-multimodel-web-surfer-magenticone-bb5daf5ce54c) |
+| 77 | 2025-03-01 | Other Medium publication | 7.1 | 0 | Responsible Ai, Ai Security, Azureaifoundry, Agentic Ai | [Azure AI Foundry Responsible AI Agent SDK approach](https://balabala76.medium.com/azure-ai-foundry-responsible-ai-agent-sdk-approach-16a06e596e48) |
+| 78 | 2025-02-22 | Other Medium publication | 5.8 | 1 | OpenAI, O3, Reasoning, Azureopenai | [Azure Open AI o3-mini Streamlit app](https://balabala76.medium.com/azure-open-ai-o3-mini-streamlit-app-bf6a02a7a18c) |
+| 79 | 2025-02-15 | Other Medium publication | 3.8 | 10 | Aiagents, Agentic Ai, OpenAI, Genai | [Azure AI Foundry Agent SDK approach - RAG with Azure AI Search](https://balabala76.medium.com/azure-ai-foundry-agent-sdk-approach-rag-with-azure-ai-search-e87fd29cba88) |
+| 80 | 2025-02-08 | Other Medium publication | 2.1 | 0 | Nvidia, Llama 3, Azure Ai, A100 | [Hosting LLama 3.1 405B on Azure A100 VM's](https://balabala76.medium.com/hosting-llama-3-1-405b-on-azure-a100-vms-6d86c35474ec) |
+| 81 | 2025-01-30 | Other Medium publication | 9.1 | 0 | Deepseek R1, Aifoundry, Azureaifoundry, Reasoning, Genai | [Deep Seek R1 Model Catalog - Deploy in Azure AI Foundry](https://balabala76.medium.com/deep-seek-r1-model-catalog-deploy-in-azure-ai-foundry-25061b33388c) |
+| 82 | 2025-01-28 | Other Medium publication | 2.8 | 0 | Deepseek R1, Deepseek, Azuremachine Learning, Aml, Deepseek V3 | [Azure Machine learning inferencing with Deep Seek R1 LLama 8B - Code](https://balabala76.medium.com/azure-machine-learning-inferencing-with-deep-seek-r1-llama-8b-code-4e8570ce0462) |
+| 83 | 2025-01-25 | Other Medium publication | 1.3 | 0 | Slm, Genai, Small Language Model, Llama 3, Azuremachine Learning | [Azure Machine learning inferencing with llama3.2 1B - Mini model - GPU](https://balabala76.medium.com/azure-machine-learning-inferencing-with-llama3-2-1b-mini-model-gpu-2f9c4a8588cc) |
+| 84 | 2025-01-15 | Personal Medium | 4.4 | 2 | Autogen, Agentic Ai, LLM, Aiops, Azure Ai | [Building my own Proof of Concept agent using Autogen 0.4](https://balabala76.medium.com/building-my-own-proof-of-concept-agent-using-autogen-0-4-d5e188573f34) |
+| 85 | 2025-01-11 | Other Medium publication | 1.3 | 1 | Azure Machine Learning, Aml, Phi, Small Language Model | [Azure Machine learning inferencing with Microsoft Phi 4 From Hugging Face](https://balabala76.medium.com/azure-machine-learning-inferencing-with-microsoft-phi-4-from-hugging-face-06b3f848e555) |
+| 86 | 2025-01-04 | Personal Medium | 4.1 | 0 | Space, Space Exploration, AI, Future | [SpaceGPT - Your Intelligent Guide to Space Living](https://balabala76.medium.com/spacegpt-your-intelligent-guide-to-space-living-86a018822c81) |
+| 87 | 2025-01-01 | Other Medium publication | 2.8 | 1 | Aml, Aistudio, Azureaistudio, Llama 3, Small Language Model | [Azure Machine learning inferencing with llama3.2 1B using CPU](https://balabala76.medium.com/azure-machine-learning-inferencing-with-llama3-2-1b-using-cpu-ba6a6ea2180f) |
+| 88 | 2024-12-28 | Other Medium publication | 2.2 | 0 | Science, Chemistry, LLM, Genai | [Fair Chem - Meta Open Materials 2024 (OMat24) Models in Azure Machine Learning](https://balabala76.medium.com/fair-chem-meta-open-materials-2024-omat24-models-in-azure-machine-learning-e6793959082f) |
+| 89 | 2024-12-16 | Other Medium publication | 1.8 | 3 | Phi 4, Phi, Microsoft, Aistudio, Genai | [Microsoft PHI 4 Managed Endpoint in Azure AI Foundry](https://balabala76.medium.com/microsoft-phi-4-managed-endpoint-in-azure-ai-foundry-3f7d12e5648a) |
+| 90 | 2024-12-07 | Other Medium publication | 3.3 | 6 | Weather, LLM, Genai, Azuremachine Learning | [Microsoft Aurora model in Azure Machine learning](https://balabala76.medium.com/microsoft-aurora-model-in-azure-machine-learning-4a5d35f0fe18) |
+| 91 | 2024-11-23 | Other Medium publication | 4.7 | 5 | Llm Evaluation, Evaluation, Genai, Azureaifoundry, Azure Ai | [Azure AI Evaluation - Integrate to existing application](https://balabala76.medium.com/azure-ai-evaluation-integrate-to-existing-application-fcb7ab08c26d) |
+| 92 | 2024-11-16 | Other Medium publication | 2.5 | 5 | Timegen, Forecasting, Forecast, Aml, Azuremachine Learning | [Deploy Time Gen in Azure AI Studio and consume in Azure Machine Learning Service](https://balabala76.medium.com/deploy-time-gen-in-azure-ai-studio-and-consume-in-azure-machine-learning-service-3e1b5c943141) |
+| 93 | 2024-11-09 | Other Medium publication | 1.2 | 8 | Llama 3, LLM, Genai, Azuremachine Learning, Aml | [Azure Machine learning - Llama-3.2-1B](https://balabala76.medium.com/azure-machine-learning-llama-3-2-1b-e6811470e64d) |
+| 94 | 2024-11-02 | Other Medium publication | 3.0 | 0 | Aml, Smalllanugagemodels, LLM, Slm, Hugging Face | [Hugging face SmolLM2 model in Azure Machine learning - inferencing](https://balabala76.medium.com/hugging-face-smollm2-model-in-azure-machine-learning-inferencing-fa850ba3cb82) |
+| 95 | 2024-11-02 | Other Medium publication | 1.1 | 0 | Llama 3, Azuremachine Learning, Aml, Genai, LLM | [Azure Machine learning - Llama-3.1-Minitron-4B-Width-Base](https://balabala76.medium.com/azure-machine-learning-llama-3-1-minitron-4b-width-base-e98e743951db) |
+| 96 | 2024-10-26 | Other Medium publication | 1.1 | 4 | Whisper, Azureopenai, OpenAI, Audio, LLM | [Open AI Whisper 3 Large Model in Azure Machine learning from Hugging Face](https://balabala76.medium.com/open-ai-whisper-3-large-model-in-azure-machine-learning-from-hugging-face-085ecf8144c6) |
+| 97 | 2024-10-19 | Other Medium publication | 2.2 | 0 | Phi 3, Phi 3 Vision, Onnx, Onnx Runtime, Edge Ai | [How to Run Phi3 Vision on ONNX in python](https://balabala76.medium.com/how-to-run-phi3-vision-on-onnx-in-python-8603ea07269a) |
+| 98 | 2024-10-12 | Other Medium publication | 3.8 | 0 | Yolov11, Yolo, Object Detection, Segmentation, Manufacturing | [Yolov11, Azure Computer vision latest API Object Detection Inferencing with Streamlit](https://balabala76.medium.com/yolov11-azure-computer-vision-latest-api-object-detection-inferencing-with-streamlit-cd7251339ff2) |
+| 99 | 2024-10-05 | Other Medium publication | 1.5 | 1 | Yolov8, Yolo, Object Detection, Vision | [Yolov8 Object Detection Inferencing with Streamlit](https://balabala76.medium.com/yolov8-object-detection-inferencing-with-streamlit-410344b46b29) |
+| 100 | 2024-10-02 | Other Medium publication | 3.4 | 4 | Liquid Foundation Model, Lfm, LLM, Large Language Models | [Liquid Foundation Models 40B - Large Language Model](https://balabala76.medium.com/liquid-foundation-models-40b-large-language-model-4abc8ce40c9e) |
+| 101 | 2024-09-28 | Other Medium publication | 2.9 | 1 | Florence 2, Vision Foundation Models, Small Vision Models, Object Detection, Text To Image Detection | [Florence 2 Fine tuning for images](https://balabala76.medium.com/florence-2-fine-tuning-for-images-9fae48aa4b6c) |
+| 102 | 2024-09-21 | Other Medium publication | 2.6 | 0 |  | [Hard Hats detection using Florence 2 model](https://balabala76.medium.com/hard-hats-detection-using-florence-2-model-a50049a22011) |
+| 103 | 2024-09-14 | Other Medium publication | 3.6 | 1 | Semantic Kernel, LLM, Llmops, OpenAI, Azureopenai | [Semantic kernel dynamically selecting plugin to execute](https://balabala76.medium.com/semantic-kernel-dynamically-selecting-plugin-to-execute-e43479c7de1e) |
+| 104 | 2024-09-07 | Other Medium publication | 2.8 | 1 | OpenAI, Azureopenai, LLM, Shopping Cart Solutions | [Building Shopping cart using Natural Language - Gen AI](https://balabala76.medium.com/building-shopping-cart-using-natural-language-gen-ai-7781ca29def3) |
+| 105 | 2024-08-24 | Other Medium publication | 12.0 | 14 | Phi, Phi 3, Phi35, Aml, Azure Ai | [PHI 3.5 fine tuning locally from Hugging Face (Simulated in Azure Machine learning)](https://balabala76.medium.com/phi-3-5-fine-tuning-locally-from-hugging-face-simulated-in-azure-machine-learning-9547764f22b0) |
+| 106 | 2024-08-17 | Other Medium publication | 12.2 | 0 | Phi 3, Llm Finetuning, Model Finetuning, Fine Tuning, Slm | [PHI 3 fine tuning locally from Hugging Face (Simulated in Azure Machine learning)](https://balabala76.medium.com/phi-3-fine-tuning-locally-from-hugging-face-simulated-in-azure-machine-learning-089efa491357) |
+| 107 | 2024-08-10 | Other Medium publication | 3.3 | 0 | Phi 3, Phi 3 Vision, LLM, Slm, Azure Machine Learning | [PHI 3 128K using Hugging Face in Azure Machine Learning - Run Local](https://balabala76.medium.com/phi-3-128k-using-hugging-face-in-azure-machine-learning-run-local-1480a2b5088c) |
+| 108 | 2024-08-03 | Other Medium publication | 1.9 | 0 | Azuremachine Learning, Aml, Azure Ai, Meta, Segment Anything Model | [Meta Segment Anything V2 in Azure Machine Learning](https://balabala76.medium.com/meta-segment-anything-v2-in-azure-machine-learning-c79ab045adf2) |
+| 109 | 2024-07-27 | Other Medium publication | 5.5 | 0 | Groq, Azuremachinelearning, Aml, Azure Ai | [Groq LLama 3.1 8B/80B- Azure Machine Learning](https://balabala76.medium.com/groq-llama-3-1-8b-80b-azure-machine-learning-f0daf9c93679) |
+| 110 | 2024-07-23 | Other Medium publication | 1.6 | 0 | Llama31, Azure Ai Studio, Azure Ai, Azure Machine Learning, Model Catalog | [Deploying LLaMa 3.1 8B in Azure ML and Azure AI Studio](https://balabala76.medium.com/deploying-llama-3-1-8b-in-azure-ml-and-azure-ai-studio-d85cbbf7832f) |
+| 111 | 2024-07-20 | Other Medium publication | 3.5 | 0 | OpenAI, Azureopenai, Azureopenaiservice, Assembly Language, Code | [Assembly Code to documentation](https://balabala76.medium.com/assembly-code-to-documentation-327448755734) |
+| 112 | 2024-07-13 | Other Medium publication | 4.8 | 2 | Genai, LLM, Llmops, Azure Ai, OpenAI | [Building blocks of Gen AI Applications in LLM/SLM](https://balabala76.medium.com/building-blocks-of-gen-ai-applications-in-llm-slm-78ca1bfca2c7) |
+| 113 | 2024-07-06 | Other Medium publication | 3.6 | 7 | Multimodal, Video Summarization, Vidéo, Gpt 4o | [Summarize a video using Azure Open AI GPT 4 Vision and Computer vision models](https://balabala76.medium.com/summarize-a-video-using-azure-open-ai-gpt-4-vision-and-computer-vision-models-ee75b61cdd9f) |
+| 114 | 2024-06-29 | Other Medium publication | 6.1 | 11 | Gen Ai For Business, Llm Applications, Data Governance, Gen Ai Governance | [Gen AI Data Strategy](https://balabala76.medium.com/gen-ai-data-strategy-641288a5b7d7) |
+| 115 | 2024-06-22 | Other Medium publication | 1.5 | 1 | Genai, LLM, Best Model, Llmops | [Pick the Best Large/Small Language model to use for use case](https://balabala76.medium.com/pick-the-best-large-small-language-model-to-use-for-use-case-a26607f1e84f) |
+| 116 | 2024-06-15 | Other Medium publication | 1.1 | 2 | Gpt 4o, OpenAI, Azureopenai, Aml, Azure Machine Learning | [Azure OpenAI GPT 4o - Getting started - Text & Image](https://balabala76.medium.com/azure-openai-gpt-4o-getting-started-text-image-15ad4cf8056f) |
+| 117 | 2024-06-15 | Other Medium publication | 2.5 | 1 | AI Agent, Ai Agent Governance, LLM, Aiaops, Agentic Ai | [AI Agents Governance Framework for CIO/CTO](https://balabala76.medium.com/ai-agents-governance-framework-for-cio-cto-4230f66a17f8) |
+| 118 | 2024-06-08 | Other Medium publication | 5.0 | 11 | Genai, Llmops, Azureopenai, Promptflow, Evaluation | [End to End Gen AI Application using Azure AI Studio - Prompt Flow with evaluation and deploy](https://balabala76.medium.com/end-to-end-gen-ai-application-using-azure-ai-studio-prompt-flow-with-evaluation-and-deploy-de71c61bf46f) |
+| 119 | 2024-05-25 | Other Medium publication | 2.7 | 0 | OpenAI, Azureopenai, Genai, Gen Ai Tools, Architecture | [Natural Language Processing to Diagram using mermaid JS.](https://balabala76.medium.com/natural-language-processing-to-diagram-using-mermaid-js-bb9624d6040f) |
+| 120 | 2024-05-18 | Other Medium publication | 5.8 | 0 | Kusto, Kql, OpenAI, Azureopenai | [Ability to create Kusto KQL output with D3 JS Charts](https://balabala76.medium.com/ability-to-create-kusto-kql-output-with-d3-js-charts-f83a6e716e2a) |
+| 121 | 2024-05-11 | Other Medium publication | 4.2 | 3 | Gpt 4, Gpt4 Vision, Avatar, AI | [Convert Image into Documentation using GPT 4 vision and create video using text to speech avatar…](https://balabala76.medium.com/convert-image-into-documentation-using-gpt-4-vision-and-create-video-using-text-to-speech-avatar-58880e3f5f15) |
+| 122 | 2024-05-04 | Other Medium publication | 1.7 | 2 | Phi 3, Small Language Model, Llmops, Azuremachine Learning, Aml | [Deploying Phi 3 in Azure ML and Azure AI Studio from Model Catalog](https://balabala76.medium.com/deploying-phi-3-in-azure-ml-and-azure-ai-studio-from-model-catalog-be53228e5408) |
+| 123 | 2024-04-27 | Other Medium publication | 2.4 | 0 | Llama 3, LLM, Finetune Llm, Azure Machine Learning, Azure Ai | [Fine tuning LLama3 model - meta-llama/Meta-Llama-3-8B-Instruct using Azure Machine Learning](https://balabala76.medium.com/fine-tuning-llama3-model-meta-llama-meta-llama-3-8b-instruct-using-azure-machine-learning-4fbd8cc5f4af) |
+| 124 | 2024-04-20 | Other Medium publication | 3.4 | 0 | Autogen, Azureopenai, OpenAI, Agents, AI Agent | [Create dynamics agents for various use case using Microsoft autogen](https://balabala76.medium.com/create-dynamics-agents-for-various-use-case-using-microsoft-autogen-02e2a9e6f218) |
+| 125 | 2024-04-13 | Personal Medium | 4.6 | 2 | Azureopenai, OpenAI, Assistant Api, Code Interpreter | [Azure Open AI Assistant using Code interpreter and Functions - Plot charts](https://balabala76.medium.com/azure-open-ai-assistant-using-code-interpreter-and-functions-plot-charts-5f7e397ba4ff) |
+| 126 | 2024-04-08 | Other Medium publication | 4.2 | 4 | Genai, Fine Tuning, LLM, Llmops, Organization | [Generative AI Application - RAG vs Fine tuning Decision Tree and Process](https://balabala76.medium.com/generative-ai-application-rag-vs-fine-tuning-decision-tree-and-process-ff8db95646c9) |
+| 127 | 2024-04-06 | Other Medium publication | 3.1 | 8 | Finetune Llm, LLM, Llmops, Azure Machine Learning, Phi 2 | [Fine tuning PHI 2 with Azure Machine learning and upload to hugging face - Cricket IPL Dataset](https://balabala76.medium.com/fine-tuning-phi-2-with-azure-machine-learning-and-upload-to-hugging-face-cricket-ipl-dataset-fb7af1aae8c3) |
+| 128 | 2024-03-30 | Other Medium publication | 4.9 | 0 | LLM, Genai, Autogen, Large Language Models, Aml | [Designing a software product for a specific use case using Microsoft autogen](https://balabala76.medium.com/designing-a-software-product-for-a-specific-use-case-using-microsoft-autogen-99f16b96f143) |
+| 129 | 2024-03-23 | Other Medium publication | 3.0 | 1 | Azure Ai, Azure Ai Studio, Small Language Model, Large Language Models, Genai | [Azure AI Studio Model catalog deploy Realtime Endpoint DeciLM7B instruct - 3](https://balabala76.medium.com/azure-ai-studio-model-catalog-deploy-realtime-endpoint-decilm7b-instruct-3-d98f517b3764) |
+| 130 | 2024-03-14 | Other Medium publication | 1.3 | 4 | Azureopenai, OpenAI, Azuremachine Learning, Aml, Large Language Models | [Azure Open AI - showing probability of token's predicted.](https://balabala76.medium.com/azure-open-ai-showing-probability-of-tokens-predicted-c4a889b868fb) |
+| 131 | 2024-03-09 | Other Medium publication | 2.1 | 1 | Azure Ai Studio, Aistudio, Tiiuae, LLM | [Azure AI Studio Model catalog deploy Realtime Endpoint Tiiuae 40B](https://balabala76.medium.com/azure-ai-studio-model-catalog-deploy-realtime-endpoint-tiiuae-40b-d86d7de7529e) |
+| 132 | 2024-03-02 | Other Medium publication | 2.3 | 22 | Mistral, Mistral Ai, Azure Ai, Azuremachine Learning | [Realtime deployment of Mixtral8x7b in Azure AI Studio Model Catalog](https://balabala76.medium.com/realtime-deployment-of-mixtral8x7b-in-azure-ai-studio-model-catalog-dafc3b7b5076) |
+| 133 | 2024-02-24 | Other Medium publication | 1.1 | 0 | Aistudio, Azure Ai Studio, Nvidia, Nemo, Genai | [Azure AI Model Catalog - Endpoint NVidia Nemo RHLF](https://balabala76.medium.com/azure-ai-model-catalog-endpoint-nvidia-nemo-rhlf-4424ffacaeb9) |
+| 134 | 2024-02-15 | Other Medium publication | 3.6 | 12 | OpenAI, Azureopenai, Aml, Azuremachine Learning | [Azure Open AI Assistant with RAG AI Search - Talk to your data](https://balabala76.medium.com/azure-open-ai-assistant-with-rag-ai-search-talk-to-your-data-b7cf5f2782e6) |
+| 135 | 2024-02-10 | Other Medium publication | 1.0 | 14 | Genai, Llmapplication, Azureopenai, OpenAI, Architecture | [Generation AI using Azure Open AI Secured Deployment Architecture](https://balabala76.medium.com/generation-ai-using-azure-open-ai-secured-deployment-architecture-214ea1972758) |
+| 136 | 2024-02-07 | Other Medium publication | 2.6 | 13 | OpenAI, Assistant Api, Azureopenai, Gpt 4 | [Azure Open AI Assistant API - Python](https://balabala76.medium.com/azure-open-ai-assistant-api-python-d542a16b6b34) |
+| 137 | 2024-02-03 | Other Medium publication | 1.3 | 1 | Finetune Llm, Fine Tuning, LLM, Mistral, Azuremachinelearning | [Azure Machine Learning fine tuning Mistral ai model with Helpsteer data](https://balabala76.medium.com/azure-machine-learning-fine-tuning-mistral-ai-model-with-helpsteer-data-13e4c7616757) |
+| 138 | 2024-01-27 | Other Medium publication | 0.8 | 2 | Gpt 4 Vision, Gpt 4v, OpenAI, Aml, Azuremachine Learning | [Azure open ai GPT 4 Vision with open ai sdk 1.0 and above](https://balabala76.medium.com/azure-open-ai-gpt-4-vision-with-open-ai-sdk-1-0-and-above-63139af3bac0) |
+| 139 | 2024-01-20 | Other Medium publication | 3.5 | 17 | Genai, OpenAI, Azureopenai, Llmops, Architecture | [LLM Application RAG Architecture (RAG - Retrieval Augmented Generation)](https://balabala76.medium.com/llm-application-rag-architecture-rag-retrieval-augmented-generation-904e951d78d7) |
+| 140 | 2024-01-13 | Other Medium publication | 3.5 | 10 | Gpt 4 Vision, Gpt, Gpt 4, Powerapps | [Power Apps accessing GPT 4 Vision](https://balabala76.medium.com/power-apps-accessing-gpt-4-vision-64c7676ca1e4) |
+| 141 | 2024-01-06 | Other Medium publication | 1.0 | 2 | Gpt 4 Turbo, Gpt 4, Aml, Azure Machine Learning | [GPT 4 turbo with your own PDF documents without chunking](https://balabala76.medium.com/gpt-4-turbo-with-your-own-pdf-documents-without-chunking-e3ad62936082) |
+| 142 | 2023-12-30 | Other Medium publication | 6.8 | 30 | Responsible Ai, Azure Machine Learning, Rai, Object Detection, Image Processing | [Responsible AI with Image using Azure Machine Learning](https://balabala76.medium.com/responsible-ai-with-image-using-azure-machine-learning-f6691473542d) |
+| 143 | 2023-12-16 | Other Medium publication | 4.9 | 6 | LLM, Llmops, Promptflow, Prompt Engineering, Aistudio | [Azure AI Studio - Talk to your data - Build your LLM Application using Azure AI Search and Prompt…](https://balabala76.medium.com/azure-ai-studio-talk-to-your-data-build-your-llm-application-using-azure-ai-search-and-prompt-b6b4f861f134) |
+| 144 | 2023-12-09 | Other Medium publication | 0.7 | 67 | OpenAI, ChatGPT, Azureopenai, Aml, Ml So Good | [Azure Open AI SDK Version 1 and above - Using GPT 3.5 or , 4 Turbo models](https://balabala76.medium.com/azure-open-ai-sdk-version-1-and-above-using-gpt-3-5-or-4-turbo-models-9771dba1280e) |
+| 145 | 2023-12-02 | Other Medium publication | 5.0 | 3 | Llama 2, Finetune Llm, Fine Tuning, Azure Ml | [LLama 2 Fine tuning using Azure Machine learning in parallel](https://balabala76.medium.com/llama-2-fine-tuning-using-azure-machine-learning-in-parallel-cf9720d1d60e) |
+| 146 | 2023-11-18 | Other Medium publication | 3.0 | 2 | Llmops, LLM, Promptflow, Azure Ml | [Prompt flow custom RAG QnA End to End using promptflow CLI](https://balabala76.medium.com/prompt-flow-custom-rag-qna-end-to-end-using-prmptflow-cli-3b4658257ddf) |
+| 147 | 2023-11-09 | Other Medium publication | 1.6 | 0 | Semantic Kernel, Azuremachinelearning, Aml, LLM, Hugging Face | [Semantic Kernel in Azure Machine Learning Notebook and adding memory with huggingface models](https://balabala76.medium.com/semantic-kernel-in-azure-machine-learning-notebook-and-adding-memory-with-huggingface-models-5981289f7644) |
+| 148 | 2023-11-04 | Other Medium publication | 2.1 | 2 | Semantic Kernel, Azureopenai, OpenAI, ChatGPT, Azure Machine Learning | [Semantic Kernel in Azure Machine Learning Notebook](https://balabala76.medium.com/semantic-kernel-in-azure-machine-learning-notebook-79c532532348) |
+| 149 | 2023-10-28 | Other Medium publication | 1.0 | 11 | LLM, Large Language Models, High Availability, Disaster Recovery, Azureopenai | [Building LLM Application using Azure Open AI and HA, DR](https://balabala76.medium.com/building-llm-application-using-azure-open-ai-and-ha-dr-93864fed382e) |
+| 150 | 2023-10-23 | Other Medium publication | 3.3 | 2 | OpenAI, Openai Chatgpt, Azureopenai, Azure Machine Learning | [Azure Open AI fine GPT 3.5-Turbo tuning using Azure Machine Learning](https://balabala76.medium.com/azure-open-ai-fine-gpt-3-5-turbo-tuning-using-azure-machine-learning-2aa41db95c81) |
+| 151 | 2023-10-14 | Other Medium publication | 2.1 | 51 | Llama 2, LLM, Finetune Llm, Aml, Azure Machine Learning | [Azure Machine learning Fine tuning llama2 (7b,13b,70b)- Text Generation](https://balabala76.medium.com/azure-machine-learning-fine-tuning-llama2-7b-13b-70b-text-generation-a34478063831) |
+| 152 | 2023-10-07 | Other Medium publication | 1.3 | 2 | Azureopenai, Whisper, OpenAI, Azure Machine Learning | [Azure Open AI Whisper Model in Azure Machine Learning](https://balabala76.medium.com/azure-open-ai-whisper-model-in-azure-machine-learning-8104079a81a5) |
+| 153 | 2023-09-30 | Other Medium publication | 2.5 | 1 | Vector Database, Vector Search, LLM, OpenAI, Ml So Good | [Process pandas dataframe and create Azure Cognitive Search Vector Index and Search](https://balabala76.medium.com/process-pandas-dataframe-and-create-azure-cognitive-search-vector-index-and-search-176a9bfdbe85) |
+| 154 | 2023-09-23 | Other Medium publication | 3.2 | 3 | LLM, Deepspeed, Large Language Models, Azure Machine Learning, Azure Ai | [Azure Machine learning Fine tuning Parallel Large language models Q&A and Summarization](https://balabala76.medium.com/azure-machine-learning-fine-tuning-parallel-large-language-models-q-a-and-summarization-769d7971b4e8) |
+| 155 | 2023-09-16 | Other Medium publication | 3.2 | 3 | LLM, Large Language Models, Azure Machine Learning, Nvidia, Azure Ai | [Azure Machine learning Fine tuning Large language models Q&A and Summarization - Comparing various…](https://balabala76.medium.com/azure-machine-learning-fine-tuning-large-language-models-q-a-and-summarization-comparing-various-2cb8b9a1681) |
+| 156 | 2023-09-10 | Personal Medium | 0.0 | 0 |  | [I Confirm But I Ca Only Read 1 Article](https://balabala76.medium.com/i-confirm-but-i-ca-only-read-1-article-3a28ad8d02bd) |
+| 157 | 2023-09-09 | Other Medium publication | 1.2 | 2 | Llama 2, Genai, Large Language Models, Azure Machine Learning, Azure Ai | [Azure Machine learning Running Consume LLamaCode 7b and 34b](https://balabala76.medium.com/azure-machine-learning-running-consume-llamacode-7b-and-34b-c5e96a19b6f1) |
+| 158 | 2023-09-02 | Other Medium publication | 3.5 | 3 | Computer Vision, Segmentation, Vision Ai, Azure Machine Learning, Ml So Good | [Segment anything with ONNX Runtime using Azure Machine Learning](https://balabala76.medium.com/segment-anything-with-onnx-runtime-using-azure-machine-learning-d669b9baa2c4) |
+| 159 | 2023-08-26 | Other Medium publication | 2.9 | 1 | Azure Machine Learning, Reinforcement Learning, Rlhf, Gpt, Ml So Good | [Azure Machine learning Reinforcement learning PPO with GPT2 Pretrained model](https://balabala76.medium.com/azure-machine-learning-reinforcement-learning-ppo-with-gpt2-pretrained-model-521da755de0f) |
+| 160 | 2023-08-19 | Other Medium publication | 2.2 | 8 | LLM, Large Language Models, Llama 2, Azure Machine Learning, Ml So Good | [Azure Machine learning Fine tuning LLama2 7b](https://balabala76.medium.com/azure-machine-learning-fine-tuning-llama2-7b-99af6e3af87) |
+| 161 | 2023-08-12 | Other Medium publication | 5.1 | 5 | LLM, Large Language Models, Azure Machine Learning, Azure Ai, Ml So Good | [Building Large Language Models Applications using Prompt Flow in Azure ML with Evaluations - LLMOps](https://balabala76.medium.com/building-large-language-models-applications-using-prompt-flow-in-azure-ml-with-evaluations-llmops-f6eb4135032a) |
+| 162 | 2023-08-05 | Other Medium publication | 3.6 | 7 | Large Language Models, Llmops, Llmaplications, OpenAI, Ml So Good | [Building Large Language Models Applications using Prompt Flow in Azure ML - Simple LLMOps](https://balabala76.medium.com/building-large-language-models-applications-using-prompt-flow-in-azure-ml-simple-llmops-f451b0bacba2) |
+| 163 | 2023-07-29 | Other Medium publication | 3.0 | 6 | OpenAI, Whisper, Azure Machine Learning, Azure Ai, Ml So Good | [Deploy Open AI Whisper V2 Manage Endpoint - Azure ML](https://balabala76.medium.com/deploy-open-ai-whisper-v2-manage-endpoint-azure-ml-657aa35f41b9) |
+| 164 | 2023-07-22 | Other Medium publication | 1.1 | 8 | Azureopenai, OpenAI, Azurecognitivesearch, Vector Database, Ml So Good | [Using Langchain vector store using Azure Cognitive Search](https://balabala76.medium.com/using-langchain-vector-store-using-azure-cognitive-search-4ab89b626b92) |
+| 165 | 2023-07-15 | Other Medium publication | 4.3 | 4 | Azureopenai, OpenAI, Azure Ai, Large Language Models, Ml So Good | [Power App to use Bing api and Summarize results with Azure Open AI](https://balabala76.medium.com/power-app-to-use-bing-api-and-summarize-results-with-azure-open-ai-3aa0d09cf092) |
+| 166 | 2023-07-08 | Other Medium publication | 1.4 | 4 | Llmops, Large Language Models, Mlops, OpenAI, Ml So Good | [Large Language Model Ops (LLM Ops)](https://balabala76.medium.com/large-language-model-ops-llm-ops-97341be25dc4) |
+| 167 | 2023-07-05 | Other Medium publication | 5.1 | 0 | Ml So Good, Machine Learning, ChatGPT | [Power App Search Cognitive Search and Summarize results with ChatGPT 3.5 turbo/Gpt4](https://balabala76.medium.com/power-app-search-cognitive-search-and-summarize-results-with-chatgpt-3-5-turbo-gpt4-ec4232eb0f74) |
+| 168 | 2023-06-17 | Other Medium publication | 4.3 | 3 | OpenAI, Azureopenai, Vector Database, Large Language Models, Ml So Good | [Power App Pinecone and Summarize results with Azure Open AI GPT 3](https://balabala76.medium.com/power-app-pinecone-and-summarize-results-with-azure-open-ai-gpt-3-a8a879f003f5) |
+| 169 | 2023-06-10 | Other Medium publication | 3.8 | 0 | OpenAI, Azureopenai, Semantic Search, Large Language Models, Ml So Good | [Power App Search Cognitive Search and Summarize results](https://balabala76.medium.com/power-app-search-cognitive-search-and-summarize-results-55e45786f1ba) |
+| 170 | 2023-06-03 | Other Medium publication | 3.8 | 4 | OpenAI, Azureopenai, Large Language Models, Summarization, Ml So Good | [Power App Search Cognitive Search using Vector Index Seach and Azure Open AI Embeddings and…](https://balabala76.medium.com/power-app-search-cognitive-search-using-vector-index-seach-and-azure-open-ai-embeddings-and-54462eb520fa) |
+| 171 | 2023-05-27 | Other Medium publication | 2.0 | 0 | Microsoft Fabric, Data Engineering, Data Science, Azure | [Microsoft Fabric TPCH copy data from azure blob storage to lake house.](https://balabala76.medium.com/microsoft-fabric-tpch-copy-data-from-azure-blob-storage-to-lake-house-7eb67927d839) |
+| 172 | 2023-05-27 | Other Medium publication | 3.7 | 23 | OpenAI, Azureopenai, Summarization, Large Language Models, Ml So Good | [Azure Open AI Summarize large 70+ page pdf](https://balabala76.medium.com/azure-open-ai-summarize-large-70-page-pdf-e4c8cc0d374f) |
+| 173 | 2023-05-20 | Other Medium publication | 1.1 | 5 | OpenAI, Azureopenai, Azure Ai, Large Language Models, Ml So Good | [Azure Open AI Summarize Meeting notes.](https://balabala76.medium.com/azure-open-ai-summarize-meeting-notes-5cb4c65efe63) |
+| 174 | 2023-05-13 | Other Medium publication | 1.7 | 6 | LLM, OpenAI, Azureopenai, NLP, Ml So Good | [Using custom document with LLM (Azure Open AI/Open AI)](https://balabala76.medium.com/using-custom-document-with-llm-azure-open-ai-open-ai-3f6240d711a4) |
+| 175 | 2023-05-06 | Other Medium publication | 2.8 | 2 | Azure Ai, Azure Cognitive Service, Foundation Models, Vision, Ml So Good | [Azure Power App using Azure Cognitive Service Florence model.](https://balabala76.medium.com/azure-power-app-using-azure-cognitive-service-florence-model-8de54588d136) |
+| 176 | 2023-04-29 | Other Medium publication | 3.0 | 3 | Azurechatgpt, ChatGPT, Azure Ai, Powerapps, Ml So Good | [Azure Open AI ChatGPT with Power Apps](https://balabala76.medium.com/azure-open-ai-chatgpt-with-power-apps-438c8da404f7) |
+| 177 | 2023-04-22 | Other Medium publication | 1.3 | 52 | Faiss, OpenAI, Azureopenai, Azure Machine Learning, Ml So Good | [Azure Open AI and vector search with FAISS](https://balabala76.medium.com/azure-open-ai-and-vector-search-with-faiss-b29e933d9d42) |
+| 178 | 2023-04-13 | Other Medium publication | 1.7 | 1 | Gpt 3, Apache Spark, NLP, Azure Machine Learning, Ml So Good | [Natural Language query to Apache Spark parquet/Delta lake](https://balabala76.medium.com/natural-language-query-to-apache-spark-parquet-delta-lake-8d54a9ea5aa0) |
+| 179 | 2023-04-08 | Personal Medium | 2.1 | 0 | Azureopenai, OpenAI, Azure Machine Learning, Python, NLP | [Azure Open AI process survey forms and Extract information](https://balabala76.medium.com/azure-open-ai-process-survey-forms-and-extract-information-3f2de2180733) |
+| 180 | 2023-04-01 | Other Medium publication | 9.1 | 2 | Responsible Ai, Predictive Maintenance, Manufacturing, Azure Machine Learning, Ml So Good | [Responsible AI in Predictive Maintenance - Using NASA Turbofan Engine Degradation Dataset - Using…](https://balabala76.medium.com/responsible-ai-in-predictive-maintenance-using-nasa-turbofan-engine-degradation-dataset-using-e386b49355e5) |
+| 181 | 2023-03-25 | Other Medium publication | 3.8 | 3 | Azure Synapse Analytics, Azure Synapse Spark, Spark, Dataflow, Tpch | [Azure Synapse analytics - Data Flow and Synapse Spark - End to End -TPCH data](https://balabala76.medium.com/azure-synapse-analytics-data-flow-and-synapse-spark-end-to-end-tpch-data-f07f5df459bf) |
+| 182 | 2023-03-18 | Other Medium publication | 1.5 | 3 | Azureopenai, OpenAI, Gpt 3, Python, Ml So Good | [Azure ML - Python process 20 rows at a time with Azure Open AI](https://balabala76.medium.com/azure-ml-python-process-20-rows-at-a-time-with-azure-open-ai-211e2ffa204c) |
+| 183 | 2023-03-11 | Other Medium publication | 2.3 | 5 | Form Recognizer, Azure Ai, Azureopenai, OpenAI, Ml So Good | [Process Large text from pdf using Azure Open AI and Azure Form Recognizer](https://balabala76.medium.com/process-large-text-from-pdf-using-azure-open-ai-and-azure-form-recognizer-d0ae55ac020b) |
+| 184 | 2023-03-04 | Other Medium publication | 2.6 | 23 | Azureopenai, OpenAI, Document Processing, Azure Ai, Ml So Good | [Summarize PDF document using Azure Open AI using Azure Machine Learning by chunks.](https://balabala76.medium.com/summarize-pdf-document-using-azure-open-ai-using-azure-machine-learning-by-chunks-f6c95efead8e) |
+| 185 | 2023-02-25 | Personal Medium | 1.4 | 7 | Azure Machine Learning, OpenAI, Gpt 3, Embedding, Search | [Search using Azure open ai embeddings using Azure Machine learning.](https://balabala76.medium.com/search-using-azure-open-ai-embeddings-using-azure-machine-learning-b9f65b9d371a) |
+| 186 | 2023-02-18 | Other Medium publication | 4.9 | 6 | Predictive Maintenance, Azure Ml, Automl, Azure Machine Learning, Ml So Good | [Predictive Maintenance using Azure Machine Learning AutoML and Inference using Managed Online…](https://balabala76.medium.com/predictive-maintenance-using-azure-machine-learning-automl-and-inference-using-managed-online-fa9e97c6a2a5) |
+| 187 | 2023-02-11 | Other Medium publication | 1.5 | 25 | Azure Machine Learning, Rays, Parallel Processing, Parallel Computing, Ml So Good | [Azure Machine learning - Ray parallel processing](https://balabala76.medium.com/azure-machine-learning-ray-parallel-processing-e430da535dee) |
+| 188 | 2023-02-06 | Other Medium publication | 5.5 | 14 | OpenAI, Azureopenai, Powerapps, Large Language Models, Ml So Good | [Azure Open AI with Power Apps](https://balabala76.medium.com/azure-open-ai-with-power-apps-89c72577ba65) |
+| 189 | 2023-01-28 | Other Medium publication | 1.5 | 16 | Microsoft Graph Api, Microsoft Graph, Azure Data Explorer, Ml So Good | [Move Microsoft Graph metadata to Azure Data Explorer using pandas dataframe](https://balabala76.medium.com/move-microsoft-graph-metadata-to-azure-data-explorer-using-pandas-dataframe-a17a01914b69) |
+| 190 | 2023-01-21 | Other Medium publication | 1.5 | 5 | Azure Synapse Analytics, Azure Synapse Spark, Big Data, Big Data Analytics, Ml So Good | [Optimize parquet file size in Spark and ingest into Azure data explorer using Azure Synapse Spark](https://balabala76.medium.com/optimize-parquet-file-size-in-spark-and-ingest-into-azure-data-explorer-ed69f6437f62) |
+| 191 | 2023-01-14 | Other Medium publication | 1.6 | 42 | Yolo, Yolov8, Azure Machine Learning, Azure Ai, Ml So Good | [Yolov8 in Azure Machine learning](https://balabala76.medium.com/yolov8-in-azure-machine-learning-3ee6317c40e2) |
+| 192 | 2023-01-07 | Other Medium publication | 1.6 | 1 | AGI, OpenAI, Dalle 2, Intelligence | [Generating images using Dall-E 2 vs Stable Diffusion 2.1](https://balabala76.medium.com/generating-images-using-dall-e-2-vs-stable-diffusion-2-1-2f814dd6d6e7) |
+| 193 | 2022-12-31 | Other Medium publication | 4.0 | 0 | ChatGPT, Gpt35, Knowledge Assistance, Personal Information Bot, Azure Ai | [Chat GPT View on Global Warming as Personal Knowledge Assistant](https://balabala76.medium.com/chat-gpt-view-on-global-warning-as-personal-knowledge-assistant-4bcc864e9c8e) |
+| 194 | 2022-12-24 | Personal Medium | 0.5 | 50 | Gpt 3, ChatGPT, Openai Chatgpt, Azure Openai, Azure Ai | [Chat GPT and Azure OpenAI Use Cases by Model Technology](https://balabala76.medium.com/chat-gpt-and-azure-openai-use-cases-by-model-technology-6bb65c6fc31b) |
+| 195 | 2022-12-10 | Other Medium publication | 2.6 | 0 | Automl, Azure Machine Learning, Mlflow, End To End Solution, Ml So Good | [Azure Machine Learning Automated ML with Mlflow](https://balabala76.medium.com/azure-machine-learning-automated-ml-with-mlflow-c04538ee440f) |
+| 196 | 2022-12-06 | Other Medium publication | 2.2 | 5 | OpenAI, Gpt 3, Azureopenai, Gpt35, Ml So Good | [Open AI Chat with new GPT-3.5](https://balabala76.medium.com/open-ai-chat-with-new-gpt-3-5-c0aa36557ad6) |
+| 197 | 2022-12-03 | Other Medium publication | 1.0 | 1 | Vowpal Wabbit, Machine Learning, Azure Machine Learning, Azure Ai, Ml So Good | [Vowpal Wabbit on Azure ML](https://balabala76.medium.com/vowpal-wabbit-on-azure-ml-269616a84b97) |
+| 198 | 2022-11-19 | Other Medium publication | 2.7 | 2 | Timeseries, Anomaly Detection, Deep Learning, Azure Machine Learning, Ml So Good | [Azure Machine Learning Auto Encoder Anomaly Detection Sample](https://balabala76.medium.com/azure-machine-learning-auto-encoder-anomaly-detection-sample-4f8f71170517) |
+| 199 | 2022-11-12 | Other Medium publication | 2.8 | 11 | Azure Machine Learning, Spark, Machine Learning, Azure Ai, Ml So Good | [Azure Machine learning managed spark - Preview](https://balabala76.medium.com/azure-machine-learning-managed-spark-preview-fe54a98ec0cd) |
+| 200 | 2022-11-05 | Other Medium publication | 1.5 | 8 | Azure Machine Learning, Federated Learning, Machine Learning, Ml So Good | [Azure Machine learning Federated learning](https://balabala76.medium.com/azure-machine-learning-federated-learning-5185884f7209) |
+| 201 | 2022-10-29 | Other Medium publication | 1.2 | 2 | Deep Neural Networks, Deep Learning, Azure Machine Learning, Visualkeras, Ml So Good | [Azure Machine learning Visual representation of Neural Network](https://balabala76.medium.com/azure-machine-learning-visual-representation-of-neural-network-7c3416560841) |
+| 202 | 2022-10-22 | Other Medium publication | 3.6 | 9 | OpenAI, Gpt 3, Azure Ai, Azure Machine Learning, Ml So Good | [Azure Open AI Completions API with Azure Databricks](https://balabala76.medium.com/azure-open-ai-completions-api-with-azure-databricks-b94d71c063c9) |
+| 203 | 2022-10-15 | Other Medium publication | 2.7 | 0 | Speech Translation, Azure Cognitive Service, Translation, Low Code, Ml So Good | [Processing Speech to text in batch using logic apps and Azure Cognitive Speech service](https://balabala76.medium.com/processing-speech-to-text-in-batch-using-logic-apps-and-azure-cognitive-speech-service-540f9ae88b25) |
+| 204 | 2022-10-08 | Other Medium publication | 2.3 | 3 | Videos, Convolutional Network, Vision, Feature Engineering, Ml So Good | [Process Video and convert to frame and store as data in Azure Machine learning](https://balabala76.medium.com/process-video-and-convert-to-frame-and-store-as-data-in-azure-machine-learning-e6fe75dd2788) |
+| 205 | 2022-10-01 | Other Medium publication | 3.9 | 0 | Azure Cognitive Service, Custom Vision, Jetson Xavier Nx, Onnx, Ml So Good | [Inference Azure Cognitive Custom Vision model in Jetson Xavier in ONNX](https://balabala76.medium.com/inference-azure-cognitive-custom-vision-model-in-jetson-xavier-in-onnx-c8a44524d10) |
+| 206 | 2022-09-24 | Other Medium publication | 2.7 | 22 | Secops, Cybersecurity, Machine Learning, Azure Machine Learning, Ml So Good | [SecOps Analytics platform Architecture using Azure Data Explorer (Part of Azure Synapse Analytics)](https://balabala76.medium.com/secops-analytics-platform-architecture-using-azure-data-explorer-part-of-azure-synapse-analytics-db0a55ca0a5b) |
+| 207 | 2022-09-17 | Other Medium publication | 2.8 | 3 | Machine Learning, Vibration Analysis, Azure Machine Learning, Deep Learning, Ml So Good | [Azure Machine learning processing Audio Deep Learning Model - Custom](https://balabala76.medium.com/azure-machine-learning-processing-audio-deep-learning-model-custom-dd8094469ccb) |
+| 208 | 2022-09-10 | Other Medium publication | 2.8 | 4 | Timeseries Forecasting, Azure Machine Learning, Machine Learning, Forecasting, Ml So Good | [Azure ML SDK V2 sample for forecasting a time series](https://balabala76.medium.com/azure-ml-sdk-v2-sample-for-forecasting-a-time-series-610508b14f5e) |
+| 209 | 2022-09-03 | Other Medium publication | 3.4 | 3 | Azure Machine Learning, Azure Ml, Deep Learning, Gans, Ml So Good | [Azure Machine Learning implement general adversarial networks sample](https://balabala76.medium.com/azure-ml-implement-gan-sample-4896ec5bbb6) |
+| 210 | 2022-08-27 | Other Medium publication | 2.8 | 3 | Custom Vision, Automl Vision, Azure Machine Learning, Automated Ml, Ml So Good | [Automated Machine learning Vision using UI](https://balabala76.medium.com/automated-machine-learning-vision-using-ui-9da3db0dde8b) |
+| 211 | 2022-08-20 | Other Medium publication | 1.8 | 5 | Machine Learning, Audio, Azure Machine Learning, Azure Ai, Ml So Good | [Azure ML Processing Audio Spectrum analysis](https://balabala76.medium.com/azure-ml-processing-audio-spectrum-analysis-209fa927455f) |
+| 212 | 2022-08-13 | Other Medium publication | 1.3 | 1 | Azure Machine Learning, Jupyter Notebook, Mongodb, Designer | [Azure ML Designer consuming mongo dB](https://balabala76.medium.com/azure-ml-designer-consuming-mongodb-ef9a4eb44c0e) |
+| 213 | 2022-08-06 | Other Medium publication | 5.1 | 54 | Azure Machine Learning, Automated Ml, Titanic, Classification, Ml So Good | [Azure Machine Learning SDK v2 using AutoML - Titanic dataset](https://balabala76.medium.com/azure-machine-learning-sdk-v2-using-automl-titanic-dataset-2cbff7fc37f) |
+| 214 | 2022-07-30 | Other Medium publication | 5.9 | 0 | Azure Machine Learning, Automl, Automl Vision, Deep Learning, Ml So Good | [Azure Machine learning SDK V2 - AutoML Vision](https://balabala76.medium.com/azure-machine-learning-sdk-v2-automl-vision-29e70e551f4f) |
+| 215 | 2022-07-23 | Other Medium publication | 2.4 | 1 | Iiot Solution, Industrial Iot Solutions, Azure Digital Twin, Azure Data Explorer | [Industrial IoT with Digital Twin and Historical Data](https://balabala76.medium.com/industrial-iot-with-digital-twin-and-historical-data-e23c24fc7a98) |
+| 216 | 2022-07-16 | Other Medium publication | 3.0 | 1 | Azure Synapse Analytics, Form Recognizer, Azure Ai, Azure Cognitive Service, Ml So Good | [Use SynapseML to process large scale pdf with Form Recognition](https://balabala76.medium.com/use-synapseml-to-process-large-scale-pdf-with-form-recognition-d56ccd854ef5) |
+| 217 | 2022-07-09 | Other Medium publication | 3.7 | 2 | Spacy, NLP, Machine Learning, Azure Machine Learning, Ml So Good | [Azure Machine learning running spacy NLP](https://balabala76.medium.com/azure-machine-learning-running-spacy-nlp-617326e3dea3) |
+| 218 | 2022-06-25 | Other Medium publication | 4.4 | 1 | Responsible Ai, Azure Ml, Azure Ai, Machine Learning, Ml So Good | [Responsible AI Implementation on Titanic DataSet](https://balabala76.medium.com/responsible-ai-implementation-on-titanic-dataset-f4c79508e23d) |
+| 219 | 2022-06-18 | Other Medium publication | 3.2 | 1 | Nltk, Machine Learning, Azure Machine Learning, Mlops, Mlops Solution | [Deploy Custom NLTK model to Azure ML inferencing in AKS - Part 2](https://balabala76.medium.com/deploy-custom-nltk-model-to-azure-ml-inferencing-in-aks-part-2-a5dc37da4733) |
+| 220 | 2022-06-11 | Other Medium publication | 1.7 | 5 | Azure Machine Learning, Nltk, Azure Ai, Text Analytics | [Custom NLTK model in Azure ML - Part 1](https://balabala76.medium.com/custom-nltk-model-in-azure-ml-part-1-c57a911d694c) |
+| 221 | 2022-06-04 | Other Medium publication | 1.5 | 3 | Hugging Face, Azure Machine Learning, Text Analytics, Gpt 2, Ml So Good | [Consuming Hugging Face models using AML SDK](https://balabala76.medium.com/consuming-hugging-face-models-using-aml-sdk-e0704de5ef55) |
+| 222 | 2022-05-28 | Other Medium publication | 7.0 | 4 | Vision Ai, Custom Vision, Azure Machine Learning, Automl Vision, Ml So Good | [Azure Machine learning Data Labeling and Object detection model (AutoML) Model](https://balabala76.medium.com/azure-machine-learning-data-labeling-and-object-detection-model-automl-model-19ae1dc9555a) |
+| 223 | 2022-05-21 | Other Medium publication | 1.9 | 3 | Azure Machine Learning, Designer, Azure Synapse Analytics, Drag And Drop, Ml So Good | [Azure Machine learning designer training and automate batch inference using Azure Synapse and Azure…](https://balabala76.medium.com/azure-machine-learning-designer-training-and-automate-batch-inference-using-azure-synapse-and-azure-5425e92ec31d) |
+| 224 | 2022-05-14 | Other Medium publication | 2.7 | 7 | Bonsai, Reinforcement Learning, Machine Teaching, Azure Machine Learning, Ml So Good | [Azure Bonsai Reinforcement Learning Process](https://balabala76.medium.com/azure-bonsai-reinforcement-learning-process-5492f95ed092) |
+| 225 | 2022-05-07 | Other Medium publication | 3.9 | 1 | Azure Ai, Custom Vision, Azure Percept, Deep Learning, Ml So Good | [Build custom model using Azure percept Device](https://balabala76.medium.com/build-custom-model-using-azure-percept-device-9ec56f74a4d0) |
+| 226 | 2022-04-30 | Other Medium publication | 2.5 | 2 | Azure Synapse Analytics, Pipeline, Data Engineering, Etl, Analytics | [Azure Synapse Integrate dataflow with Serverless SQL as source](https://balabala76.medium.com/azure-synapse-integrate-dataflow-with-serverless-sql-as-source-cfc6a8b70f35) |
+| 227 | 2022-04-23 | Other Medium publication | 0.9 | 1 | Synapseml, Azure Synapse Analytics, Machine Learning, Azure Cognitive Service, Ml So Good | [Azure Synapse Analytics using Synapse ML batch processing Health Care Text analytics](https://balabala76.medium.com/azure-synapse-analytics-using-synapse-ml-batch-processing-health-care-text-analytics-2f2444e4d586) |
+| 228 | 2022-04-16 | Other Medium publication | 5.3 | 0 | Azure Machine Learning, Designer, Clustering, Azure Ai, K Means Clustering | [Azure Machine learning designer for K means cluster](https://balabala76.medium.com/azure-machine-learning-designer-for-k-means-cluster-ea99ab5b684) |
+| 229 | 2022-04-09 | Other Medium publication | 1.7 | 0 | Machine Learning, Automl, Automated Ml, Onnx, Azure Ai | [Azure Machine Learning Automated ML Onnx Model](https://balabala76.medium.com/azure-machine-learning-automated-ml-onnx-model-2def02f8d663) |
+| 230 | 2022-04-02 | Other Medium publication | 6.2 | 3 | Azure Ai, Machine Learning, Responsible Ai, Azure Machine Learning, Ml So Good | [End to End Responsible AI with AML pipelines](https://balabala76.medium.com/end-to-end-responsible-ai-with-aml-pipelines-b104705220bc) |
+| 231 | 2022-03-26 | Other Medium publication | 2.3 | 11 | Data Science, Mlops, Machine Learning, Responsible Ai, Ml So Good | [Data Science and ML Ops process](https://balabala76.medium.com/data-science-and-ml-ops-process-9ca3d6d37abd) |
+| 232 | 2022-03-19 | Other Medium publication | 1.3 | 1 | Azure Databricks, Azure Ai, Machine Learning, Spark, Ml So Good | [SynapseML (Open Source) in Azure Databricks](https://balabala76.medium.com/synapseml-open-source-in-azure-databricks-56e3d11e2e70) |
+| 233 | 2022-03-12 | Other Medium publication | 1.5 | 2 | Azure Synapse Analytics, Serverlesssql, Data Platforms, Cloud Data Platform, Azure | [Azure Synapse integrate execute serverless sql script](https://balabala76.medium.com/azure-synapse-integrate-execute-serverless-sql-script-906766ab14dd) |
+| 234 | 2022-03-05 | Other Medium publication | 3.0 | 0 | Azure Ai, Qna Maker, Automate, Power Flow, Ml So Good | [Power Flow to automate Azure Cognitive Services QnA Maker Train and Publish](https://balabala76.medium.com/power-flow-to-automate-azure-cognitive-services-qna-maker-train-and-publish-129af2f4e196) |
+| 235 | 2022-02-26 | Personal Medium | 0.8 | 1 | Azure Synapse Analytics, Spark, Synapseml, Machine Learning | [SynapseML (Open Source) in Azure Synapse Analytics Spark](https://balabala76.medium.com/synapseml-open-source-in-azure-synapse-analytics-spark-894b4437aa7b) |
+| 236 | 2022-02-19 | Other Medium publication | 3.1 | 0 | Custom Vision, Azure Cognitive Service, Security, Privacy, Ml So Good | [Detect physical security and privacy device custom objects in an image or photo using custom vision…](https://balabala76.medium.com/detect-physical-security-and-privacy-device-custom-objects-in-an-image-or-photo-using-custom-vision-55440cbe48c5) |
+| 237 | 2022-02-11 | Other Medium publication | 4.5 | 2 | OpenAI, Text Analytics, Azure Machine Learning, Azure Ai | [Simple Application to summarize data using GPT-3 openai model](https://balabala76.medium.com/simple-application-to-summarize-data-using-gpt-3-openai-model-37e6423a4b1c) |
+| 238 | 2022-02-05 | Other Medium publication | 2.6 | 0 | Sustainability, Carbon Tax, Green Planet, Powerapps, Azure | [How to calculate your own carbon footprint for Sustainability Development Goals](https://balabala76.medium.com/how-to-calculate-your-own-carbon-footprint-for-sustainability-development-goals-aea1e14465eb) |
+| 239 | 2022-01-29 | Other Medium publication | 1.8 | 1 | Data Mesh, Data Platforms, Gdpr, Ccpa, Compliance | [Data Regulated platform - How to build Enterprise ready Data Platform with Data mesh and…](https://balabala76.medium.com/data-regulated-platform-how-to-build-enterprise-ready-data-platform-with-data-mesh-and-83acf62e6322) |
+| 240 | 2022-01-22 | Other Medium publication | 0.9 | 0 | OpenAI, Azure Machine Learning, Machine Learning, Azure Ai, Ml So Good | [Getting Started with Open AI with Azure machine learning service](https://balabala76.medium.com/getting-started-with-open-ai-with-azure-machine-learning-service-ddfbe7a9b0f1) |
+| 241 | 2022-01-15 | Other Medium publication | 2.6 | 3 | Machine Learning, Azure Machine Learning, Azure Synapse Analytics, Azure Data Factory | [Azure Synapse Analytics invoke Azure ML Batch Endpoint using HTTP/Web activity](https://balabala76.medium.com/azure-synapse-analytics-invoke-azure-ml-batch-endpoint-using-http-web-activity-4b4e139b8325) |
+| 242 | 2022-01-08 | Other Medium publication | 2.9 | 0 | Machine Learning, Azure Machine Learning, Designer, Drag And Drop, Ml So Good | [Azure Machine learning Service Designer - Data Engineering](https://balabala76.medium.com/azure-machine-learning-service-designer-data-engineering-d04afd908c90) |
+| 243 | 2022-01-01 | Other Medium publication | 3.0 | 2 | Machine Learning, Custom Vision, Computer Vision, Azure Cognitive Service, Ml So Good | [Find objects from Images - Simple flow](https://balabala76.medium.com/find-objects-from-images-simple-flow-4d86afc389a7) |
+| 244 | 2021-12-25 | Other Medium publication | 1.9 | 31 | Machine Learning, Azure Machine Learning, Reinforcement Learning, Azure Ai, Ml So Good | [Azure Machine learning Deep reinforcement learning](https://balabala76.medium.com/azure-machine-learning-deep-reinforcement-learning-91fc3e1cd3e1) |
+| 245 | 2021-12-18 | Other Medium publication | 2.8 | 1 | Machine Learning, Lstm, Azure Machine Learning, Python | [Azure ML Notebook - LSTM modelling for Household energy data set](https://balabala76.medium.com/azure-ml-notebook-lstm-modelling-for-household-energy-data-set-13edcfebb5f4) |
+| 246 | 2021-12-15 | Other Medium publication | 1.4 | 0 | Azure Ml, Azure Machine Learning, Machine Learning, Azure Ai | [Azure Automated ML run - Existing run combine test and predicted output](https://balabala76.medium.com/azure-automated-ml-run-existing-run-combine-test-and-predicted-output-ff3f19c42833) |
+| 247 | 2021-12-11 | Other Medium publication | 2.4 | 0 | Azure Machine Learning, Automated Ml, Automl, Azure Ai | [Azure Automated Machine learning using test data set to validate](https://balabala76.medium.com/azure-automated-machine-learning-using-test-data-set-to-validate-220cafb1e4e8) |
+| 248 | 2021-12-04 | Other Medium publication | 3.5 | 17 | Azure Synapse Spark, Azure Synapse Analytics, Machine Learning, Spark Mllib, Azure Ai | [Azure Synapse Analytics - End to End with Synapse Spark for Training](https://balabala76.medium.com/azure-synapse-analytics-end-to-end-with-synapse-spark-for-training-b4241d163bd8) |
+| 249 | 2021-11-27 | Other Medium publication | 3.7 | 19 | Azure Synapse Analytics, Azure Machine Learning, Machine Learning, Azure Ai, Covid-19 | [Azure Synapse Analytics - End to End for Automated ML using Azure Machine learning](https://balabala76.medium.com/azure-synapse-analytics-end-to-end-for-automated-ml-using-azure-machine-learning-aa05e0f1df65) |
+| 250 | 2021-11-23 | Other Medium publication | 1.8 | 0 | Azure Machine Learning, Graph Machine Learning, Azure Ai, Machine Learning | [Graph Neural network in Azure Machine learning (Regression)](https://balabala76.medium.com/graph-neural-network-in-azure-machine-learning-regression-42e3195e094b) |
+| 251 | 2021-11-20 | Other Medium publication | 1.8 | 0 | Graph Neural Networks, Azure Machine Learning, Azure Ai | [Graph Neural network in Azure Machine learning - Classification](https://balabala76.medium.com/graph-neural-network-in-azure-machine-learning-classification-df7978d7bd45) |
+| 252 | 2021-11-13 | Other Medium publication | 2.0 | 1 | Hugging Face, Machine Learning, Azure Machine Learning, Deep Learning | [Huggingface transformers in Azure Machine learning](https://balabala76.medium.com/huggingface-transformers-in-azure-machine-learning-8fa2664181d) |
+| 253 | 2021-11-06 | Other Medium publication | 2.0 | 1 | Azure Ai, Document Translation, Language Translation, Azure Cognitive Service | [Azure AI document translation - Batch](https://balabala76.medium.com/azure-ai-document-translation-batch-81340a006aac) |
+| 254 | 2021-10-30 | Other Medium publication | 3.1 | 7 | Covid-19, Azure Ai, Cognitive Services, Custom Vision | [Covid Vaccine Card processing using Azure Form Recognizer and Custom Vision](https://balabala76.medium.com/covid-vaccine-card-processing-using-azure-form-recognizer-and-custom-vision-46fc04f7d58f) |
+| 255 | 2021-10-25 | Other Medium publication | 5.0 | 1 | Azure Ai, Machine Learning, Pytorch, Responsible Ai | [Responsible AI toolkit for pytorch models](https://balabala76.medium.com/responsible-ai-toolkit-for-pytorch-models-c1b827c6cfed) |
+| 256 | 2021-10-19 | Other Medium publication | 3.0 | 3 | Chatbots, Text Messaging, Azure Ai, Conversational AI | [Text Messaging Chat Bot](https://balabala76.medium.com/text-messaging-chat-bot-10483c28f9aa) |
+| 257 | 2021-10-13 | Other Medium publication | 3.2 | 2 | Azure Machine Learning, Automated Ml, Automl Vision, Azure Ai | [Automated Machine learning for Vision](https://balabala76.medium.com/automated-machine-learning-for-vision-5cad3b25759f) |
+| 258 | 2021-10-09 | Other Medium publication | 1.3 | 2 | Azure Synapse Analytics, Azure Synapse Spark, Machine Learning, Azure Ai, Pii | [Protect PII by encrypting using Fernet in Azure Synapse Spark](https://balabala76.medium.com/protect-pii-by-encrypting-using-fernet-in-azure-synapse-spark-edd157e2963a) |
+| 259 | 2021-10-04 | Other Medium publication | 1.8 | 11 | Azure Databricks, Security, Encryption, Feature Engineering, Machine Learning | [Encryption of PII or Sensitive data in Azure Databricks](https://balabala76.medium.com/encryption-of-pii-or-sensitive-data-in-azure-databricks-b8673d0d8b4e) |
+| 260 | 2021-09-26 | Other Medium publication | 2.0 | 0 | Azure Machine Learning, Parallel Computing, Inferencing, Batch, Scoring | [Azure ML - ParallelRunStep - Run Batch Score in scale](https://balabala76.medium.com/azure-ml-parallelrunstep-run-batch-score-in-scale-fed169b08908) |
+| 261 | 2021-09-22 | Other Medium publication | 1.4 | 0 | Autonomous System, Reinforcement Learning, Bonsai, Azure Ai, Azure Machine Learning | [Using Autonomous systems for automation using bonzai](https://balabala76.medium.com/using-autonomous-systems-for-automation-using-bonzai-53020c32c996) |
+| 262 | 2021-09-17 | Other Medium publication | 2.3 | 0 | Azure Ml, Azure Machine Learning, Parallel Computing | [Azure ML - ParallelRunStep - Run Batch Training in scale](https://balabala76.medium.com/azure-ml-parallelrunstep-run-batch-training-in-scale-1b7c0a62e19a) |
+| 263 | 2021-09-09 | Other Medium publication | 2.4 | 1 | Azure Synapse Analytics, Rest, Crud, Data Engineering | [Azure Synapse analytics Data Flow data processing with REST as Sink](https://balabala76.medium.com/azure-synapse-analytics-data-flow-data-processing-with-rest-as-sink-e8d6884fb35e) |
+| 264 | 2021-09-04 | Other Medium publication | 3.2 | 2 | Azure Synapse Analytics, Azure Purview, Dataflow, Data Governance | [Azure Synapse analytics Data Flow data processing lineage in Azure Purview for delta CRUD](https://balabala76.medium.com/azure-synapse-analytics-data-flow-data-processing-lineage-in-azure-purview-for-delta-crud-231fe1681453) |
+| 265 | 2021-09-01 | Other Medium publication | 1.4 | 15 | Pii, Sensitive, Data Security, Privacy, Azure Databricks | [Anonymize PII Data in Spark using Presidio (ML Based)](https://balabala76.medium.com/anonymize-pii-data-in-spark-using-presidio-ml-based-34164650e410) |
+| 266 | 2021-08-30 | Other Medium publication | 3.5 | 62 | Responsible Ai, Explainable Ai, Fairness, Bias In Ai, Azure Machine Learning | [How to implement Responsible AI features using raiwidgets](https://balabala76.medium.com/how-to-implement-responsible-ai-features-using-raiwidgets-9e7a5600ca5e) |
+| 267 | 2021-08-20 | Other Medium publication | 1.9 | 1 | Azure Purview, Lineage, Azure Synapse Analytics, Copy Activity | [Azure Synapse Analytics Integrate pipeline copy activity lineage with Azure Purview](https://balabala76.medium.com/azure-synapse-analytics-integrate-pipeline-copy-activity-lineage-with-azure-purview-6ce160e12505) |
+| 268 | 2021-08-13 | Other Medium publication | 1.9 | 0 | Machine Learning, Rest Api, Probability Class, Azure Ai | [Azure Automated ML Rest API with probabilities of predicted classes](https://balabala76.medium.com/azure-automated-ml-rest-api-with-probabilities-of-predicted-classes-21bf6fd298ab) |
+| 269 | 2021-08-09 | Other Medium publication | 1.5 | 0 | Azure Machine Learning, Application Insights, Model Performance, Mlops | [Azure Machine Learning inferencing application insights logs](https://balabala76.medium.com/azure-machine-learning-inferencing-application-insights-logs-fd96d202c375) |
+| 270 | 2021-08-05 | Personal Medium | 2.4 | 2 | Sentiment Analysis, Azure Cognitive Service, Azure Data Factory, Healthcare | [Process Azure Cognitive Services API using Data Factory- Health care text analytics](https://balabala76.medium.com/process-azure-cognitive-services-api-using-data-factory-health-care-text-analytics-581287588ce9) |
+| 271 | 2021-08-01 | Other Medium publication | 2.4 | 6 | Data Governance, Data Strategy, Ai Strategy, Machine Learning, Data Sicence | [Azure Cloud Data and AI/ML Platform](https://balabala76.medium.com/azure-cloud-data-and-ai-ml-platform-cfce0e64048a) |
+| 272 | 2021-07-31 | Other Medium publication | 1.6 | 0 | Azure Ai, Azure Cognitive Service, Azure Data Factory, Text Analytics | [Process Azure Cognitive Services API using Data Factory - Text Analytics](https://balabala76.medium.com/process-azure-cognitive-services-api-using-data-factory-text-analytics-717c04104bd8) |
+| 273 | 2021-07-24 | Other Medium publication | 3.4 | 2 | Machine Learning, Azure Machine Learning, Azure Ai, Classification | [Do it yourself open hack for automated machine learning](https://balabala76.medium.com/do-it-yourself-open-hack-for-automated-machine-learning-62a3e6d54a56) |
+| 274 | 2021-07-21 | Other Medium publication | 7.8 | 2 | Azure Ai, Azure Cognitive Service, Azure Logic Apps, Call Center Insights, Call Center | [Call Center Analytics - No Code to Process Speech and Convert to Text and get insights like Key…](https://balabala76.medium.com/call-center-analytics-no-code-to-process-speech-and-convert-to-text-and-get-insights-like-key-7a0d3069e251) |
+| 275 | 2021-07-19 | Other Medium publication | 3.6 | 3 | Azure Ai, Azure Cognitive Service, Form Recognizer, Azure Logic Apps | [No Code - Process Form Recognizer to Text Using Logic Apps](https://balabala76.medium.com/no-code-process-form-recognizer-to-text-using-logic-apps-ddd4b881fc06) |
+| 276 | 2021-07-18 | Other Medium publication | 4.4 | 0 | Azure Ai, Azure Cognitive Service, Logic Apps, Azure Speech To Text, Speech To Text Api | [No Code Approach - Process Speech and convert to Text](https://balabala76.medium.com/no-code-approach-process-speech-and-convert-to-text-f6e56970b687) |
+| 277 | 2021-07-13 | Other Medium publication | 1.1 | 0 | Azure Synapse Analytics, Azure Synapse Spark, Machine Learning, Python, Azure Monitor | [Azure Synapse Spark logs runtime errors to Application insights](https://balabala76.medium.com/azure-synapse-spark-logs-runtime-errors-to-application-insights-b3d438c400b7) |
+| 278 | 2021-07-13 | Other Medium publication | 1.3 | 0 | Azure Databricks, Machine Learning, Exception Handling, Python | [Azure Databricks log runtime errors to Application insights](https://balabala76.medium.com/azure-databricks-log-runtime-errors-to-application-insights-699586e23d15) |
+| 279 | 2021-07-09 | Other Medium publication | 2.4 | 1 | Machine Learning, Azure Machine Learning, Classification, Azure Ai | [Spark Classification model to predict titanic survivors](https://balabala76.medium.com/spark-classification-model-to-predict-titanic-survivors-e91ab1685f2e) |
+| 280 | 2021-07-06 | Other Medium publication | 3.8 | 1 | Azure Databricks, Azure Data Factory, Machine Learning, Azure Ai | [Azure Data Factory and Azure databricks Demo/Lab](https://balabala76.medium.com/azure-data-factory-and-azure-databricks-demo-lab-d7891211f655) |
+| 281 | 2021-06-27 | Other Medium publication | 5.1 | 7 | Machine Learning, Azure Machine Learning, Azure Ai, Azure Devops | [Azure Machine Learning training pipeline using CI/CD with Azure DevOps](https://balabala76.medium.com/azure-machine-learning-training-pipeline-using-ci-cd-with-azure-devops-94fd934db107) |
+| 282 | 2021-06-27 | Other Medium publication | 4.4 | 3 | Machine Learning, Data Factory, Azure Machine Learning, Azure Ai, Mlops | [Azure Machine Learning Notebook Code and run as pipeline - Automate using Azure Data Factory](https://balabala76.medium.com/azure-machine-learning-notebook-code-and-run-as-pipeline-automate-using-azure-data-factory-4128c270bb0e) |
+| 283 | 2021-06-27 | Other Medium publication | 4.5 | 4 | Machine Learning, Azure Machine Learning, Azure Devops, Mlops | [Azure Machine Learning Automated Machine Learning Deployment using Azure DevOps - CI/CD](https://balabala76.medium.com/azure-machine-learning-automated-machine-learning-deployment-using-azure-devops-ci-cd-d6a4861bb4af) |
+| 284 | 2021-06-26 | Other Medium publication | 3.1 | 5 | Machine Learning, Azure Machine Learning, Azure Ai, Mlops, Azure Devops | [Automated ML training using Azure DevOps - CI/CD](https://balabala76.medium.com/automated-ml-training-using-azure-devops-ci-cd-7dfa232f8991) |
+| 285 | 2021-06-23 | Other Medium publication | 11.3 | 8 | Azure Synapse Analytics, Machine Learning, Spark, Synapse Spark | [Azure Synapse Workspace End to End Machine Learning](https://balabala76.medium.com/azure-synapse-workspace-end-to-end-machine-learning-1b52d9492e4e) |
+| 286 | 2021-06-13 | Other Medium publication | 3.0 | 0 | Reinforcement Learning, Azure Machine Learning, Machine Learning | [Azure Machine learning - Reinforcement Learning with Tensorflow](https://balabala76.medium.com/azure-machine-learning-reinforcement-learning-with-tensorflow-909f4cadb2ed) |
+| 287 | 2021-06-10 | Other Medium publication | 4.5 | 1 | Machine Learning, Azure Databricks, Azure Devops, Mlops | [Azure Databricks MLFlow CI/CD with Azure DevOps](https://balabala76.medium.com/azure-databricks-mlflow-ci-cd-with-azure-devops-d02973ba28e3) |
+| 288 | 2021-06-07 | Other Medium publication | 4.8 | 0 | Azure Machine Learning, Machine Learning, Azure Ai | [Azure Machine Learning Automated Machine Learning Deployment](https://balabala76.medium.com/azure-machine-learning-automated-machine-learning-deployment-ef98a6982acc) |
+| 289 | 2021-06-05 | Other Medium publication | 2.7 | 1 | Avro, Azure Data Factory, Data Engineering, Machine Learning | [Process AVRO files in Azure Synapse Analytics Integrate Data Flow or ADF](https://balabala76.medium.com/process-avro-files-in-azure-synapse-analytics-integrate-data-flow-or-adf-29835dd0225f) |
+| 290 | 2021-06-02 | Other Medium publication | 4.3 | 0 | Azure Machine Learning, Automated Ml, Azure Ai, Machine Learning | [Azure Machine Learning Notebook Code and run as pipeline](https://balabala76.medium.com/azure-machine-learning-notebook-code-and-run-as-pipeline-c339fbb99c8f) |
+| 291 | 2021-05-31 | Other Medium publication | 1.9 | 0 | Automl, Azure Databricks, Azure Ml, Machine Learning | [Azure Databricks Auto ML](https://balabala76.medium.com/azure-databricks-auto-ml-e985496d51d3) |
+| 292 | 2021-05-30 | Other Medium publication | 1.0 | 0 | Azure Databricks, Pub Sub, Azure Data Lake, Realtime Ingestion | [Azure Databricks Streaming with GCP Pub Sub](https://balabala76.medium.com/azure-databricks-streaming-with-gcp-pub-sub-2b8937a1c7cd) |
+| 293 | 2021-05-30 | Other Medium publication | 2.1 | 11 | Azure Data Factory, Microsoft Graph Api, Azure | [Azure Data Factory - Access Microsoft Graph API](https://balabala76.medium.com/azure-data-factory-access-microsoft-graph-api-3bbab165eb40) |
+| 294 | 2021-05-28 | Other Medium publication | 1.5 | 1 | Data Science, Azure Machine Learning, Machine Learning, Azure Ai | [Why Data Science development is different from Software or Data/BI development](https://balabala76.medium.com/why-data-science-development-is-different-from-software-or-data-bi-development-526724c76f15) |
+| 295 | 2021-05-17 | Other Medium publication | 5.6 | 15 | Azure Machine Learning, Automated Ml, Machine Learning | [Automated Machine learning End to End Open Hack](https://balabala76.medium.com/automated-machine-learning-end-to-end-open-hack-303d88923b76) |
+| 296 | 2021-05-14 | Other Medium publication | 1.6 | 7 | Azure Synapse Analytics, Machine Learning, Realtime | [Azure Synapse Spark with Azure Event Hubs](https://balabala76.medium.com/azure-synapse-spark-with-azure-event-hubs-afb7670b2b37) |
+| 297 | 2021-05-10 | Other Medium publication | 2.2 | 1 | Artificial Intelligence, Rpa Solutions, Cognitive Services | [Extract Tables from pdf and save](https://balabala76.medium.com/extract-tables-from-pdf-and-save-86b7e1170607) |
+| 298 | 2021-05-02 | Other Medium publication | 2.0 | 51 | Machine Learning, Big Data, Synapse Analytics | [TPC-H SF10000 test with Azure Synapse workspace Spark using Spark SQL](https://balabala76.medium.com/tpc-h-sf10000-test-with-azure-synapse-workspace-spark-using-spark-sql-8364051eae71) |
+| 299 | 2021-05-02 | Other Medium publication | 1.6 | 0 | Azure Machine Learning, Machine Learning, Artificial Intelligence, Azure Ml | [Improve Speed in Azure Automated ML](https://balabala76.medium.com/improve-speed-in-azure-automated-ml-3746f5ae9de8) |
+| 300 | 2021-05-02 | Other Medium publication | 3.2 | 1 | Intelligent Edge, Azure Percept, Azure Machine Learning, Azure Synapse Analytics | [Azure percept (Intelligent Edge) with Azure Synapse Analytics](https://balabala76.medium.com/azure-percept-intelligent-edge-with-azure-synapse-analytics-7d2bb2805445) |
+| 301 | 2021-04-18 | Personal Medium | 1.5 | 1 | Azure Data Factory, Azure, Azure Machine Learning | [Moving Data from One region to another using Azure Data Factory](https://balabala76.medium.com/moving-data-from-one-region-to-another-using-azure-data-factory-c599c6071fcf) |
+| 302 | 2021-04-04 | Other Medium publication | 1.5 | 1 | Azure Machine Learning, Timeseries Forecasting, Tsfresh, Azure Ml | [Azure ML - Timeseries using TSFresh](https://balabala76.medium.com/azure-ml-timeseries-using-tsfresh-206d5f51105d) |
+| 303 | 2021-04-01 | Other Medium publication | 3.4 | 3 | Pytorch, Azure Machine Learning, Machine Learning | [Pytorch Regression model using Azure Machine learning](https://balabala76.medium.com/pytorch-regression-model-using-azure-machine-learning-f820a8db253) |
+| 304 | 2021-04-01 | Other Medium publication | 1.6 | 2 | Pytorch, Azure Machine Learning, Machine Learning | [Pytorch Classfification model using Azure Machine learning](https://balabala76.medium.com/pytorch-classfification-model-using-azure-machine-learning-9313442a6db9) |
+| 305 | 2021-04-01 | Other Medium publication | 2.2 | 2 | Industrial Iot Solutions, Thingworx, Analytics Platforms, Azure Paas | [Implement PTC Thingworx in Azure PaaS](https://balabala76.medium.com/implement-ptc-thingworx-in-azure-paas-4ec7270f5c7e) |
+| 306 | 2021-04-01 | Other Medium publication | 15.3 | 6 | Data Operations, Data Monitoring, Machine Learning, Mlops, Dataops | [Analytics Operation Center (AoC) - Azure Modern Data Platform Data Ops](https://balabala76.medium.com/analytics-operation-center-aoc-azure-modern-data-platform-data-ops-8441a8837819) |
+| 307 | 2021-03-23 | Other Medium publication | 1.3 | 0 | Kafka, Spark, Azure Databricks, Avro | [Parse Confluent Kafka messages without Avro schema registry](https://balabala76.medium.com/parse-confluent-kafka-messages-without-avro-schema-registry-b1b24013af7a) |
+| 308 | 2021-03-23 | Other Medium publication | 1.1 | 13 | Azure Databricks, Bigquery, Spark, Azure | [Azure Data bricks query Google Big Query](https://balabala76.medium.com/azure-data-bricks-query-google-big-query-6e3de4ef2ef5) |
+| 309 | 2021-03-14 | Other Medium publication | 0.5 | 0 | Cloud, Cloud Computing, Paas, Platform As A Service, Azure | [Cloud PaaS vs On Premise](https://balabala76.medium.com/cloud-paas-vs-on-premise-aa46473d8bcf) |
+| 310 | 2021-03-07 | Other Medium publication | 1.4 | 1 | Data Catalog, Data Governance, Azure Synapse Analytics | [Azure Purview Search inside Azure Synapse Analytics](https://balabala76.medium.com/azure-purview-search-inside-azure-synapse-analytics-c7e2a15196b2) |
+| 311 | 2021-03-06 | Other Medium publication | 3.2 | 3 | Azure Databricks, Application Insights, Spark | [Configure Azure Data bricks to send events to Application insights - Simplified](https://balabala76.medium.com/configure-azure-data-bricks-to-send-events-to-application-insights-simplified-c6effbc3ed6a) |
+| 312 | 2021-03-01 | Other Medium publication | 0.9 | 0 | TensorFlow, Azure Machine Learning, Deep Learning, Azure Ai | [Regression Model Tensorflow 2.4 with Azure Machine learning](https://balabala76.medium.com/regression-model-tensorflow-2-4-with-azure-machine-learning-bf1654a10a68) |
+| 313 | 2021-03-01 | Other Medium publication | 4.0 | 0 | TensorFlow, Azure Machine Learning, Deep Learning, Azure Ai | [LSTM Model Tensor flow 2.4 with Azure Machine learning](https://balabala76.medium.com/lstm-model-tensor-flow-2-4-with-azure-machine-learning-33664fc2853f) |
+| 314 | 2021-02-15 | Other Medium publication | 0.8 | 41 | Machine Learning, TensorFlow, Azure Machine Learning, Classification | [Classification Model Tensorflow 2.4 with Azure Machine learning](https://balabala76.medium.com/classification-model-tensorflow-2-4-with-azure-machine-learning-6ecb2f5f9fdf) |
+| 315 | 2021-02-09 | Other Medium publication | 3.9 | 6 | Data Catalog, Data Governance, Parquet, Data Factory | [Custom Data Catalog Parquet File using Azure Data Factory](https://balabala76.medium.com/custom-data-catalog-parquet-file-using-azure-data-factory-7312f406b662) |
+| 316 | 2021-02-01 | Other Medium publication | 0.8 | 2 | Data Strategy, Horizons, Machine Learning | [Data Strategy for Data driven decision making](https://balabala76.medium.com/data-strategy-for-data-driven-decision-making-6de9702bbe8a) |
+| 317 | 2021-02-01 | Other Medium publication | 2.7 | 13 | Mlflow, Adf, Azure Databricks, Machine Learning, Mlops | [Azure Data Factory - mlflow with Azure data bricks](https://balabala76.medium.com/azure-data-factory-mlflow-with-azure-data-bricks-d247bc0bc14a) |
+| 318 | 2021-01-21 | Other Medium publication | 1.7 | 7 | Azure Data Factory, Azure Ad, Oauth, Token | [Azure Data factory retrieve token from Azure AD using OAUTH 2.0](https://balabala76.medium.com/azure-data-factory-retrieve-token-from-azure-ad-using-oauth-2-0-9a3ed3f55013) |
+| 319 | 2021-01-06 | Other Medium publication | 1.5 | 0 | Business Analytics, Machine Learning, Artificial Intelligence, Data Lake | [Business Analytics Architecture](https://balabala76.medium.com/business-analytics-architecture-4a55849318e2) |
+| 320 | 2021-01-06 | Other Medium publication | 2.8 | 2 | Delta Lake, Azure Databricks, Azure Data Lake | [Adventure works Lite SQL to Parquet](https://balabala76.medium.com/adventure-works-lite-sql-to-parquet-ef2cbf8b84d7) |
+| 321 | 2021-01-01 | Other Medium publication | 1.6 | 2 | Data Lake, Azure Data Lake, Cloud Data, Cloud Data Platform | [Parse Azure ADLS Gen2 Audit logs using Spark](https://balabala76.medium.com/parse-azure-adls-gen2-audit-logs-using-spark-8fcf61c45f3a) |
+| 322 | 2021-01-01 | Other Medium publication | 1.0 | 4 | Data Lake, Azure Data Lake, Azure Data Lake Store, Cloud Data Platform | [Find Container Size for Multi tenant application using Azure Data Bricks](https://balabala76.medium.com/find-container-size-for-multi-tenant-application-using-azure-data-bricks-bc58a14b146) |
+| 323 | 2020-12-16 | Other Medium publication | 3.6 | 2 | Data Security, Self Service Bi, Data Governance, Machine Learning | [Self Service BI - Data Security](https://balabala76.medium.com/self-service-bi-data-security-8b7b8bb713da) |
+| 324 | 2020-12-05 | Other Medium publication | 4.1 | 4 | Azure Synapse Analytics, Machine Learning, Data Science, Azure Data And Ai | [Azure Synapse Analytics End to End Machine learning - Model Development](https://balabala76.medium.com/azure-synapse-analytics-end-to-end-machine-learning-model-development-569bffb4263b) |
+| 325 | 2020-12-01 | Other Medium publication | 1.5 | 1 | Hive, Azure Data Factory, Dataflow, Azure Synapse Analytics | [Hive QL to Azure Data Factory Data Flow](https://balabala76.medium.com/hive-ql-to-azure-data-factory-data-flow-c8132d843fd4) |
+| 326 | 2020-12-01 | Other Medium publication | 1.7 | 1 | Azure Synapse Analytics, Etl, Parquet | [Azure Synapse SQL Server less Create facts and dimensions](https://balabala76.medium.com/azure-synapse-sql-server-less-create-facts-and-dimensions-e9ea35cd025b) |
+| 327 | 2020-11-01 | Personal Medium | 0.0 | 0 |  | [Spark Scala Process Base 64 Message Processing](https://balabala76.medium.com/spark-scala-process-base-64-message-processing-829d69af422a) |
+| 328 | 2020-08-15 | Personal Medium | 0.0 | 0 |  | [Parse AZURE ML Data Labelling Dataset Convert To XML For Object Detection Modelling A21e65a4f31](https://balabala76.medium.com/parse-azure-ml-data-labelling-dataset-convert-to-xml-for-object-detection-modelling-a21e65a4f31) |
+
+## Notes on missing records
+
+- Medium profile metadata reports 345 posts, while public extraction yielded 328 unique analyzable records. The remaining posts were not exposed before the profile-stream endpoint returned an anti-bot/CAPTCHA response for older pagination.
+- If you can export your Medium archive or provide authenticated access/export files, this report can be regenerated to include the missing records and full article-body analysis.
