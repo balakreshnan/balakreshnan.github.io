@@ -68,6 +68,24 @@ The through-line: **Cloud & Data → AI/ML → Generative AI → Agentic AI** �
 
 ---
 
+## 🔗 Verified Credential Wallet — Accredible (Databricks Academy & 2Win! Global)
+
+Source: [credential.net wallet](https://www.credential.net/profile/balamuruganbalakreshnan411996/wallet) — **7 credentials, 2 issuers**. These are already part of the 112 total (Databricks 5 + 2Win! Global 2), shown here with verified issue/expiry dates so renewals can be tracked.
+
+| Credential | Issuer | Issued | Expires | Status *(as of Jun 24, 2026)* |
+|---|---|---|---|---|
+| Partner Training — Advantages of Gen AI & LLM on Databricks | Databricks Academy | Jun 25, 2024 | Jun 25, 2026 | ⚠️ Active — **expires tomorrow** |
+| Partner Training — Gen AI & LLM on Databricks | Databricks Academy | Jun 25, 2024 | Jun 25, 2026 | ⚠️ Active — **expires tomorrow** |
+| Advanced Demo Skills | 2Win! Global (MCAPS Academy) | Jan 29, 2024 | — | ✅ Active |
+| Intermediate Demo Skills | 2Win! Global (MCAPS Academy) | Jan 12, 2024 | — | ✅ Active |
+| Academy Accreditation — Generative AI Fundamentals | Databricks Academy | Jul 25, 2023 | Jul 25, 2025 | ⛔ Expired |
+| Academy Accreditation — Unified Data Analytics Essentials | Databricks Academy | May 22, 2020 | May 22, 2021 | ⛔ Expired |
+| Partner Training — Azure Databricks Developer Essentials | Databricks Academy | Mar 31, 2020 | Mar 31, 2022 | ⛔ Expired |
+
+**Renewal watch:** 2 credentials expire **June 25, 2026** (tomorrow) and 3 have already lapsed. Of the 7, **4 are current** (2 expiring imminently) and **3 are expired** — worth refreshing the two Gen AI & LLM partner trainings now to keep the Databricks GenAI track unbroken.
+
+---
+
 ## 💡 Insights About Your Growth
 
 - **AI is your center of gravity.** AI/LLM/ML is your largest domain at 34 credentials (31%); with Azure & Cloud Data Engineering (17) and Big Data (7), technical depth is well over half the portfolio.
