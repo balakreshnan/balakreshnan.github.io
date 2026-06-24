@@ -1,0 +1,271 @@
+% =====================================================================
+% LLM Inference Optimization and Scaling to High-Concurrency Serving
+% A Six-Pillar Survey of the 2023-2026 Systems Landscape
+% Author: Balamurugan Balakreshnan (Microsoft)
+%
+% arXiv-ready preprint. Compiles with a standard TeX Live install
+% (the same toolchain arXiv uses). Build with:
+%     pdflatex Bala-Inference-Scaling-Survey-arXiv.tex
+%     pdflatex Bala-Inference-Scaling-Survey-arXiv.tex   (run twice for refs/links)
+% No .bib file or bibtex pass is required: references are inline below.
+% =====================================================================
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{mathptmx}            % Times-like body font
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{abstract}
+\usepackage[hidelinks]{hyperref}
+
+\definecolor{accent}{HTML}{7A1F2B}
+\titleformat{\subsection}{\normalfont\bfseries\color{accent}}{\thesubsection}{0.6em}{}
+
+% Tighter caption look
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+
+\newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}
+
+\title{\bfseries LLM Inference Optimization and Scaling to High-Concurrency Serving:\\[2pt]
+\large A Six-Pillar Survey of the 2023--2026 Systems Landscape}
+
+\author{Balamurugan Balakreshnan\\
+\normalsize Microsoft --- Principal Cloud Solution Architect\\
+\normalsize \texttt{babal@microsoft.com}}
+
+\date{Preprint $\cdot$ Survey track $\cdot$ Derived from the author's technical report dated 28 May 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+Modern large language model (LLM) inference breaks nearly every assumption baked into classical
+request--response serving infrastructure. A single user request is two qualitatively different jobs
+glued together: a compute-bound \emph{prefill} that performs dense matrix multiplication over the entire
+prompt, and a memory-bandwidth-bound \emph{decode} loop of hundreds of low-arithmetic-intensity steps.
+We survey the 2023--2026 systems literature and argue that it has converged on a single architectural
+conclusion---stop running prefill and decode on the same GPU---and, more broadly, on six mutually
+reinforcing structural moves: (1)~prefill--decode disaggregation, (2)~block-paged KV management with
+cross-request prefix reuse, (3)~iteration-level continuous batching with chunked prefill, (4)~low-precision
+numerics (FP8/FP4 and weight-only INT4), (5)~sparse computation via Mixture-of-Experts, expert parallelism,
+and multi-head latent attention, and (6)~hardware-aware kernel co-design. We synthesize these into a single
+taxonomy, show how they compose at million-user scale into a KV-cache-centric distributed system, and connect
+the architecture to SLO-driven capacity planning and to production stacks such as Azure AI Foundry, NVIDIA
+NIM, TensorRT-LLM, and Dynamo. We close with open problems in inference-aware model--hardware co-design.
+
+\vspace{6pt}
+\noindent\textbf{Index terms---}large language models, inference serving, KV cache, PagedAttention,
+prefill--decode disaggregation, continuous batching, quantization (FP8/FP4), Mixture-of-Experts,
+multi-head latent attention, GPU systems, SLO-driven capacity planning.
+\end{abstract}
+
+% =====================================================================
+\section{Introduction}
+LLM inference is the textbook case of a workload that defeats general-purpose serving infrastructure.
+Treating a generation request as an atomic, uniform unit of work---the implicit model behind most web-era
+autoscalers and load balancers---leaves enormous amounts of GPU throughput on the table and produces latency
+distributions that violate interactive service-level objectives (SLOs). The core reason is structural: the
+two phases of a decoder-only transformer request have opposite hardware profiles, opposite scaling laws, and
+opposite failure modes.
+
+This survey makes three contributions. First, we consolidate the fast-moving 2023--2026 systems literature
+into a \emph{six-pillar taxonomy} that classifies every major optimization by the bottleneck it removes and
+the phase it targets. Second, we show how the pillars compose---rather than compete---so that a production
+stack adopts all six simultaneously, yielding a KV-cache-centric distributed system rather than a monolithic
+model server. Third, we connect the architecture to capacity planning and cost, framing serving design as the
+joint optimization of two SLOs (time-to-first-token and time-per-output-token) under a fixed GPU budget.
+
+% =====================================================================
+\section{Background: The Two-Phase Anatomy of a Generative Request}
+Every decoder-only transformer inference proceeds in two phases. \textbf{Prefill} performs a single forward
+pass over all $N$ prompt tokens; it is GEMM-heavy and compute-bound, and it materializes the key--value (KV)
+cache of size proportional to $2\,L\,H\,d\,N$ (layers, heads, head-dimension, tokens). \textbf{Decode} then
+runs $T$ iterations, generating one token at a time; each step is a GEMV that reads the entire KV cache plus a
+new query, making it memory-bandwidth-bound and poorly served by the same hardware configuration that makes
+prefill efficient.
+
+Two SLOs govern user-visible latency. \textbf{Time-To-First-Token (TTFT)} is the duration of prefill plus
+queue wait; it dominates the perceived responsiveness of chat and the freshness of retrieval-augmented
+pipelines. \textbf{Time-Per-Output-Token (TPOT)}, equivalently time-between-tokens (TBT), is the inter-token
+interval during decode; it governs streaming smoothness and total completion time. Because the two phases
+optimize for different objectives, every pillar below can be read as an attempt to decouple, overlap, or
+amortize them.
+
+\begin{table}[t]
+\centering
+\caption{The six structural pillars of modern LLM inference serving, classified by mechanism, the bottleneck
+each removes, and representative systems.}
+\label{tab:pillars}
+\small
+\begin{tabularx}{\textwidth}{@{}p{2.7cm}YYY@{}}
+\toprule
+\textbf{Pillar} & \textbf{Mechanism} & \textbf{Bottleneck addressed} & \textbf{Representative systems}\\
+\midrule
+1. Prefill--decode disaggregation & Separate GPU pools per phase; KV cache moved over RDMA & Phase interference; mismatched SLOs & Splitwise, DistServe, Mooncake\\
+2. Block-paged KV + prefix reuse & Paged KV blocks; shared-prefix cache hits & KV fragmentation; redundant prefill & vLLM (PagedAttention), SGLang (RadixAttention)\\
+3. Continuous batching + chunked prefill & Iteration-level scheduling; prefill piggy-backed on decode & Head-of-line blocking; GPU idle in decode & Orca, Sarathi-Serve\\
+4. Low-precision numerics & FP8/FP4 compute; weight-only INT4 & Compute and bandwidth ceiling & FlashAttention-3 FP8, AWQ, GPTQ, SmoothQuant\\
+5. Sparse computation & MoE + expert parallelism; latent attention (MLA) & Dense parameter cost; KV-cache size & DeepSeek-V3, Kimi K2\\
+6. Hardware-aware kernels & Fused kernels, CUDA Graphs, compiler co-design & Gap to the hardware roofline & FlashAttention-1/2/3, TensorRT-LLM, Dynamo\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% =====================================================================
+\section{A Six-Pillar Taxonomy of Inference Optimization}
+
+\subsection{Prefill--Decode Disaggregation}
+The single most consequential architectural move is to stop co-locating the two phases. Disaggregated serving
+runs prefill and decode on separate GPU pools, each sized and scheduled for its own SLO (TTFT for prefill,
+TPOT for decode), and transfers the KV cache between them over high-bandwidth RDMA. Splitwise~\cite{splitwise},
+DistServe~\cite{distserve}, and Mooncake~\cite{mooncake} each formalize a version of this idea. The payoff is
+twofold: prefill bursts no longer stall in-flight decode streams, and each pool can independently exploit
+hardware best matched to its arithmetic intensity.
+
+\subsection{Block-Paged KV Management and Cross-Request Prefix Reuse}
+Naive contiguous KV allocation wastes 60--80\% of cache memory to internal fragmentation.
+PagedAttention, introduced in vLLM~\cite{vllm}, manages the KV cache in fixed-size blocks analogous to
+virtual-memory paging, driving waste below a few percent and enabling far larger effective batch sizes.
+SGLang's RadixAttention~\cite{sglang} generalizes the idea to \emph{cross-request} reuse: by storing the cache
+as a radix tree, queries that share a system prompt or document hit the cache and skip prefill
+entirely---now widely deployed as ``prefix caching.'' This pillar attacks both fragmentation and redundant
+prefill at once.
+
+\subsection{Iteration-Level Continuous Batching and Chunked Prefill}
+Request-level (static) batching forces fast requests to wait for the slowest in their batch.
+Orca~\cite{orca} introduced iteration-level ``continuous'' batching, admitting and retiring sequences at every
+decode step and eliminating head-of-line blocking. Sarathi-Serve~\cite{sarathi} adds chunked prefill, slicing
+long prefills into pieces that are piggy-backed onto decode iterations so the GPU stays compute-bound rather
+than stalling on memory-bound decode. Together they keep utilization high without sacrificing tail latency.
+
+\subsection{Low-Precision Numerics: FP8, FP4, and Weight-Only INT4}
+Reduced precision doubles or quadruples effective compute and shrinks the bandwidth burden that dominates
+decode. FP8 has become the production default on Hopper-class hardware with near-lossless quality; FP4 (NVFP4)
+on Blackwell~\cite{nim} pushes throughput further by handling activation dynamic range better than integer
+formats. Weight-only schemes---AWQ~\cite{awq} (protecting salient weights), GPTQ~\cite{gptq}
+(calibration-based), and SmoothQuant~\cite{smoothquant} (migrating activation outliers into weights)---target
+memory-constrained regimes. A recurring lesson is that kernels matter as much as algorithms: identical
+quantized weights can run several times faster under better-tuned CUDA kernels.
+
+\begin{table}[t]
+\centering
+\caption{Representative low-precision formats and their operating points. Figures are indicative of the
+2025--2026 landscape and vary by model and calibration.}
+\label{tab:quant}
+\small
+\begin{tabularx}{\textwidth}{@{}lllp{3.2cm}Y@{}}
+\toprule
+\textbf{Format} & \textbf{Bits} & \textbf{Target HW} & \textbf{Typical quality retention} & \textbf{Best for}\\
+\midrule
+FP8 & 8 & Hopper+ & $\sim$99\% & Production GPU serving\\
+FP4 / NVFP4 & 4 & Blackwell & near-lossless & Max throughput, newest GPUs\\
+AWQ & 4 & GPU & $\sim$95\% & Quality-sensitive (coding, creative)\\
+GPTQ & 4 & GPU & $\sim$90\% & Max raw throughput\\
+INT4 (weight-only) & 4 & General & $\sim$90--95\% & Memory-constrained deployment\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Sparse Computation: MoE, Expert Parallelism, and Multi-Head Latent Attention}
+Mixture-of-Experts (MoE) activates only a subset of parameters per token, amortizing parameter cost; expert
+parallelism shards experts across GPUs so total capacity scales without proportional per-token compute.
+Multi-head latent attention (MLA), popularized by DeepSeek-V3~\cite{deepseek} and adopted in subsequent
+reasoning models, applies low-rank joint compression to keys and values, cutting the KV-cache footprint
+several-fold relative to grouped-query attention~\cite{gqa}---directly relieving the bandwidth bottleneck that
+dominates decode. Kimi K2~\cite{kimi} and related systems push the same combination at scale.
+
+\subsection{Hardware-Aware Kernel Co-Design}
+The final pillar closes the gap to the hardware roofline. FlashAttention 1--3~\cite{flashattn,flashattn2,flashattn3}
+recompute attention in tiles to trade memory for compute and exploit asynchrony; CUDA Graphs remove per-kernel
+launch overhead; compiler paths (\texttt{torch.compile}, TensorRT-LLM custom kernels~\cite{trtllm}) and
+orchestration layers (NVIDIA Dynamo~\cite{dynamo}) co-design the kernel with the memory hierarchy. None of the
+higher-level pillars reach their theoretical gains without this low-level co-design.
+
+% =====================================================================
+\section{Scaling Out: The KV-Cache-Centric Distributed System}
+At million-user scale the serving stack ceases to be a model server and becomes a distributed system organized
+around the KV cache. Mooncake (USENIX FAST 2025 best paper)~\cite{mooncake} is the most explicit articulation
+of this thesis: a multi-tier KV-cache pool (HBM $\to$ DRAM $\to$ SSD) interconnected by RDMA at up to
+$8\times400$~Gbps. The authors report serving on the order of 100 billion tokens per day, with 115\% and 107\%
+more requests than prior systems on A800 and H800 clusters respectively. The same pattern, with
+Microsoft-specific framing, appears in Splitwise~\cite{splitwise}. The design lesson is that cache placement,
+transfer, and eviction---not raw FLOPs---become the primary scaling variables.
+
+% =====================================================================
+\section{Capacity Planning and SLO-Driven Cost Modeling}
+Because prefill and decode have distinct SLOs and hardware profiles, capacity planning must be done per phase.
+Prefill capacity is sized to hold TTFT under burst arrival; decode capacity is sized to hold TPOT under
+sustained concurrency. Disaggregation makes this tractable by letting each pool scale on its own signal. The
+practical objective is to minimize GPU-hours per million served tokens subject to a TTFT/TPOT SLO pair---an
+optimization in which quantization (Pillar~4) and prefix reuse (Pillar~2) move the cost frontier, while
+disaggregation (Pillar~1) and continuous batching (Pillar~3) determine how close a deployment runs to that
+frontier.
+
+% =====================================================================
+\section{Production Integration}
+The six pillars are no longer research artifacts. They are landing in production serving stacks---for example
+in Azure AI Foundry via NVIDIA NIM~\cite{nim}, TensorRT-LLM~\cite{trtllm}, and Dynamo~\cite{dynamo}
+integrations---where disaggregation, paged/prefix-cached KV management, continuous batching, FP8/FP4 numerics,
+MoE/MLA model choices, and fused kernels are composed behind a single managed endpoint. The architectural
+convergence surveyed here is therefore also an operational convergence: enterprises increasingly inherit all
+six pillars by adopting a modern serving platform.
+
+% =====================================================================
+\section{Open Problems and Future Directions}
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item \textbf{Inference-aware architectures.} Models are increasingly designed during pre-training to be cheap
+to serve (MLA, native multi-token-prediction heads, FP4-friendly weights). Formalizing this model--hardware
+co-design---and its accuracy trade-offs---remains open.
+\item \textbf{Cache economics across tiers.} Optimal placement, prefetch, and eviction policies for
+HBM$\to$DRAM$\to$SSD KV pools under heterogeneous, bursty traffic are not yet well characterized.
+\item \textbf{SLO-aware scheduling under disaggregation.} Jointly scheduling prefill and decode pools to hold
+both SLOs while maximizing utilization is an under-explored multi-objective control problem.
+\item \textbf{Evaluation and safety at serving time.} Continuous, low-overhead evaluation and red-teaming
+embedded in the serving path---not only offline---is required for trustworthy autonomous and agentic workloads.
+\end{itemize}
+
+% =====================================================================
+\section{Conclusion}
+The 2023--2026 literature on LLM inference converges on a coherent architecture rather than a grab bag of
+tricks. Six pillars---disaggregation, paged/prefix-reused KV, continuous batching with chunked prefill,
+low-precision numerics, sparse MoE/MLA computation, and hardware-aware kernels---compose into a
+KV-cache-centric distributed system whose design variables are cache movement and SLO-driven capacity, not raw
+FLOPs. Framing serving this way turns an open-ended optimization space into a tractable engineering discipline,
+and points future work toward inference-aware co-design across the model, the serving stack, and the hardware.
+
+% =====================================================================
+\begin{thebibliography}{99}
+\small
+\bibitem{orca} G.-I. Yu et al., ``Orca: A Distributed Serving System for Transformer-Based Generative Models,'' \emph{OSDI}, 2022.
+\bibitem{vllm} W. Kwon et al., ``Efficient Memory Management for Large Language Model Serving with PagedAttention (vLLM),'' \emph{SOSP}, 2023.
+\bibitem{mooncake} R. Qin et al., ``Mooncake: A KVCache-Centric Disaggregated Architecture for LLM Serving,'' \emph{USENIX FAST} (Best Paper), 2025.
+\bibitem{sglang} L. Zheng et al., ``SGLang: Efficient Execution of Structured Language Model Programs (RadixAttention),'' \emph{NeurIPS}, 2024.
+\bibitem{sarathi} A. Agrawal et al., ``Taming Throughput--Latency Tradeoff in LLM Inference with Sarathi-Serve,'' \emph{OSDI}, 2024.
+\bibitem{distserve} Y. Zhong et al., ``DistServe: Disaggregating Prefill and Decoding for Goodput-Optimized LLM Serving,'' \emph{OSDI}, 2024.
+\bibitem{splitwise} P. Patel et al., ``Splitwise: Efficient Generative LLM Inference Using Phase Splitting,'' \emph{ISCA}, 2024.
+\bibitem{flashattn} T. Dao et al., ``FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,'' \emph{NeurIPS}, 2022.
+\bibitem{flashattn2} T. Dao, ``FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning,'' 2023.
+\bibitem{flashattn3} J. Shah et al., ``FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-Precision,'' 2024.
+\bibitem{awq} J. Lin et al., ``AWQ: Activation-Aware Weight Quantization for LLM Compression and Acceleration,'' \emph{MLSys}, 2024.
+\bibitem{gptq} E. Frantar et al., ``GPTQ: Accurate Post-Training Quantization for Generative Pre-Trained Transformers,'' \emph{ICLR}, 2023.
+\bibitem{smoothquant} G. Xiao et al., ``SmoothQuant: Accurate and Efficient Post-Training Quantization for LLMs,'' \emph{ICML}, 2023.
+\bibitem{deepseek} DeepSeek-AI, ``DeepSeek-V3 Technical Report,'' 2024.
+\bibitem{kimi} Moonshot AI, ``Kimi K2,'' technical report, 2025.
+\bibitem{gqa} J. Ainslie et al., ``GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints,'' \emph{EMNLP}, 2023.
+\bibitem{specdec} Y. Leviathan et al., ``Fast Inference from Transformers via Speculative Decoding,'' \emph{ICML}, 2023.
+\bibitem{trtllm} NVIDIA, ``TensorRT-LLM,'' software documentation, 2024.
+\bibitem{dynamo} NVIDIA, ``Dynamo Inference Orchestration,'' technical documentation, 2025.
+\bibitem{nim} NVIDIA, ``NIM Microservices and the NVFP4 Format (Blackwell),'' technical documentation, 2025.
+\bibitem{report} B. Balakreshnan, ``LLM Inference Optimization and Scaling to High-Concurrency Serving,'' technical report, 28 May 2026.
+\end{thebibliography}
+
+\end{document}
