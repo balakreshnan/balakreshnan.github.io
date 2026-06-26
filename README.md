@@ -6,6 +6,10 @@
 
 ![Profile](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/balawork2026-generic.jpg)
 
+## Deep Dive in AI
+
+![Profile](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/balawork2026-generic-ai.jpg)
+
 ## Contact
 
 Name: Balamurugan Balakreshnan (Bala) <br/>
