@@ -4,6 +4,8 @@
 
 ---
 
+![Profile](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/balawork2026-generic.jpg)
+
 ## Contact
 
 Name: Balamurugan Balakreshnan (Bala) <br/>
@@ -25,8 +27,6 @@ MS learn - [mslearn](https://learn.microsoft.com/en-us/users/balamuruganbalakres
 AWS Training - [AWS](https://skillbuilder.aws/training-activity) <br>
 LinkedIn Learning - [LinkedIntraing](https://www.linkedin.com/learning/me/my-library/completed?u=3322) <br>
 OpenAI Academy - [openai](https://academy.openai.com/home) <br>
-
-![Profile](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/balawork2026-generic.jpg)
 
 ## Professional Profile
 
