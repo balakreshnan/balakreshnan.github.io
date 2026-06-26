@@ -1,4 +1,8 @@
-# My Profile
+# Balamurugan Balakreshnan (Bala)
+
+**Chief AI Officer (ProServ) & Chief Architect** — driving enterprise AI, Agentic AI, Generative AI, Azure cloud, and digital transformation for Fortune 500 organizations. Author and international keynote speaker.
+
+---
 
 ## Contact
 
@@ -24,103 +28,84 @@ OpenAI Academy - [openai](https://academy.openai.com/home) <br>
 
 ![Profile](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/balawork2026-generic.jpg)
 
-## Profile
+## Professional Profile
 
-Digital Transformation, Chief Architect and Technology Strategy Leader.<br>
-Author, Board member<br>
+As Chief AI Officer (ProServ) and Chief Architect, I serve as an innovation evangelist — providing thought leadership and end-to-end solution architecture for ambitious enterprise programs. My focus spans Generative AI, Agentic AI, large-scale machine learning, Industrial IoT, and modern data platforms across Microsoft, open-source, and multi-cloud ecosystems.
 
-As a Cloud Solution Architect, play a role of Innovation evangelist and provide thought leadership, Solution Architecture, PoC and MVP Support to multiple projects with respect to governance, security and technology projects by crafting high level and detailed architecture for business use case.<br/>
+I partner with C-suite leaders and global teams to translate ambitious AI ideas into production-grade systems that move revenue, productivity, and customer-experience metrics. I am equally comfortable advising a CEO on AI strategy and architecting fine-tuning pipelines for large-scale models on H100 / H200 GPU clusters.
 
-- Lead Predictive Maintenance and Quality based project using custom vision AI and Azure ML based solutions for North Central Region among client success unit and provide oversights to project delivery of above projects with their successful deployment. Completed 5 Predictive Maintenance and quality projects for FY20, in process of onboarding like 10-12 opportunities
-- Lead Azure AI/ML community of practice for North Central Region using Cognitive and custom Machine learning application for various use cases to automate business process to drive business outcomes to customer with faster ROI. Completed 3 projects in FY20 and have 6 onboarding for new opportunities.
-- Envisioned “Retail Store Insights”,  a data driven near Realtime data lake for business to generate data driven insights to take intelligent decisions for their 10,000+ stores globally. 
-Lead Architecture Design Sessions with methodological approach to finalize Solution Architecture combining set of products ​
-- Lead various IT Transformational projects like moving to cloud, optimize IT portfolio and save cost.
-- Conduct Envisioning and immersion workshop to align different groups with adequate adoption of cloud​
-- Provide Solution Architecture to customer and work with Specialists to develop BoM and prepare deal construct​
-- Work with Product Groups for product bugs and feature enhancements​
-- Learn, Test and adapt Data Science Ops, IoT Gateway Ops.
-​- Prepare PoC and MVP environment to show case solution architecture to craft business case​
-- Active member of Advanced analytics framework group and Security Community to adopt security framework and infuse adoption of Good Security practice ​
-- Train the trainers at scale to meet breadth of Azure skilling to partner and client IT staff​
-- Coached OpenHack for Modern Data Warehouse to train/educate participants with practical project execution approach​
-- Provide documentation support and Quality Assurance checks to Partners solution and architecture​
-- Interview, Coach, Mentor and Provide feedback to peers and team members
-- Provide constructive feedback to product team from customer scenario to better build product
+## Key Contributions
 
-## others
+- Provide leadership on Digital Transformation with Artificial Intelligence and cloud-based digital solutions.
+- Provide leadership in Machine Learning, IoT, IIoT, Big Data, and advanced analytical solutions.
+- Deep expertise across first-party Microsoft, open-source technologies, and other cloud providers.
+- Architect and design enterprise solutions for Fortune 500 companies, synthesizing business, information, and technology viewpoints into capabilities.
+- Help customers build Centers of Excellence in advanced analytics and AI/ML to amplify and scale initiatives.
+- Bridge the gap between business and technology leaders to deliver cohesive solutions.
+- Build and mentor partners across small, medium, and large sectors; build reference architectures for industry.
+- Partner with product teams to shape products based on customer feedback.
+- Develop business strategy and create new revenue streams.
 
-- Provide leadership on Digital Transformation with Artificial Intelligence and Cloud based Digital Solutions.
-- Provide leadership in Machine learning, IoT, IIoT and Big data and Advanced Analytical Solutions.
-- Vast knowledge in first party Microsoft and open source technologies and Other cloud providers.
-- Provide leadership, analysis and design tasks related to the development of a solution.
-- Provide Leadership, Architecture and Design on building Commercial and IT solutions for fortune 500 companies.
-- Develop solutions viewpoint, in which the business, information and technology viewpoints are synthesized into solutions that deliver capabilities.
-- Provide Architecture framework for entire enterprise, Worked with Enterprise architecture team to add to their portfolio.
-- Help Customer's build Center of Excellance in Advanced analytics and AI/ML in their organization to amplify and scale AI/ML projects
-- Use data insights to take decision for affect business outcomes.
-- Empathetic and customer success focused leader and Growth Mindset, Inclusive and Divesity leader
-- Help Bridge Business and Technology gap between business and technology leaders and build a coheive solution.
-- Been a Mentor, keynote Speaker, Author of vairous publications including analytics vidhya.
-- Build and Train Sales Strategy to increase Cloud adoption
-- Built and mentored new and existing partners in small, medium and large sectors
-- Built Reference architecture for industry
-- Helped Product team to build products based on customer feedback
-- Create Reference architecture for AI/ML, Industrial IoT and Data platform
-- Business Strategy and helped create and build new revenue stream
+## Areas of Expertise
 
-## Technologies
+- **AI & Agentic AI Strategy** — Vision, operating model, governance, and value-driven roadmaps for Generative AI and autonomous agent ecosystems.
+- **Solution Architecture** — Reference architectures for AI/ML, Industrial IoT, and data platforms on Azure, hybrid, and multi-cloud.
+- **LLM Engineering** — Distributed fine-tuning of LLaMA, Mixtral, and Qwen on A100/H100/H200 clusters with vLLM, ONNX, and NVIDIA NIM.
+- **AI in Manufacturing** — Edge vision on NVIDIA Jetson, predictive quality, digital twins, and connected-factory blueprints.
+- **Responsible & Secure AI** — Governance, security, privacy, and compliance built in from data to model to deployment.
+- **Executive Enablement** — Workshops, keynotes, and Center of Excellence design that align leadership and accelerate enterprise AI adoption.
 
-- Cloud Technologies - Azure/Aws/GCP/Alibaba
-- Aritificial Intelligence - Machine/deep/reinforcement learning
-- Industrial IoT/IoT
-- Blockchain
-- Data platform - datalakes/swamp/wall and others
-- Business process automation - RPA 
-- Business Systems - SAP and Salesforce
-- Enterprise Archtiecture
-- Data Governance
-- Supply Chain
-- Manufacturing process
-- Solution sales
+## Core Technologies
 
-## Industries
+- Cloud Platforms — Azure, AWS, GCP
+- Artificial Intelligence — Generative AI, Agentic AI, Machine / Deep / Reinforcement Learning, LLM Fine-Tuning
+- Microsoft Foundry, Azure OpenAI, Azure Machine Learning, MLOps
+- Industrial IoT / IoT, Edge AI, NVIDIA Jetson
+- Data Platform & Governance — data lakes, lakehouse, analytics
+- Enterprise Architecture, Cloud Architecture, Digital Transformation
+- Business Process Automation, Supply Chain, Manufacturing Process
 
-Manufacturing <br/>
-Retail <br/>
-Pharmacy <br/>
-Healthcare <br/>
-Insurance <br/>
-Education <br/>
-Consulting <br/>
+## Industries Served
 
-## Badges
+Manufacturing &middot; Retail &middot; Pharmacy &middot; Healthcare &middot; Insurance &middot; Education &middot; Energy &middot; Building Technology &middot; Public Sector &middot; Consulting
 
-[Badges](https://www.youracclaim.com/users/balamurugan-balakreshnan/badges?sort=-state_updated_at&page=1) <br>
-[Databricks](https://credentials.databricks.com/profile/balamuruganbalakreshnan411996/wallet#gs.k602oz)
+## Published Books
 
-## Honors and Award
+Practitioner-grade playbooks used by architects, engineers, and AI leaders worldwide.
 
-- [Honors](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/images/appreciationcertificate.jpg)
-- Technology Solution Achievers - [Valuable Contributor Platinum](https://www.youracclaim.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
-- Technology Summit Speaker - [Event Speaker](https://www.youracclaim.com/earner/earned/badge/1855d4ee-be51-42e5-91c7-f53a294ba008)
-- Hackathon Leader Silver - [Hackathon Leader](https://www.youracclaim.com/earner/earned/badge/fcb35b29-6b73-4d09-8d83-86d32c0efd3d)
-- Mentor Gold - [Mentor Gold](https://www.youracclaim.com/earner/earned/badge/5ec23bc9-3eed-4866-9c8a-fd04740ce0d8)
+- [Agentic AI with Microsoft Foundry](https://www.packtpub.com/en-us/product/agentic-ai-with-microsoft-foundry-9781806673957) — Packt, 2026
+- [Azure OpenAI Cookbook](https://info.microsoft.com/ww-landing-azure-openai-cookbook.html) — Microsoft, 2025
+- [Azure Machine Learning Engineering](https://www.packtpub.com/product/azure-machine-learning-engineering/9781803239309) — Packt, 2024
+
+## Badges & Credentials
+
+[Credly](https://www.credly.com/users/balamurugan-balakreshnan) <br>
+[Databricks](https://credentials.databricks.com/profile/balamuruganbalakreshnan411996/wallet#gs.k602oz) <br>
+[Microsoft Learn](https://learn.microsoft.com/en-us/users/balamuruganbalakreshnan-2358/)
+
+## Honors & Awards
+
+- **Platinum Club Award** — Top 1% of entire company globally
+- **Gold Club Award** — Top 1% of entire company globally
+- [Excellence Award Diamond](https://www.credly.com/badges/cb65b52b-4f7b-4aba-b597-1072d19c74f0) — Technology Solution Achievers
+- [Valuable Contributor Platinum](https://www.credly.com/badges/a424411b-f7ad-4aa2-b46e-905487388b00)
+- [Technology Summit Event Speaker](https://www.credly.com/badges/1855d4ee-be51-42e5-91c7-f53a294ba008)
+- [Mentor Gold](https://www.credly.com/badges/5ec23bc9-3eed-4866-9c8a-fd04740ce0d8)
 - Culture Champion Award
+- World's first Cortana-enabled GLAS thermostat
+- World's first AI-enabled smart building
+- World's first Center of Excellence platform for corporates (FDE-enabled)
 
+## Mentorship, Coaching & Community
 
-## Mentor, Coach, Open Source Contributor
+- Mentor and coach to peers, customers, and partners
+- Contributor of research projects to the open-source community
+- Committed to inclusion and diversity across all engagements
 
-- Mentor others and Also be mentored
-- Coach other peers/customers
-- Create research project and share with open source community to improve
-- Inclusive and Diversity - Applied all of my work
-
-## Always learning, where?
+## Continuous Learning
 
 - https://courses.edx.org/dashboard
 - https://www.linkedin.com/learning/me?trk=d_sales2_nav_applauncher&u=3322
-- https://courses.edx.org/dashboard
 - https://academy.databricks.com/
 - https://docs.microsoft.com/en-us/learn/
 - https://www.aws.training/
@@ -130,110 +115,116 @@ Consulting <br/>
 - https://courses.nvidia.com/dashboard
 - https://app.pluralsight.com/
 
-## Machine learning tutorials and stories
+## Technical Stories & Tutorials
 
-[ML Tutorials](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
+- [Machine Learning Tutorials & Stories](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/ML/MLStories.md)
+- [Industrial IoT Best Practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
+- [Medium & Analytics Vidhya Publications](https://medium.com/@balabala76)
 
-## Industrial IoT Stories and Challenges
+## Publications, Papers & Whitepapers
 
-[IIoT Best practices](https://github.com/balakreshnan/balakreshnan.github.io/blob/master/IoT/IIoTStories.md)
+- [Agentic AI with Microsoft Foundry — Amazon (2026)](https://www.amazon.com/Agentic-Microsoft-Foundry-intelligent-autonomous/dp/1806673959)
+- [Azure OpenAI Cookbook (2025)](https://info.microsoft.com/ww-landing-azure-openai-cookbook.html?WT.mc_id=DT-MVP-5001664)
+- [Azure Machine Learning Engineering (2024)](https://www.amazon.com/Azure-Machine-Learning-Engineering-fine-tune/dp/1803239301/)
+- [Author on Medium & MLLearning.ai](https://balabala76.medium.com/)
+- [Pick and Place — Microsoft × Rockwell Whitepaper](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf)
+- [ISO Reference Architecture](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf)
+- [Robot Almanac (2020 & 2021)](https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2021.md)
+- [PPE Detection Paper — ScienceDirect (2020)](https://www.sciencedirect.com/science/article/pii/S2351978920310556)
+- [Collaborative IoT/IIoT Platform — SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3859672)
+- [Sustainability Framework for Smart Learning Factories — SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4072178)
+- [Johnson Controls Digital Vault — Azure Blog](https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/)
+- [Delivering on the Vision of MLOps — GigaOm](https://gigaom.com/report/delivering-on-the-vision-of-mlops/)
+- [Vision AI DevKit — PPE Project](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/)
 
-## Medium and Analytics Vidhya Publications
+## Board & Advisory Roles
 
-[@balabala76](https://medium.com/@balabala76)
-
-## Publications
-
-[Pick and Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/Pick%20and%20Place%20-%20Microsoft%20Rockwell%20Whitepaper.pdf) <br/>
-[ISO Ref Arch](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf) <br/>
-[Whitepaper Pick N Place](https://github.com/balakreshnan/AIInManufacturing/blob/master/whitepaperpickandplace.md) <br/>
-[Robot almanac article 2019](https://github.com/balakreshnan/robotalmanac/blob/master/roboticalmanac2020.md) <br/>
-[PPE Paper 2020](https://www.sciencedirect.com/science/article/pii/S2351978920310556){target="_blank"} <br/>
-[JCI - Digital Vault](https://azure.microsoft.com/en-us/blog/johnson-controls-tackles-a-15b-building-industry-problem-with-azure-cosmos-db/)<br/>
-[Azure ML ops](https://gigaom.com/report/delivering-on-the-vision-of-mlops/) (Look at Johnson Controls Section) <br/>
-[PPE AI project](https://azure.github.io/Vision-AI-DevKit-Pages/docs/community_project02/) <br/>
-[LinkedIn](https://www.linkedin.com/in/balamurugan-balakreshnan/) <br/>
-
-## Board
-
-- Steering committee member - Connected Systems institute - UW Milwaukee
-- Industry Advisory Board Member - Connected Systems institute - UW Milwaukee 
-- Industry Advisory Board member = Purdue Indiana 
+- Steering Committee Member — Connected Systems Institute, UW Milwaukee
+- Industry Advisory Board Member — Connected Systems Institute, UW Milwaukee
+- Industry Advisory Board Member — Purdue University, Indiana
+- Advisor and contributor to NSF proposals across Manufacturing USA and the Wisconsin Technology Council
+- Designed and taught *BUS ADM 745 — Artificial Intelligence for Business*, a credit course at the UWM Lubar Business School
 
 [CSI Partnership](https://www.jsonline.com/story/news/education/2019/06/24/microsoft-partners-uw-milwaukee-advance-use-smart-tech/1546724001/)<br/>
 [CSI Partnership](https://uwm.edu/news/microsoft-corp-president-announces-donation-worth-more-than-1-5-million-to-uw-milwaukees-connected-systems-institute/) <br/>
 [CSI Partnership](https://www.bizjournals.com/milwaukee/news/2019/06/25/wisconsin-now-among-top-tier-of-states-where.html) <br/>
 
-## Connected Systems Institute - University of Wisconsin Milwaukee
+## Connected Systems Institute — University of Wisconsin Milwaukee
 
-- Virtual Tour of Factory of Future in making.
-https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
-- Intelligent Learning Factory demo https://youtu.be/bm0MzrCtcGc
-- Intelligent Learning Factory - https://youtu.be/1lfi6DAvxgU
-- Interview intelligent Factory - https://youtu.be/I-peJCInQ9s
-- Interview Connected Systems Institute (CSI) Intelligent Factory - Mary - https://youtu.be/_9w0TvtxxZ4
+- Virtual Tour of Factory of the Future in the making — https://bbiotstore.blob.core.windows.net/csifactory/WorkProj02.mp4
+- Intelligent Learning Factory demo — https://youtu.be/bm0MzrCtcGc
+- Intelligent Learning Factory — https://youtu.be/1lfi6DAvxgU
+- Interview: Intelligent Factory — https://youtu.be/I-peJCInQ9s
+- Interview: Connected Systems Institute (CSI) Intelligent Factory (Mary) — https://youtu.be/_9w0TvtxxZ4
 
-## Curriculum Help
+## Curriculum & Teaching
 
-- Industrial IoT and AI for manufacturing - Curriculum advisor for UW Platsville (Wisconsin)
-- Industrial IoT and AI for manufacturing - Curriculum advisor for UW Milwaukee (Wisconsin)
-- Purdue Polytechnic - Intelligent Learning Factory Curriculum (Indiana)
+- Industrial IoT and AI for Manufacturing — Curriculum advisor, UW Platteville (Wisconsin)
+- Industrial IoT and AI for Manufacturing — Curriculum advisor, UW Milwaukee (Wisconsin)
+- Purdue Polytechnic — Intelligent Learning Factory Curriculum (Indiana)
 
-## Speaker
+## Speaking & Keynotes
 
-- [AI and ML](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
-- [Angelbeat April 2020 - AI and ML at Microsoft](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=12&t=0s)
-- Angel Beat - Various Events [link](https://www.youtube.com/watch?v=fcPSq91J2yk&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=20&t=0s)
-- UW madison Keynote speaker for Industry Technogy summit
-- UW Milwaukee CSI Keynote speaker [link](https://uwm.edu/csi/new_events/)
-- [Angelbeat July 2020 - Artificial Intelligence (AI) & Machine Learning (ML) Development Platforms, Real Life Use Cases](https://www.youtube.com/watch?v=u9GxffV8lqE&list=PLW5Fjy7MTRY74fcCN5Z4S9VvgFuQZunf5&index=9&t=0s)
-- [Angelbeat October 2020 - ML based image tagging](https://youtu.be/59Nlvvun1BU)
-- [Angelbeat November 2020 - Data Strategy and Governance](https://www.youtube.com/watch?v=VZ8rPE3Yb1g)
+Selected appearances across enterprise summits, university keynotes, and industry conferences.
+
+- [Angelbeat 2025 — Azure AI Foundry](https://www.youtube.com/watch?v=5TyyDtZwix8)
+- [Angelbeat 2025 — Generative AI Security](https://www.youtube.com/watch?v=LxOQ2T_rsEg)
+- [WTC Early Stage Leadership 2024](https://wisconsintechnologycouncil.com/microsoft-ai-and-manufacturing-learn-more-nov-14-at-wisconsin-early-stage-symposium/)
+- [Nexus Sustainability Leaders Summit](https://www.marquette.edu/business/sustainability-lab/conference.php)
+- [Angelbeat 2024 — Data Privacy & Security](https://youtu.be/rkYbHWooZBY)
+- [Angelbeat 2024 — Microsoft Copilot](https://youtu.be/23AaKdHZkdI)
+- [Angelbeat 2023 — Microsoft Fabric](https://youtu.be/-o5aGk5gr7Q)
+- [Angelbeat 2023 — Azure OpenAI](https://youtu.be/0v07kQBrnzQ)
+- [Angelbeat 2023 — Intelligent Data Platform](https://youtu.be/eOwM0AGQWsQ)
+- [Angelbeat 2022 — Azure Responsible AI](https://youtu.be/RoohhL1uGRc)
 - [UWM CSI Interview](https://youtu.be/_9w0TvtxxZ4)
+- [UW Milwaukee CSI — Keynote Speaker](https://uwm.edu/csi/new_events/)
+- UW Madison — Industry Technology Summit Keynote
+- [Angelbeat — AI & ML Virtual Summit](https://www.angelbeat.com/microsoft-april-30-virtual-summit/)
 
-## workshops
+## Podcast & YouTube
 
-- Industrial IoT Workshop in Lubar School of business (UW Milwaukee)
-- Deep learning workship in Lubar School of business (UW Milwaukee)
-- Azure Machine learning basic - School of Engineering (UW Milwauee)
-- Azure Machine learning Intermediate - School of Engineering (UW Milwauee)
-- AI in manufacturing - School of Engineering (UW Milwauee) Partnered with Rockwell Automation, PTC (Curriculum)
-- Internal MS workshops for FTE Open hacks for IoT/Data Science/Data hacks
-- Internal MS workshops for Partners Open hacks for IoT/Data Science/Data hacks
+- [Think Tank AI Podcast](https://www.youtube.com/channel/UCYWOJzXiIsbHkebxhHS9T4A)
+- [YouTube Channel](https://www.youtube.com/channel/UC7gCcd9YoLx2CKfnTi1gacg)
+
+## Workshops
+
+- Industrial IoT Workshop — Lubar School of Business (UW Milwaukee)
+- Deep Learning Workshop — Lubar School of Business (UW Milwaukee)
+- Azure Machine Learning (Basic) — School of Engineering (UW Milwaukee)
+- Azure Machine Learning (Intermediate) — School of Engineering (UW Milwaukee)
+- AI in Manufacturing — School of Engineering (UW Milwaukee), in partnership with Rockwell Automation and PTC
+- Internal Microsoft Open Hacks for IoT, Data Science, and Data
+- Partner-facing Microsoft Open Hacks for IoT, Data Science, and Data
 
 ## Hackathons
 
-- Customer based hackathons on Industrial IoT
-- Customer hackathons on AI and Machine learning
-- Microsoft open hack coach/participant for Data Platform, AI knowledge mining, Data Science Ops and IoT Gateway Ops.
+- Customer hackathons on Industrial IoT
+- Customer hackathons on AI and Machine Learning
+- Microsoft Open Hack coach/participant for Data Platform, AI Knowledge Mining, Data Science Ops, and IoT Gateway Ops
 
-## Github Repo
+## Open Source & Repositories
 
-[GitHub Repo](https://github.com/balakreshnan)
-
-## Open Source Projects Contributions
-
-[Work place Safety](https://github.com/balakreshnan/WorkplaceSafety) <br>
-[Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md) <br>
-[Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf) <br>
+- [GitHub Profile](https://github.com/balakreshnan)
+- [Workplace Safety](https://github.com/balakreshnan/WorkplaceSafety)
+- [Social Distancing and Employee Safety](https://github.com/balakreshnan/sdd/blob/master/covidproject.md)
+- [Manufacturing ISA 95](https://github.com/balakreshnan/AIInManufacturing/blob/master/isoRefArch.pdf)
 
 ## Hackster Projects
 
-https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5 <br>
-https://www.hackster.io/balabala76/employee-well-being-covid-workplace-safety-analytics-sy-1e9e3e <br>
-https://devpost.com/software/workplacesafety-31ftdj <br>
-https://devpost.com/software/sdd-krjtld <br>
+- [AI for Good — Workplace Safety](https://www.hackster.io/balabala76/ai-for-good-workplace-safety-ca0ea5)
+- [Employee Well-Being — COVID Workplace Safety Analytics](https://www.hackster.io/balabala76/employee-well-being-covid-workplace-safety-analytics-sy-1e9e3e)
+- [Workplace Safety — Devpost](https://devpost.com/software/workplacesafety-31ftdj)
+- [Social Distancing Detection — Devpost](https://devpost.com/software/sdd-krjtld)
 
-## Hobies
+## Interests
 
-Vegetable Garden <br/>
-Building Deep learning solutions with Jetson Nano and Raspberry pi<br/>
+- Vegetable gardening
+- Building deep learning solutions with NVIDIA Jetson Nano and Raspberry Pi
 
-## AI in Manufacturing
+## AI in Manufacturing — Video Series
 
-- 4 Part Series
-
-- Part 1 - https://youtu.be/w35UYgGsExg <br>
-- Part 2 - https://youtu.be/FjGV7yrm3aY <br>
-- Part 3 - https://youtu.be/TbGdTW2iQbo <br>
-- Part 4 - https://youtu.be/kn1aRNNOVOY <br>
+- [Part 1](https://youtu.be/w35UYgGsExg)
+- [Part 2](https://youtu.be/FjGV7yrm3aY)
+- [Part 3](https://youtu.be/TbGdTW2iQbo)
+- [Part 4](https://youtu.be/kn1aRNNOVOY)
